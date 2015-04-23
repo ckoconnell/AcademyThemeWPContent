@@ -174,8 +174,9 @@ HEADER STYLES
 	  width: 350px;
 	}
 
-	@media only screen and (max-width: 768px) {
+	@media only screen and (max-width: 767px) {
 	  width: 330px;
+	  margin-top: -8px;
 	}
 
 	.logoWrap {
@@ -193,6 +194,12 @@ HEADER STYLES
 
 		img {
 		  width: 100px;
+
+		  @media only screen and (max-width: 400px) {
+			width: 95px;
+            margin-left: -10px;
+            margin-top: 2px;
+		  }
 		}
 	  }
 
@@ -205,16 +212,16 @@ HEADER STYLES
 		line-height: 30px;
 		text-transform: uppercase;
 		margin-bottom: 0;
-		letter-spacing: -3;
+		letter-spacing: -3px;
 		width: 220px;
 		float: right;
 		color: #000;
 
 		.letterspacingClimbing {
-		  letter-spacing: 1;
+		  letter-spacing: 1px;
 		}
 		.letterspacingAcademy {
-		  letter-spacing: -1;
+		  letter-spacing: -1px;
 		}
 	  }
 	}
@@ -233,6 +240,12 @@ HEADER STYLES
 	  letter-spacing: -0.5px !important;
 	  color: #000;
 
+      @media only screen and (max-width: 400px) {
+        letter-spacing: -0.8px !important;
+        float: left;
+        margin-left: 10px;
+      }
+
 	}
 
   }
@@ -249,7 +262,17 @@ HEADER STYLES
 
 	@media only screen and (max-width: 767px) {
 	  float: left;
-	  margin-left: 10px;
+	  margin-left: 40px;
+	  margin-top: -15px;
+	}
+
+	@media only screen and (max-width: 600px) {
+	  float: left;
+	  width: 100%;
+	  padding: 0;
+	  margin: 0;
+	  height: 85px;
+
 	}
 
 	.partnerWrap {
@@ -262,6 +285,9 @@ HEADER STYLES
 		width: 190px;
 	  }
 
+	  @media only screen and (max-width: 600px) {
+		width: 100%;
+	  }
 
 	  h3 {
 		// font-family: 'Avenir LT W01_95 Black';
@@ -272,6 +298,24 @@ HEADER STYLES
 		width: 100%;
 		margin-top: 20px;
 
+		@media only screen and (max-width: 600px) {
+		  float: left;
+		  display: inline-block;
+		  width: 150px;
+		  margin-left: 67px;
+		  margin-top: -8px;
+		  font-size: 19px;
+		  line-height: 16px;
+
+		}
+
+		@media only screen and (max-width: 400px) {
+		  font-size: 14px;
+		  width: 110px;
+		  margin-top:-8px;
+
+		}
+
 	  }
 
 	  h4{
@@ -280,11 +324,25 @@ HEADER STYLES
 		font-size: 11px;
 		letter-spacing: -.5px;
 		color: #333;
+
+		@media only screen and (max-width: 600px) {
+		  margin-left: 8px;
+		  margin-top: -10px;
+		  float: left;
+		}
 	  }
 
 	  img {
 		margin-top: -40px;
 		width: 180px;
+
+		@media only screen and (max-width: 600px) {
+		  margin-left: 5px;
+		  position: absolute;
+		  left: 0;
+		  padding-top: 20px;
+
+		}
 	  }
 	}
 
@@ -352,6 +410,110 @@ HEADER STYLES
 	  }
 	}
   }
+
+
+  .mobileMiniNavWrap {
+    display: none;
+
+    @media only screen and (max-width: 767px) {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      margin: 0 auto;
+      padding-left: 10px;
+    }
+
+
+    .navSched {
+      background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/schedIcon.png') no-repeat;
+      background-size: 25px;
+      background-position: 5px 8px;
+      @media only screen and (max-width: 400px) {
+        background-position: center 1px;
+        background-size: 30px;
+      }
+    }
+
+    .navContact {
+      background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/contactIcon.png') no-repeat;
+      background-size: 25px;
+      background-position: 5px 8px;
+      @media only screen and (max-width: 400px) {
+        background-position: center 1px;
+        background-size: 30px;
+      }
+    }
+
+    .navMap {
+      background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/mapIcon.png') no-repeat;
+      background-size: 25px;
+      background-position: 5px 8px;
+      @media only screen and (max-width: 400px) {
+        background-position: center 1px;
+        background-size: 30px;
+      }
+    }
+
+    .navDirection {
+      background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/directionsIcon.png') no-repeat;
+      background-position: 5px 5px;
+      background-size: 30px;
+
+
+      @media only screen and (max-width: 400px) {
+        background-position: center 1px;
+        background-size: 30px;
+      }
+    }
+    .miniNavItem {
+      width: 22%;
+      max-width: 130px;
+      height: 40px;
+      float: left;
+      display: inline-block;
+      overflow: hidden;
+      border: 1px solid #222;
+
+      box-sizing: border-box;
+      margin-bottom: 5px;
+      margin-right: 5px;
+
+      color: white;
+      position: relative;
+
+      @media only screen and (max-width: 400px) {
+        width: 23%;
+        height: 60px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      h3 {
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        font-size: 10px;
+        text-align: left;
+        position: absolute;
+        width: 100%;
+        top: 10px;
+        color: #222;
+        left: 35px;
+        line-height: 9px;
+
+        @media only screen and (max-width: 400px) {
+          width: 100%;
+          top: 30px;
+          left: 0;
+          position: relative;
+          text-align: center;
+        }
+      }
+    }
+  }
+
 }
 
 

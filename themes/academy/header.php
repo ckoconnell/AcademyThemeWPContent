@@ -91,7 +91,20 @@
 					</div>
 				</div>
 				<div style="clear: both;"></div>
-
+                <div class="mobileMiniNavWrap">
+                    <a href="http://localhost/climbingacademydev/event-schedule" class="miniNavItem navSched">
+                        <h3>Event<br>Schedule</h3>
+                    </a>
+                    <a href="http://localhost/climbingacademydev/venue-map" class="miniNavItem navMap">
+                        <h3>Venue<br>Map</h3>
+                    </a>
+                    <a href="http://localhost/climbingacademydev/getting-here" class="miniNavItem navDirection">
+                        <h3>Getting<br>Here</h3>
+                    </a>
+                    <a href="http://localhost/climbingacademydev/contact-us" class="miniNavItem navContact">
+                        <h3>Contact<br>Us</h3>
+                    </a>
+                </div>
 
 					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 						<?php wp_nav_menu(array(
