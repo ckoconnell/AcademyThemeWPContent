@@ -1297,6 +1297,108 @@ POSTS & CONTENT STYLES
 	  }
 	}
 
+    // Contact Page Styles
+
+    .contactWrap {
+      width: 50%;
+      box-sizing: border-box;
+      float: left;
+      display: inline-block;
+      @media only screen and (max-width: 599px) {
+        width: 100%;
+      }
+
+      h1 {
+        font-family: Avenir;
+        font-size: 18px;
+        color: #000;
+        font-weight: bold;
+        margin-left: 30px;
+        line-height: 30px;
+
+      }
+
+      h3 {
+        margin-left: 30px;
+        padding: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      p {
+        margin-left: 30px;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+    }
+
+    .accommWrap {
+      width: 50%;
+      box-sizing: border-box;
+      float: left;
+      display: inline-block;
+
+      @media only screen and (max-width: 599px) {
+        width: 100%;
+      }
+
+      h1 {
+        font-family: Avenir;
+        font-size: 18px;
+        color: #000;
+        font-weight: bold;
+        margin-left: 30px;
+        line-height: 30px;
+
+      }
+
+      h3 {
+        margin-left: 30px;
+        padding: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      p {
+        margin-left: 30px;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+    }
+
+    .termsWrap {
+      width: 80%;
+      box-sizing: border-box;
+      float: left;
+      display: inline-block;
+
+      h1 {
+        font-family: Avenir;
+        font-size: 18px;
+        color: #000;
+        font-weight: bold;
+        margin-left: 30px;
+        line-height: 30px;
+
+      }
+
+      h3 {
+        margin-left: 30px;
+        padding: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      p {
+        margin-left: 30px;
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+    }
+
+
+    // Music & Speakers Series Styles
+
 	.musicWrap {
 	  width: 50%;
 	  position: relative;
@@ -1959,11 +2061,25 @@ SIDEBARS & ASIDES
   min-height: 400px;
   padding-left: 30px;
 
+  @media only screen and (max-width: 929px) {
+	width: 100%;
+    display: inline-block;
+
+  }
+
+  .mobileClear {
+	display: none;
+	@media only screen and (max-width: 900px) {
+	  display: block !important;
+	  clear: both !important;
+	}
+  }
+
   .sponsorCatWrap {
 	position: relative;
 	display: inline-block;
 	float: left;
-	min-width: 150px;
+	min-width: 140px;
 	box-sizing: border-box;
 	height: 100%;
 
@@ -2091,7 +2207,7 @@ SIDEBARS & ASIDES
 	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_cliff.png') no-repeat;
 	  background-size: 140px;
 	  height: 80px;
-	  background-position: 60px top;
+	  background-position: 52px top;
 	  width: 100%;
 	}
 

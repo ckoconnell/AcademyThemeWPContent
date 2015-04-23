@@ -24,7 +24,7 @@
         <div class="intro">
         </div>
         <p>There is lots to get involved with at the festival that is completely free of charge to the general public. Please note that with events happening on the Sea to Sky, a pass to the Gondola is required.  Discounted festival Gondola rates will be in effect, and once you are on top of the Gondola, everything up there except for the paid clinics will be free.  (Yoga, Key Note Speaker Series, Yoga Series, Live Music Series, Educational Seminars) </p>
-        <p class="bolder">***Check out the schedule page for detailed information on our fun and free events***</p>
+        <p class="bolder">***Check out the <a href="#">schedule page</a> for detailed information on our fun and free events***</p>
 
         <div class="funEventWrap">
             <h1>Sponsor Trade Fair</h1>
