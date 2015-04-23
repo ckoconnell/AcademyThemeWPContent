@@ -921,7 +921,7 @@ POSTS & CONTENT STYLES
 		}
 
 		@media only screen and (max-width: 767px) {
-		  width: 95%;
+		  width: 100%;
 		}
 	  }
 
@@ -951,7 +951,7 @@ POSTS & CONTENT STYLES
 		  font-family: Avenir;
 		  font-weight: 900;
 		  text-transform: uppercase;
-		  margin-top: -8px;
+		  margin-top: 0px;
 		  line-height: 20px;
 		  @media only screen and (max-width: 400px) {
 			margin-left: 15px;
@@ -985,7 +985,7 @@ POSTS & CONTENT STYLES
 		  width: 25%;
 		}
 
-		@media only screen and (max-width: 400px) {
+		@media only screen and (max-width: 500px) {
 		  width: 96%;
 		}
 
@@ -1047,7 +1047,7 @@ POSTS & CONTENT STYLES
 	  .athleteImgWrap {
 		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/willGadd.jpg') no-repeat;
 		background-size: cover;
-		background-position: right top;
+		background-position: right bottom;
 	  }
 
 	}
@@ -1056,7 +1056,6 @@ POSTS & CONTENT STYLES
 	  .athleteImgWrap {
 		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/bretteHarrington.jpg') no-repeat;
 		background-size: cover;
-
 		background-position: right top;
 	  }
 	}
@@ -1065,7 +1064,15 @@ POSTS & CONTENT STYLES
 	  .athleteImgWrap {
 		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/craigDeMartino.jpg') no-repeat;
 		background-size: cover;
-		background-position: right top;
+		background-position: right bottom;
+
+		@media only screen and (max-width: 767px) {
+		  background-position: right -170px;
+		}
+
+		@media only screen and (max-width: 400px) {
+		  background-position: right 0;
+		}
 	  }
 	}
 
@@ -1086,6 +1093,14 @@ POSTS & CONTENT STYLES
 		background-size: cover;
 
 		background-position: right top;
+
+		@media only screen and (max-width: 767px) {
+		  background-position: right -400px;
+		}
+
+		@media only screen and (max-width: 600px) {
+		  background-position: right -250px;
+		}
 	  }
 	}
 
@@ -1133,7 +1148,7 @@ POSTS & CONTENT STYLES
 		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/jesseHuey.jpg') no-repeat;
 		background-size: cover;
 
-		background-position: center top;
+		background-position: center;
 	  }
 	}
 
@@ -1151,7 +1166,7 @@ POSTS & CONTENT STYLES
 		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/katieBono.jpg') no-repeat;
 		background-size: cover;
 
-		background-position: center top;
+		background-position: center center;
 	  }
 	}
 	// Fun & Free Events Page Styles
