@@ -3310,7 +3310,7 @@ SIDEBARS & ASIDES
   margin-bottom: 0px;
   box-sizing: border-box;
   opacity: .8;
-  min-height: 250px;
+  min-height: 400px;
   padding-left: 30px;
 }
 /* line 1962, ../scss/breakpoints/_base.scss */
@@ -3319,24 +3319,198 @@ SIDEBARS & ASIDES
   display: inline-block;
   float: left;
   min-width: 150px;
-  border: 1px solid green;
   box-sizing: border-box;
   height: 100%;
 }
-/* line 1971, ../scss/breakpoints/_base.scss */
+/* line 1970, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .sponsorCatTitle {
   color: white;
   text-transform: uppercase;
-  font-size: 10px;
+  font-size: 11px;
   display: inline-block;
   position: relative;
   box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  font-weight: 900;
+}
+/* line 1982, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .sponsor {
+  width: 100%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  min-height: 40px;
+}
+/* line 1989, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .sponsor a {
+  text-decoration: none;
+}
+/* line 1994, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .hive {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_hive.png") no-repeat;
+  background-size: 140px;
+  height: 80px;
+  background-position: 40px top;
+  width: 100%;
+}
+/* line 2002, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .lasportiva {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_sportiva.png") no-repeat;
+  background-size: 100px;
+  height: 60px;
+  background-position: center top;
+  width: 100%;
+}
+/* line 2010, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .canwest {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_canwest.png") no-repeat;
+  background-size: 120px;
+  height: 60px;
+  background-position: center top;
+  width: 100%;
+}
+/* line 2018, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .scarpa {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_scarpa.png") no-repeat;
+  background-size: 100px;
+  height: 60px;
+  background-position: center top;
+  width: 100%;
+}
+/* line 2026, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .valhalla {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_valhalla.png") no-repeat;
+  background-size: 100px;
+  height: 50px;
+  background-position: center top;
+  width: 100%;
+}
+/* line 2034, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .petzl {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_petzl.png") no-repeat;
+  background-size: 90px;
+  height: 55px;
+  background-position: center top;
+  width: 100%;
+}
+/* line 2042, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .flashed {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsors_flashed.png") no-repeat;
+  background-size: 100px;
+  height: 55px;
+  background-position: center top;
+  width: 100%;
+}
+/* line 2050, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .maxim {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_maxim.png") no-repeat;
+  background-size: 100px;
+  height: 55px;
+  background-position: center top;
+  width: 100%;
+}
+/* line 2058, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .whistlerbrewing {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_whistlerbrewing.png") no-repeat;
+  background-size: 120px;
+  height: 75px;
+  background-position: center top;
+  width: 100%;
+}
+/* line 2066, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .mec {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_mec.png") no-repeat;
+  background-size: 120px;
+  height: 65px;
+  background-position: center top;
+  width: 100%;
+}
+/* line 2074, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .sandman {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_sandman.png") no-repeat;
+  background-size: 120px;
+  height: 55px;
+  background-position: center top;
+  width: 100%;
+}
+/* line 2082, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .innate {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_innate.png") no-repeat;
+  background-size: 120px;
+  height: 70px;
+  background-position: center top;
+  width: 100%;
+}
+/* line 2090, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .cliff {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_cliff.png") no-repeat;
+  background-size: 140px;
+  height: 80px;
+  background-position: 60px top;
+  width: 100%;
+}
+/* line 2098, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .straight {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_straight.png") no-repeat;
+  background-size: 100px;
+  height: 50px;
+  background-position: center top;
+  width: 100%;
+}
+/* line 2106, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .alpinist {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_alpinist.png") no-repeat;
+  background-size: 100px;
+  height: 60px;
+  background-position: center top;
+  width: 100%;
+}
+/* line 2114, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .mountainculture {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_mountainculture.png") no-repeat;
+  background-size: 100px;
+  height: 55px;
+  background-position: center top;
+  width: 100%;
+}
+/* line 2122, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .mountainlife {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_mountainlife.png") no-repeat;
+  background-size: 100px;
+  height: 55px;
+  background-position: center top;
+  width: 100%;
+}
+/* line 2130, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .gripped {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_gripped.png") no-repeat;
+  background-size: 90px;
+  height: 55px;
+  background-position: center top;
+  width: 100%;
+}
+/* line 2138, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .sas {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_sas.png") no-repeat;
+  background-size: 140px;
+  height: 85px;
+  background-position: 50px top;
+  width: 100%;
+}
+/* line 2146, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .climbersaccess {
+  background: url("http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_climbersaccess.png") no-repeat;
+  background-size: 100px;
+  height: 80px;
+  background-position: center top;
+  width: 100%;
 }
 
 /*********************
 FOOTER STYLES
 *********************/
-/* line 1987, ../scss/breakpoints/_base.scss */
+/* line 2163, ../scss/breakpoints/_base.scss */
 .footer {
   position: relative;
   width: 930px;
@@ -3346,14 +3520,14 @@ FOOTER STYLES
   font-family: Avenir;
 }
 @media only screen and (max-width: 929px) {
-  /* line 1987, ../scss/breakpoints/_base.scss */
+  /* line 2163, ../scss/breakpoints/_base.scss */
   .footer {
     width: 100%;
     height: 100%;
     display: inline-block;
   }
 }
-/* line 2002, ../scss/breakpoints/_base.scss */
+/* line 2178, ../scss/breakpoints/_base.scss */
 .footer .footerContent {
   background: #000;
   opacity: 0.8;
@@ -3362,30 +3536,30 @@ FOOTER STYLES
   padding: 20px 30px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 2002, ../scss/breakpoints/_base.scss */
+  /* line 2178, ../scss/breakpoints/_base.scss */
   .footer .footerContent {
     width: 100%;
     height: 100%;
     display: inline-block;
   }
 }
-/* line 2015, ../scss/breakpoints/_base.scss */
+/* line 2191, ../scss/breakpoints/_base.scss */
 .footer .footerContent .leftPad {
   margin-left: 15px;
   margin-right: 90px !important;
 }
-/* line 2020, ../scss/breakpoints/_base.scss */
+/* line 2196, ../scss/breakpoints/_base.scss */
 .footer .footerContent .mobileClear {
   display: none;
 }
 @media only screen and (max-width: 767px) {
-  /* line 2020, ../scss/breakpoints/_base.scss */
+  /* line 2196, ../scss/breakpoints/_base.scss */
   .footer .footerContent .mobileClear {
     clear: both;
     display: block;
   }
 }
-/* line 2028, ../scss/breakpoints/_base.scss */
+/* line 2204, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerColLogo {
   width: 30%;
   height: auto;
@@ -3396,14 +3570,14 @@ FOOTER STYLES
   min-width: 150px;
 }
 @media only screen and (max-width: 600px) {
-  /* line 2028, ../scss/breakpoints/_base.scss */
+  /* line 2204, ../scss/breakpoints/_base.scss */
   .footer .footerContent .footerColLogo {
     width: 100%;
     height: auto;
     min-height: 0px;
   }
 }
-/* line 2044, ../scss/breakpoints/_base.scss */
+/* line 2220, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerColLogo h1 {
   color: #FFF;
   text-transform: uppercase;
@@ -3413,7 +3587,7 @@ FOOTER STYLES
   line-height: 19px;
   font-weight: 900;
 }
-/* line 2055, ../scss/breakpoints/_base.scss */
+/* line 2231, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerColLogo h2 {
   color: #FFF;
   text-transform: uppercase;
@@ -3423,31 +3597,31 @@ FOOTER STYLES
   line-height: 18px;
   font-weight: 700;
 }
-/* line 2065, ../scss/breakpoints/_base.scss */
+/* line 2241, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerColLogo p {
   color: #fff;
   font-size: 13px;
 }
-/* line 2071, ../scss/breakpoints/_base.scss */
+/* line 2247, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerColLogo .seatoskylogo {
   width: 200px;
   margin-top: -30px;
 }
-/* line 2078, ../scss/breakpoints/_base.scss */
+/* line 2254, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerColLogo .academyLogo {
   position: absolute;
   top: -5px;
   left: 130px;
 }
-/* line 2082, ../scss/breakpoints/_base.scss */
+/* line 2258, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerColLogo .academyLogo img {
   width: 70px;
 }
-/* line 2087, ../scss/breakpoints/_base.scss */
+/* line 2263, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerColLogo .topMargin {
   margin-top: 30px;
 }
-/* line 2093, ../scss/breakpoints/_base.scss */
+/* line 2269, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol {
   width: 15%;
   height: auto;
@@ -3458,19 +3632,19 @@ FOOTER STYLES
   min-width: 150px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 2093, ../scss/breakpoints/_base.scss */
+  /* line 2269, ../scss/breakpoints/_base.scss */
   .footer .footerContent .footerCol {
     margin-left: 30px;
     width: 5%;
     min-width: 90px !important;
   }
 }
-/* line 2108, ../scss/breakpoints/_base.scss */
+/* line 2284, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol ul {
   list-style: none;
   margin-left: -30px;
 }
-/* line 2113, ../scss/breakpoints/_base.scss */
+/* line 2289, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol ul li {
   list-style: none;
   color: #fff;
@@ -3479,19 +3653,19 @@ FOOTER STYLES
   font-size: 13px;
   margin-bottom: 5px;
 }
-/* line 2121, ../scss/breakpoints/_base.scss */
+/* line 2297, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol ul li a {
   color: #fff;
   text-decoration: none;
 }
 @media only screen and (max-width: 929px) {
-  /* line 2113, ../scss/breakpoints/_base.scss */
+  /* line 2289, ../scss/breakpoints/_base.scss */
   .footer .footerContent .footerCol ul li {
     font-size: 11px;
     line-height: 13px;
   }
 }
-/* line 2134, ../scss/breakpoints/_base.scss */
+/* line 2310, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol .topMargin {
   margin-top: 30px;
 }

@@ -1956,7 +1956,7 @@ SIDEBARS & ASIDES
   margin-bottom: 0px;
   box-sizing: border-box;
   opacity: .8;
-  min-height: 250px;
+  min-height: 400px;
   padding-left: 30px;
 
   .sponsorCatWrap {
@@ -1964,18 +1964,194 @@ SIDEBARS & ASIDES
 	display: inline-block;
 	float: left;
 	min-width: 150px;
-	border: 1px solid green;
 	box-sizing: border-box;
 	height: 100%;
 
 	.sponsorCatTitle {
 	  color: white;
 	  text-transform: uppercase;
-	  font-size: 10px;
+	  font-size: 11px;
 	  display: inline-block;
 	  position: relative;
 	  box-sizing: border-box;
+	  text-align: center;
+	  width: 100%;
+	  font-weight: 900;
 	}
+
+	.sponsor {
+	  width: 100%;
+	  display: inline-block;
+	  float: left;
+	  text-align: center;
+	  min-height: 40px;
+
+	  a {
+		text-decoration: none;
+	  }
+	}
+
+	.hive {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_hive.png') no-repeat;
+	  background-size: 140px;
+	  height: 80px;
+	  background-position: 40px top;
+	  width: 100%;
+	}
+
+	.lasportiva {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_sportiva.png') no-repeat;
+	  background-size: 100px;
+	  height: 60px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+	.canwest {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_canwest.png') no-repeat;
+	  background-size: 120px;
+	  height: 60px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+	.scarpa {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_scarpa.png') no-repeat;
+	  background-size: 100px;
+	  height: 60px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+	.valhalla {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_valhalla.png') no-repeat;
+	  background-size: 100px;
+	  height: 50px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+	.petzl {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_petzl.png') no-repeat;
+	  background-size: 90px;
+	  height: 55px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+	.flashed {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsors_flashed.png') no-repeat;
+	  background-size: 100px;
+	  height: 55px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+	.maxim {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_maxim.png') no-repeat;
+	  background-size: 100px;
+	  height: 55px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+	.whistlerbrewing {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_whistlerbrewing.png') no-repeat;
+	  background-size: 120px;
+	  height: 75px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+	.mec {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_mec.png') no-repeat;
+	  background-size: 120px;
+	  height: 65px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+	.sandman {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_sandman.png') no-repeat;
+	  background-size: 120px;
+	  height: 55px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+	.innate {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_innate.png') no-repeat;
+	  background-size: 120px;
+	  height: 70px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+	.cliff {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_cliff.png') no-repeat;
+	  background-size: 140px;
+	  height: 80px;
+	  background-position: 60px top;
+	  width: 100%;
+	}
+
+	.straight {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_straight.png') no-repeat;
+	  background-size: 100px;
+	  height: 50px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+	.alpinist {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_alpinist.png') no-repeat;
+	  background-size: 100px;
+	  height: 60px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+	.mountainculture {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_mountainculture.png') no-repeat;
+	  background-size: 100px;
+	  height: 55px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+	.mountainlife {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_mountainlife.png') no-repeat;
+	  background-size: 100px;
+	  height: 55px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+	.gripped {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_gripped.png') no-repeat;
+	  background-size: 90px;
+	  height: 55px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+	.sas {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_sas.png') no-repeat;
+	  background-size: 140px;
+	  height: 85px;
+	  background-position: 50px top;
+	  width: 100%;
+	}
+
+	.climbersaccess {
+	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_climbersaccess.png') no-repeat;
+	  background-size: 100px;
+	  height: 80px;
+	  background-position: center top;
+	  width: 100%;
+	}
+
+
   }
 
 }
