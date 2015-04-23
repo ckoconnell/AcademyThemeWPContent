@@ -3301,10 +3301,42 @@ SIDEBARS & ASIDES
   margin-bottom: 1.5em;
 }
 
+/* line 1951, ../scss/breakpoints/_base.scss */
+.sponsorWrap {
+  width: 930px;
+  background: #212121;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+  opacity: .8;
+  min-height: 250px;
+  padding-left: 30px;
+}
+/* line 1962, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap {
+  position: relative;
+  display: inline-block;
+  float: left;
+  min-width: 150px;
+  border: 1px solid green;
+  box-sizing: border-box;
+  height: 100%;
+}
+/* line 1971, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .sponsorCatTitle {
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+}
+
 /*********************
 FOOTER STYLES
 *********************/
-/* line 1953, ../scss/breakpoints/_base.scss */
+/* line 1987, ../scss/breakpoints/_base.scss */
 .footer {
   position: relative;
   width: 930px;
@@ -3314,14 +3346,14 @@ FOOTER STYLES
   font-family: Avenir;
 }
 @media only screen and (max-width: 929px) {
-  /* line 1953, ../scss/breakpoints/_base.scss */
+  /* line 1987, ../scss/breakpoints/_base.scss */
   .footer {
     width: 100%;
     height: 100%;
     display: inline-block;
   }
 }
-/* line 1968, ../scss/breakpoints/_base.scss */
+/* line 2002, ../scss/breakpoints/_base.scss */
 .footer .footerContent {
   background: #000;
   opacity: 0.8;
@@ -3330,30 +3362,30 @@ FOOTER STYLES
   padding: 20px 30px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 1968, ../scss/breakpoints/_base.scss */
+  /* line 2002, ../scss/breakpoints/_base.scss */
   .footer .footerContent {
     width: 100%;
     height: 100%;
     display: inline-block;
   }
 }
-/* line 1981, ../scss/breakpoints/_base.scss */
+/* line 2015, ../scss/breakpoints/_base.scss */
 .footer .footerContent .leftPad {
   margin-left: 15px;
   margin-right: 90px !important;
 }
-/* line 1986, ../scss/breakpoints/_base.scss */
+/* line 2020, ../scss/breakpoints/_base.scss */
 .footer .footerContent .mobileClear {
   display: none;
 }
 @media only screen and (max-width: 767px) {
-  /* line 1986, ../scss/breakpoints/_base.scss */
+  /* line 2020, ../scss/breakpoints/_base.scss */
   .footer .footerContent .mobileClear {
     clear: both;
     display: block;
   }
 }
-/* line 1994, ../scss/breakpoints/_base.scss */
+/* line 2028, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerColLogo {
   width: 30%;
   height: auto;
@@ -3364,14 +3396,14 @@ FOOTER STYLES
   min-width: 150px;
 }
 @media only screen and (max-width: 600px) {
-  /* line 1994, ../scss/breakpoints/_base.scss */
+  /* line 2028, ../scss/breakpoints/_base.scss */
   .footer .footerContent .footerColLogo {
     width: 100%;
     height: auto;
     min-height: 0px;
   }
 }
-/* line 2010, ../scss/breakpoints/_base.scss */
+/* line 2044, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerColLogo h1 {
   color: #FFF;
   text-transform: uppercase;
@@ -3381,7 +3413,7 @@ FOOTER STYLES
   line-height: 19px;
   font-weight: 900;
 }
-/* line 2021, ../scss/breakpoints/_base.scss */
+/* line 2055, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerColLogo h2 {
   color: #FFF;
   text-transform: uppercase;
@@ -3391,31 +3423,31 @@ FOOTER STYLES
   line-height: 18px;
   font-weight: 700;
 }
-/* line 2031, ../scss/breakpoints/_base.scss */
+/* line 2065, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerColLogo p {
   color: #fff;
   font-size: 13px;
 }
-/* line 2037, ../scss/breakpoints/_base.scss */
+/* line 2071, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerColLogo .seatoskylogo {
   width: 200px;
   margin-top: -30px;
 }
-/* line 2044, ../scss/breakpoints/_base.scss */
+/* line 2078, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerColLogo .academyLogo {
   position: absolute;
   top: -5px;
   left: 130px;
 }
-/* line 2048, ../scss/breakpoints/_base.scss */
+/* line 2082, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerColLogo .academyLogo img {
   width: 70px;
 }
-/* line 2053, ../scss/breakpoints/_base.scss */
+/* line 2087, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerColLogo .topMargin {
   margin-top: 30px;
 }
-/* line 2059, ../scss/breakpoints/_base.scss */
+/* line 2093, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol {
   width: 15%;
   height: auto;
@@ -3426,19 +3458,19 @@ FOOTER STYLES
   min-width: 150px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 2059, ../scss/breakpoints/_base.scss */
+  /* line 2093, ../scss/breakpoints/_base.scss */
   .footer .footerContent .footerCol {
     margin-left: 30px;
     width: 5%;
     min-width: 90px !important;
   }
 }
-/* line 2074, ../scss/breakpoints/_base.scss */
+/* line 2108, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol ul {
   list-style: none;
   margin-left: -30px;
 }
-/* line 2079, ../scss/breakpoints/_base.scss */
+/* line 2113, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol ul li {
   list-style: none;
   color: #fff;
@@ -3447,19 +3479,19 @@ FOOTER STYLES
   font-size: 13px;
   margin-bottom: 5px;
 }
-/* line 2087, ../scss/breakpoints/_base.scss */
+/* line 2121, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol ul li a {
   color: #fff;
   text-decoration: none;
 }
 @media only screen and (max-width: 929px) {
-  /* line 2079, ../scss/breakpoints/_base.scss */
+  /* line 2113, ../scss/breakpoints/_base.scss */
   .footer .footerContent .footerCol ul li {
     font-size: 11px;
     line-height: 13px;
   }
 }
-/* line 2100, ../scss/breakpoints/_base.scss */
+/* line 2134, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol .topMargin {
   margin-top: 30px;
 }

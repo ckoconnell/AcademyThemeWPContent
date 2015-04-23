@@ -1,53 +1,53 @@
 
+<!-- Sponsor Block Start -->
+<div class="sponsorWrap">
+	<div class="sponsorCatWrap skypilot">
+		<h3 class="sponsorCatTitle">Sky Pilot</h3>
+		<a href="#" class="sponsor hive" target="_blank"></a>
+	</div>
+	<div class="sponsorCatWrap chief">
+		<h3 class="sponsorCatTitle">Chief</h3>
+		<a href="#" class="sponsor lasportiva" target="_blank"></a>
+		<a href="#" class="sponsor canwest" target="_blank"></a>
+	</div>
+	<div class="sponsorCatWrap bluffs">
+		<h3 class="sponsorCatTitle">Bluffs</h3>
+		<a href="#" class="sponsor scarpa" target="_blank"></a>
+		<a href="#" class="sponsor valhalla" target="_blank"></a>
+		<a href="#" class="sponsor petzl" target="_blank"></a>
+		<a href="#" class="sponsor flashed" target="_blank"></a>
+		<a href="#" class="sponsor maxim" target="_blank"></a>
+		<a href="#" class="sponsor whistlerbrewing" target="_blank"></a>
+	</div>
+	<div class="sponsorCatWrap supplier">
+		<h3 class="sponsorCatTitle">Supplier</h3>
+		<a href="#" class="sponsor mec" target="_blank"></a>
+		<a href="#" class="sponsor sandman" target="_blank"></a>
+		<a href="#" class="sponsor innate" target="_blank"></a>
+		<a href="#" class="sponsor cliff" target="_blank"></a>
+	</div>
+	<div class="sponsorCatWrap media">
+		<h3 class="sponsorCatTitle">Media</h3>
+		<a href="#" class="sponsor straight" target="_blank"></a>
+		<a href="#" class="sponsor alpinist" target="_blank"></a>
+		<a href="#" class="sponsor mountainculture" target="_blank"></a>
+		<a href="#" class="sponsor mountainlife" target="_blank"></a>
+		<a href="#" class="sponsor gripped" target="_blank"></a>
+	</div>
+	<div class="sponsorCatWrap beneficiary">
+		<h3 class="sponsorCatTitle">Beneficiary</h3>
+		<a href="#" class="sponsor sas" target="_blank"></a>
+		<a href="#" class="sponsor climbersaccess" target="_blank"></a>
+	</div>
+</div>
+<!-- Sponsor Block End -->
+
 <!-- Start Footer -->
 
 <div class="footer">
 	<div class="mainContentWrap footerContent">
 
-		<!-- Sponsor Block Start -->
-		<div class="sponsorWrap">
-			<div class="sponsorCatWrap skypilot">
-				<h3 class="sponsorCatTitle">Sky Pilot</h3>
-				<a href="#" class="sponsor hive" target="_blank"></a>
-			</div>
-			<div class="sponsorCatWrap chief">
-				<h3 class="sponsorCatTitle">Chief</h3>
-				<a href="#" class="sponsor lasportiva" target="_blank"></a>
-				<a href="#" class="sponsor canwest" target="_blank"></a>
-			</div>
-			<div class="sponsorCatWrap bluffs">
-				<h3 class="sponsorCatTitle">Bluffs</h3>
-				<a href="#" class="sponsor scarpa" target="_blank"></a>
-				<a href="#" class="sponsor valhalla" target="_blank"></a>
-				<a href="#" class="sponsor petzl" target="_blank"></a>
-				<a href="#" class="sponsor flashed" target="_blank"></a>
-				<a href="#" class="sponsor maxim" target="_blank"></a>
-				<a href="#" class="sponsor whistlerbrewing" target="_blank"></a>
-			</div>
-			<div class="sponsorCatWrap supplier">
-				<h3 class="sponsorCatTitle">Supplier</h3>
-				<a href="#" class="sponsor mec" target="_blank"></a>
-				<a href="#" class="sponsor sandman" target="_blank"></a>
-				<a href="#" class="sponsor innate" target="_blank"></a>
-				<a href="#" class="sponsor cliff" target="_blank"></a>
-			</div>
-			<div class="sponsorCatWrap media">
-				<h3 class="sponsorCatTitle">Media</h3>
-				<a href="#" class="sponsor straight" target="_blank"></a>
-				<a href="#" class="sponsor alpinist" target="_blank"></a>
-				<a href="#" class="sponsor mountainculture" target="_blank"></a>
-				<a href="#" class="sponsor mountainlife" target="_blank"></a>
-				<a href="#" class="sponsor gripped" target="_blank"></a>
-			</div>
-			<div class="sponsorCatWrap beneficiary">
-				<h3 class="sponsorCatTitle">Beneficiary</h3>
-				<a href="#" class="sponsor sas" target="_blank"></a>
-				<a href="#" class="sponsor climbersaccess" target="_blank"></a>
-			</div>
-		</div>
 
-
-		<!-- Sponsor Block End -->
 
 		<div class="footerColLogo leftPad">
 			<h1>Arc'teryx<br>Climbing<br>Academy</h1>
