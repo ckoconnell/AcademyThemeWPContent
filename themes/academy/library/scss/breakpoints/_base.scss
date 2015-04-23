@@ -1983,8 +1983,16 @@ FOOTER STYLES
 	  margin-right: 90px !important;
 	}
 
-	.footerCol {
-	  width: 24%;
+	.mobileClear {
+	  display: none;
+	  @media only screen and (max-width: 767px) {
+		clear: both;
+		display: block;
+	  }
+	}
+
+	.footerColLogo {
+	  width: 30%;
 	  height: auto;
 	  min-height: 200px;
 	  margin-right: 3%;
@@ -1997,6 +2005,7 @@ FOOTER STYLES
 		height: auto;
 		min-height: 0px;
 	  }
+
 
 	  h1 {
 		color: #FFF;
@@ -2024,26 +2033,7 @@ FOOTER STYLES
 		font-size: 13px;
 	  }
 
-	  ul {
-		list-style: none;
-		margin-left: -30px;
 
-
-		li {
-		  list-style: none;
-		  color: #fff;
-		  margin-left: 0;
-		  text-transform: uppercase;
-		  font-size: 13px;
-		  margin-bottom: 5px;
-
-		  @media only screen and (max-width: 929px) {
-			font-size: 11px;
-			line-height: 13px;
-		  }
-
-		}
-	  }
 	  .seatoskylogo {
 		width: 200px;
 		margin-top: -30px;
@@ -2057,6 +2047,53 @@ FOOTER STYLES
 		left: 130px;
 		img {
 		  width: 70px;
+		}
+	  }
+
+	  .topMargin {
+		margin-top: 30px;
+	  }
+
+	}
+
+	.footerCol {
+	  width: 15%;
+	  height: auto;
+	  min-height: 200px;
+	  margin-right: 3%;
+	  float: left;
+	  position: relative;
+	  min-width: 150px;
+
+	  @media only screen and (max-width: 767px) {
+		margin-left: 30px;
+		width: 5%;
+		min-width: 90px !important;
+	  }
+
+	  ul {
+		list-style: none;
+		margin-left: -30px;
+
+
+		li {
+		  list-style: none;
+		  color: #fff;
+		  margin-left: 0;
+		  text-transform: uppercase;
+		  font-size: 13px;
+		  margin-bottom: 5px;
+
+		  a {
+			color: #fff;
+			text-decoration: none;
+		  }
+
+		  @media only screen and (max-width: 929px) {
+			font-size: 11px;
+			line-height: 13px;
+		  }
+
 		}
 	  }
 

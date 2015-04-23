@@ -3343,8 +3343,19 @@ FOOTER STYLES
   margin-right: 90px !important;
 }
 /* line 1986, ../scss/breakpoints/_base.scss */
-.footer .footerContent .footerCol {
-  width: 24%;
+.footer .footerContent .mobileClear {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  /* line 1986, ../scss/breakpoints/_base.scss */
+  .footer .footerContent .mobileClear {
+    clear: both;
+    display: block;
+  }
+}
+/* line 1994, ../scss/breakpoints/_base.scss */
+.footer .footerContent .footerColLogo {
+  width: 30%;
   height: auto;
   min-height: 200px;
   margin-right: 3%;
@@ -3353,15 +3364,15 @@ FOOTER STYLES
   min-width: 150px;
 }
 @media only screen and (max-width: 600px) {
-  /* line 1986, ../scss/breakpoints/_base.scss */
-  .footer .footerContent .footerCol {
+  /* line 1994, ../scss/breakpoints/_base.scss */
+  .footer .footerContent .footerColLogo {
     width: 100%;
     height: auto;
     min-height: 0px;
   }
 }
-/* line 2001, ../scss/breakpoints/_base.scss */
-.footer .footerContent .footerCol h1 {
+/* line 2010, ../scss/breakpoints/_base.scss */
+.footer .footerContent .footerColLogo h1 {
   color: #FFF;
   text-transform: uppercase;
   font-size: 24px;
@@ -3370,8 +3381,8 @@ FOOTER STYLES
   line-height: 19px;
   font-weight: 900;
 }
-/* line 2012, ../scss/breakpoints/_base.scss */
-.footer .footerContent .footerCol h2 {
+/* line 2021, ../scss/breakpoints/_base.scss */
+.footer .footerContent .footerColLogo h2 {
   color: #FFF;
   text-transform: uppercase;
   font-size: 16px;
@@ -3380,17 +3391,54 @@ FOOTER STYLES
   line-height: 18px;
   font-weight: 700;
 }
-/* line 2022, ../scss/breakpoints/_base.scss */
-.footer .footerContent .footerCol p {
+/* line 2031, ../scss/breakpoints/_base.scss */
+.footer .footerContent .footerColLogo p {
   color: #fff;
   font-size: 13px;
 }
-/* line 2027, ../scss/breakpoints/_base.scss */
+/* line 2037, ../scss/breakpoints/_base.scss */
+.footer .footerContent .footerColLogo .seatoskylogo {
+  width: 200px;
+  margin-top: -30px;
+}
+/* line 2044, ../scss/breakpoints/_base.scss */
+.footer .footerContent .footerColLogo .academyLogo {
+  position: absolute;
+  top: -5px;
+  left: 130px;
+}
+/* line 2048, ../scss/breakpoints/_base.scss */
+.footer .footerContent .footerColLogo .academyLogo img {
+  width: 70px;
+}
+/* line 2053, ../scss/breakpoints/_base.scss */
+.footer .footerContent .footerColLogo .topMargin {
+  margin-top: 30px;
+}
+/* line 2059, ../scss/breakpoints/_base.scss */
+.footer .footerContent .footerCol {
+  width: 15%;
+  height: auto;
+  min-height: 200px;
+  margin-right: 3%;
+  float: left;
+  position: relative;
+  min-width: 150px;
+}
+@media only screen and (max-width: 767px) {
+  /* line 2059, ../scss/breakpoints/_base.scss */
+  .footer .footerContent .footerCol {
+    margin-left: 30px;
+    width: 5%;
+    min-width: 90px !important;
+  }
+}
+/* line 2074, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol ul {
   list-style: none;
   margin-left: -30px;
 }
-/* line 2032, ../scss/breakpoints/_base.scss */
+/* line 2079, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol ul li {
   list-style: none;
   color: #fff;
@@ -3399,29 +3447,19 @@ FOOTER STYLES
   font-size: 13px;
   margin-bottom: 5px;
 }
+/* line 2087, ../scss/breakpoints/_base.scss */
+.footer .footerContent .footerCol ul li a {
+  color: #fff;
+  text-decoration: none;
+}
 @media only screen and (max-width: 929px) {
-  /* line 2032, ../scss/breakpoints/_base.scss */
+  /* line 2079, ../scss/breakpoints/_base.scss */
   .footer .footerContent .footerCol ul li {
     font-size: 11px;
     line-height: 13px;
   }
 }
-/* line 2047, ../scss/breakpoints/_base.scss */
-.footer .footerContent .footerCol .seatoskylogo {
-  width: 200px;
-  margin-top: -30px;
-}
-/* line 2054, ../scss/breakpoints/_base.scss */
-.footer .footerContent .footerCol .academyLogo {
-  position: absolute;
-  top: -5px;
-  left: 130px;
-}
-/* line 2058, ../scss/breakpoints/_base.scss */
-.footer .footerContent .footerCol .academyLogo img {
-  width: 70px;
-}
-/* line 2063, ../scss/breakpoints/_base.scss */
+/* line 2100, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol .topMargin {
   margin-top: 30px;
 }
