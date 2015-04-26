@@ -22,7 +22,7 @@
             <h1>The Hive Zone</h1>
         </div>
         <div class="intro">
-            <p>Intro Sentence Goes Here</p>
+            <p>Details Coming Soon</p>
         </div>
 
     </div>

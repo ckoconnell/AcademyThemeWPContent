@@ -8,7 +8,7 @@
 
 <div id="content">
     <div class="pageContent">
-        <div class="pageHead clinicPage">
+        <div class="pageHead schedulePage">
             <h1>Event<br>Schedule</h1>
         </div>
         <div class="scheduleWrap">
