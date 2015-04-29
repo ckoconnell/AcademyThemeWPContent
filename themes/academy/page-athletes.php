@@ -22,11 +22,13 @@
    <h1>Athletes</h1>
   </div>
   <div class="intro">
+   <p>We are excited to announce the below athletes will be in attendance at this year’s festival.  Check their profiles to see what they are involved with through the duration of the event.</p>
   </div>
   <div style="clear:both;"></div>
 
   <!-- Will Gadd -->
   <div class="athleteWrap willGadd">
+   <a name="willGadd"></a>
    <div class="athleteImgWrap"></div>
    <div class="athleteBioWrap">
     <h3>Will Gadd</h3>
@@ -40,9 +42,6 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Advanced Trad Climbing</h3>
-    <p><br>Date: <span style="font-weight: bold;">Saturday, July 11</span>
-     <br>Time: <span style="font-weight: bold;">9:00am - 12:00pm </span>
-     <br>Location: <span style="font-weight: bold;">Bluffs Climbing Area</p>
     <a href="#">Register</a>
    </div>
 
@@ -51,6 +50,7 @@
 
   <!-- Brett Harrington -->
   <div class="athleteWrap bretteHarrington">
+   <a name="bretteHarrington"></a>
    <div class="athleteImgWrap"></div>
    <div class="athleteBioWrap">
     <h3>Brette Harrington</h3>
@@ -65,9 +65,6 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Advanced Trad Climbing</h3>
-    <p><br>Date: <span style="font-weight: bold;">Saturday, July 11</span>
-     <br>Time: <span style="font-weight: bold;">9:00am - 12:00pm </span>
-     <br>Location: <span style="font-weight: bold;">Bluffs Climbing Area</p>
     <a href="#">Register</a>
    </div>
 
@@ -76,6 +73,7 @@
 
   <!-- Craig DeMartino -->
   <div class="athleteWrap craigDeMartino">
+   <a name="craigDeMartino"></a>
    <div class="athleteImgWrap"></div>
    <div class="athleteBioWrap">
     <h3>Craig DeMartino</h3>
@@ -89,9 +87,6 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Advanced Trad Climbing</h3>
-    <p><br>Date: <span style="font-weight: bold;">Saturday, July 11</span>
-     <br>Time: <span style="font-weight: bold;">9:00am - 12:00pm </span>
-     <br>Location: <span style="font-weight: bold;">Bluffs Climbing Area</p>
     <a href="#">Register</a>
    </div>
 
@@ -100,6 +95,7 @@
 
   <!-- Jonathan Siegrist -->
   <div class="athleteWrap jonathanSiegrist">
+   <a name="jonathanSiegrist"></a>
    <div class="athleteImgWrap"></div>
    <div class="athleteBioWrap">
     <h3>Jonathan Siegrist</h3>
@@ -112,9 +108,6 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Advanced Trad Climbing</h3>
-    <p><br>Date: <span style="font-weight: bold;">Saturday, July 11</span>
-     <br>Time: <span style="font-weight: bold;">9:00am - 12:00pm </span>
-     <br>Location: <span style="font-weight: bold;">Bluffs Climbing Area</p>
     <a href="#">Register</a>
    </div>
   </div>
@@ -122,6 +115,7 @@
 
   <!-- Marc-Andre Leclerc-->
   <div class="athleteWrap marcandreLeclerc">
+   <a name="marcandreLeclerc"></a>
    <div class="athleteImgWrap"></div>
    <div class="athleteBioWrap">
     <h3>Marc-Andre Leclerc</h3>
@@ -135,9 +129,6 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Advanced Trad Climbing</h3>
-    <p><br>Date: <span style="font-weight: bold;">Saturday, July 11</span>
-     <br>Time: <span style="font-weight: bold;">9:00am - 12:00pm </span>
-     <br>Location: <span style="font-weight: bold;">Bluffs Climbing Area</p>
     <a href="#">Register</a>
    </div>
   </div>
@@ -145,6 +136,7 @@
 
   <!-- Paul McSorley-->
   <div class="athleteWrap paulMcSorley">
+   <a name="paulMcSorley"></a>
    <div class="athleteImgWrap"></div>
    <div class="athleteBioWrap">
     <h3>Paul McSorley</h3>
@@ -157,9 +149,6 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Advanced Trad Climbing</h3>
-    <p><br>Date: <span style="font-weight: bold;">Saturday, July 11</span>
-     <br>Time: <span style="font-weight: bold;">9:00am - 12:00pm </span>
-     <br>Location: <span style="font-weight: bold;">Bluffs Climbing Area</p>
     <a href="#">Register</a>
    </div>
   </div>
@@ -167,6 +156,7 @@
 
   <!-- Rob Pizem-->
   <div class="athleteWrap robPizem">
+   <a name="robPizem"></a>
    <div class="athleteImgWrap"></div>
    <div class="athleteBioWrap">
     <h3>Rob Pizem</h3>
@@ -179,9 +169,6 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Advanced Trad Climbing</h3>
-    <p><br>Date: <span style="font-weight: bold;">Saturday, July 11</span>
-     <br>Time: <span style="font-weight: bold;">9:00am - 12:00pm </span>
-     <br>Location: <span style="font-weight: bold;">Bluffs Climbing Area</p>
     <a href="#">Register</a>
    </div>
   </div>
@@ -189,6 +176,7 @@
 
   <!-- Vikki Weldon-->
   <div class="athleteWrap vikkiWeldon">
+   <a name="vikkiWeldon"></a>
    <div class="athleteImgWrap"></div>
    <div class="athleteBioWrap">
     <h3>Vikki Weldon</h3>
@@ -201,9 +189,6 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Advanced Trad Climbing</h3>
-    <p><br>Date: <span style="font-weight: bold;">Saturday, July 11</span>
-     <br>Time: <span style="font-weight: bold;">9:00am - 12:00pm </span>
-     <br>Location: <span style="font-weight: bold;">Bluffs Climbing Area</p>
     <a href="#">Register</a>
    </div>
   </div>
@@ -211,6 +196,7 @@
 
   <!-- Jason Kruk -->
   <div class="athleteWrap jasonKruk">
+   <a name="jasonKruk"></a>
    <div class="athleteImgWrap"></div>
    <div class="athleteBioWrap">
     <h3>Jason Kruk</h3>
@@ -221,37 +207,14 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Advanced Trad Climbing</h3>
-    <p><br>Date: <span style="font-weight: bold;">Saturday, July 11</span>
-     <br>Time: <span style="font-weight: bold;">9:00am - 12:00pm </span>
-     <br>Location: <span style="font-weight: bold;">Bluffs Climbing Area</p>
     <a href="#">Register</a>
    </div>
   </div>
   <!-- Jason Kruk -->
 
-
-  <!-- Jesse Huey -->
-  <div class="athleteWrap jesseHuey">
-   <div class="athleteImgWrap"></div>
-   <div class="athleteBioWrap">
-    <h3>Jesse Huey</h3>
-    <p>Growing up in the shadow of the Cascade Mountains, adventure and athletics were always at the foreground of my life. While attending the University of Washington, I was introduced to climbing amidst a difficult pursuit of school and the demanding practice schedule of the university’s varsity rowing program. In the same way that I approached the rigors and routine of a fulltime collegiate athlete, my training and passion to push myself segued into my pursuit as a climber. </p>
-    <div style="clear: both;"></div>
-
-   </div>
-   <div class="athleteScheduleWrap">
-    <h1>Clinic Schedule</h1>
-    <h3>Advanced Trad Climbing</h3>
-    <p><br>Date: <span style="font-weight: bold;">Saturday, July 11</span>
-     <br>Time: <span style="font-weight: bold;">9:00am - 12:00pm </span>
-     <br>Location: <span style="font-weight: bold;">Bluffs Climbing Area</p>
-    <a href="#">Register</a>
-   </div>
-  </div>
-  <!-- Jesse Huey -->
-
   <!-- Jon Walsh -->
   <div class="athleteWrap jonWalsh">
+   <a name="jonWalsh"></a>
    <div class="athleteImgWrap"></div>
    <div class="athleteBioWrap">
     <h3>Jon Walsh</h3>
@@ -262,9 +225,6 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Advanced Trad Climbing</h3>
-    <p><br>Date: <span style="font-weight: bold;">Saturday, July 11</span>
-     <br>Time: <span style="font-weight: bold;">9:00am - 12:00pm </span>
-     <br>Location: <span style="font-weight: bold;">Bluffs Climbing Area</p>
     <a href="#">Register</a>
    </div>
   </div>
@@ -272,6 +232,7 @@
 
   <!-- Katie Bono -->
   <div class="athleteWrap katieBono">
+   <a name="katieBono"></a>
    <div class="athleteImgWrap"></div>
    <div class="athleteBioWrap">
     <h3>Katie Bono</h3>
@@ -282,13 +243,28 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Advanced Trad Climbing</h3>
-    <p><br>Date: <span style="font-weight: bold;">Saturday, July 11</span>
-     <br>Time: <span style="font-weight: bold;">9:00am - 12:00pm </span>
-     <br>Location: <span style="font-weight: bold;">Bluffs Climbing Area</p>
     <a href="#">Register</a>
    </div>
   </div>
   <!-- Katie Bono -->
+
+  <!-- Raphael Slawinski -->
+  <div class="athleteWrap raphaelSlawinski">
+   <a name="raphaelSlawinski"></a>
+   <div class="athleteImgWrap"></div>
+   <div class="athleteBioWrap">
+    <h3>Raphael Slawinski</h3>
+    <p>I live in Calgary, Alberta, Canada, where I am a physics professor specializing in Canadian Rockies' choss. I have a broad range of interests: alpinism, ice climbing, drytooling, sport climbing and bouldering.</p>
+    <div style="clear: both;"></div>
+
+   </div>
+   <div class="athleteScheduleWrap">
+    <h1>Clinic Schedule</h1>
+    <h3>Advanced Trad Climbing</h3>
+    <a href="#">Register</a>
+   </div>
+  </div>
+  <!-- Raphael Slawinski -->
 
  </div>
 </div>

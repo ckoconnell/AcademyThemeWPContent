@@ -19,12 +19,20 @@
 
     <div class="pageContent">
         <div class="pageHead hivePage">
-            <h1>The Hive Zone</h1>
+            <h1>Hive Outside</h1>
         </div>
-        <div class="intro">
-            <p>Details Coming Soon</p>
+        <div class="introComingSoon">
+            <p>Hive Outside Details Coming Soon.</p>
         </div>
-
+        <div style="clear: both;"></div>
+        <div class="hiveDetailWrap marginRight marginLeft">
+            <h1>Saturday, July 11</h1>
+            <p>Saturday Program Information goes here.</p>
+        </div>
+        <div class="hiveDetailWrap">
+            <h1>Sunday, July 12</h1>
+            <p>Saturday Program Information goes here.</p>
+        </div>
     </div>
 </div>
 

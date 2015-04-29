@@ -1,19 +1,12 @@
-
-
-
 <!-- Start Footer -->
-
 <div class="footer">
 	<div class="mainContentWrap footerContent">
-
-
-
 		<div class="footerColLogo leftPad">
 			<h1>Arc'teryx<br>Climbing<br>Academy</h1>
 			<h2>Squamish, BC<br>July 10-12, 2015</h2>
 			<p>In Partnership With:</p>
-			<img class="seatoskylogo" src="../wp-content/uploads/2015/04/seatoskylogoWhite.png">
-			<div class="academyLogo"><img src="../wp-content/uploads/2015/04/academyLogo.png" /></div>
+			<img class="seatoskylogo" src="http://localhost/climbingacademydev/wp-content/uploads/2015/04/seatoskylogoWhite.png">
+			<div class="academyLogo"><img src="http://localhost/climbingacademydev/wp-content/uploads/2015/04/academyLogo.png" /></div>
 		</div>
 		<div class="mobileClear"></div>
 		<div class="footerCol">
@@ -22,33 +15,27 @@
 				<li><a href="#">Getting Here</a></li>
 				<li><a href="#">Venue Map</a></li>
 				<li><a href="#">Contact Us</a></li>
-				<br/>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Latest News</a></li>
+                <li><a href="#">Clinics & Workshops</a></li>
+                <li><a href="#">Sunset Speaker & Music Series</a></li>
+                <li><a href="#">Trade Fair & Demo Gear</a></li>
+                <li><a href="#">Fun & Free Events</a></li>
+                <li><a href="#">Educational Seminars</a></li>
+                <li><a href="#">The Hive Zone</a></li>
+                <li><a href="#">Attending Athletes</a></li>
 			</ul>
 		</div>
 		<!-- <div class="mobileClear"></div> -->
-		<div class="footerCol">
-			<ul class="topMargin">
-				<li><a href="#">Clinics & Workshops</a></li>
-				<li><a href="#">Sunset Speaker & Music Series</a></li>
-				<li><a href="#">Trade Fair & Demo Gear</a></li>
-				<li><a href="#">Fun & Free Events</a></li>
-				<li><a href="#">Educational Seminars</a></li>
-				<li><a href="#">The Hive Zone</a></li>
-				<li><a href="#">Attending Athletes</a></li>
-			</ul>
-		</div>
 	</div>
 </div>
 
 <!-- End Footer -->
-
+<div style="clear:both;"></div>
 <!-- Sponsor Block Start -->
 <div class="sponsorWrap">
     <div class="sponsorCatWrap skypilot">
         <h3 class="sponsorCatTitle">Sky Pilot</h3>
         <a href="http://hiveclimbing.com/index.html" class="sponsor hive" target="_blank"></a>
+        <a href="http://www.gore-tex.com/" class="sponsor gore" target="_blank"></a>
     </div>
     <div class="sponsorCatWrap chief">
         <h3 class="sponsorCatTitle">Chief</h3>
@@ -68,7 +55,8 @@
     <div class="sponsorCatWrap supplier">
         <h3 class="sponsorCatTitle">Supplier</h3>
         <a href="http://www.mec.ca/" class="sponsor mec" target="_blank"></a>
-        <a href="https://www.sandmanhotels.ca/hotels/squamish/" class="sponsor sandman" target="_blank"></a>
+        <!-- <a href="https://www.sandmanhotels.ca/hotels/squamish/" class="sponsor sandman" target="_blank"></a> -->
+        <a href="http://www.executivesuitessquamish.com/" class="sponsor executivesuites" target="_blank"></a>
         <a href="http://www.innate-gear.com/" class="sponsor innate" target="_blank"></a>
         <a href="http://www.clifbar.ca/" class="sponsor cliff" target="_blank"></a>
     </div>

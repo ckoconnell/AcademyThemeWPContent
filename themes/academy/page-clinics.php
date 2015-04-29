@@ -32,6 +32,7 @@
                 <p>Canada West Mountain School has been operating in BC and across the globe for over ten years.</p>
                 <p>For more information, please visit <a href="http://themountainschool.com" target="_blank">themountainschool.com</a>, or for the full Arc'teryx Climbing Academy itinerary:</p>
                 <div  class="button">
+                    <p>Clinic Details Available Soon</p>
                     <a href="#">View All Clinics</a>
                 </div>
             </div>
@@ -40,10 +41,11 @@
         <div class="clinicCatWrap">
             <div class="clinicCat bluffs marginGutter">
                 <div class="catHead">
-                    <h1>Bluffs<br/>Zone</h1>
+                    <h1>Valley<br/>Zone</h1>
                 </div>
                 <div class="clinicCatBorder">
                     <p>Intro Paragraph About The Zone Goes Here<br>Ideally we can have three lines worth of content here<br>If not, two should suffice.</p>
+                    <div class="registerPlaceholder">Clinic Registration Opens Soon</div>
                     <a href="#">Register for Bluff Zone Clinics</a>
                 </div>
             </div>
@@ -53,9 +55,16 @@
                 </div>
                 <div class="clinicCatBorder">
                     <p>Intro Paragraph About The Zone Goes Here<br>Ideally we can have three lines worth of content here<br>If not, two should suffice.</p>
+                    <div class="registerPlaceholder">Clinic Registration Opens Soon</div>
                     <a href="#">Register for Sea To Sky Zone Clinics</a>
                 </div>
             </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="disclaimerWrap">
+            <h3>Note: Sea To Sky Gondola Activites</h3>
+            <p>All Sea to Sky clinic participants will be required to have a gondola pass.  If you do not hold a season pass, daily and multiday discounted passes can be purchased at the Sea to Sky ticket window. </p>
+            <p>The purchase of a daily pass allows you access to all other activities happening up at the Gondola through the day as well as in the evenings and a multi-day pass allows you access to all activities for the duration of the pass. See full <a href="#">schedule</a> for Sea to Sky activities.</p>
         </div>
         <div style="clear: both;"></div>
         <div class="clinicInfoWrap">

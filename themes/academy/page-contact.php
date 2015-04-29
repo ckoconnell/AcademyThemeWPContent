@@ -21,8 +21,9 @@
             <h3>Sponsorship Inquiries:</h3>
             <p>Justin Sweeny</p>
             <p><a href="mailto:justin.sweeny@arcteryx.com">Justin.Sweeny@arcteryx.com</a></p>
-            <h3>Volunteering</h3>
+            <!-- <h3>Volunteering</h3>
             <p>For all volunterring inquiries please email <a href="mailto:squamish.volunteers@gmail.com">squamish.volunteers@gmail.com</a></p>
+            -->
         </div>
         <div class="accommWrap">
             <h1>Accommodation</h1>
@@ -39,7 +40,7 @@
         <div class="termsWrap">
             <h1>Terms & Conditions</h1>
             <p>By signing up and/or making a payment for the Squamish Mountain Festival, participants are agreeing to receive future updates from Arc’teryx about products, service, events, and news. Arc’teryx will never sell, trade, rent, or loan, your personal information to any other organizations. Participants can opt-out at any time.</p>
-            <p>To view our full Privacy Policy <a href="#">click here</a>.</p>
+            <p>To view our full Privacy Policy <a href="http://arcteryx.com/Privacy.aspx?EN">click here</a>.</p>
         </div>
     </div>
 

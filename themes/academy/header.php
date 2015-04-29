@@ -29,6 +29,7 @@
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png">
             <meta name="theme-color" content="#121212">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="http://localhost/climbing-academy/wp-content/themes/academy/scriptsHome.js"></script>
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<?php // wordpress head functions ?>
@@ -59,20 +60,20 @@
 					</ul>
 				</div>
 
-				<div class="leftWrap">
+				<a href="#" class="leftWrap">
 					<div class="logoWrap">
-						<div class="academyLogo"><img src="../wp-content/uploads/2015/04/academyLogo.png" /></div>
+						<div class="academyLogo"><img src="http://localhost/climbingacademydev/wp-content/uploads/2015/04/academyLogo.png" /></div>
 
 						<h1>Arc'teryx<br><span class="letterspacingClimbing">Climbing</span><br><span class="letterspacingAcademy">Academy</h1>
 					</div>
 					<div style="clear:both;"></div>
 					<h2>PURSUE YOUR PERFECT MOUNTAIN EXPERIENCE</h2>
-				</div>
+				</a>
 				<div class="rightWrap">
 					<div class="partnerWrap">
 
 						<h4>In Partnership with:</h4>
-						<img src="../wp-content/uploads/2015/04/seatoskylogo.png">
+						<img src="http://localhost/climbingacademydev/wp-content/uploads/2015/04/seatoskylogo.png">
 						<h3>SQUAMISH, BC <br/> JULY 10-12, 2015</h3>
 					</div>
 					<div class="miniNavWrap">
@@ -93,16 +94,16 @@
 				<div style="clear: both;"></div>
                 <div class="mobileMiniNavWrap">
                     <a href="http://localhost/climbingacademydev/event-schedule" class="miniNavItem navSched">
-                        <h3>Event<br>Schedule</h3>
+                        <h3>Event Schedule</h3>
                     </a>
                     <a href="http://localhost/climbingacademydev/venue-map" class="miniNavItem navMap">
-                        <h3>Venue<br>Map</h3>
+                        <h3>Venue Map</h3>
                     </a>
                     <a href="http://localhost/climbingacademydev/getting-here" class="miniNavItem navDirection">
-                        <h3>Getting<br>Here</h3>
+                        <h3>Getting Here</h3>
                     </a>
                     <a href="http://localhost/climbingacademydev/contact-us" class="miniNavItem navContact">
-                        <h3>Contact<br>Us</h3>
+                        <h3>Contact Us</h3>
                     </a>
                 </div>
 

@@ -19,31 +19,23 @@
 
     <div class="pageContent">
         <div class="pageHead tradePage">
-            <h1>Trade Fair<br>& Demo Gear</h1>
+            <h1>Trade Fair</h1>
         </div>
-        <div class="intro">
-        </div>
-
-
         <p>Join us on Saturday and Sunday from 9:00am – 4:00pm in the Chief Middle parking lot, for the Trade Fair and Demo Day. Demo gear from some of the leading vendors in climbing apparel, shoes and harnesses, and meet the people that bring you the products that lead you to push your limits, and explore the world.</p>
         <h3>Exhibitors at this year’s fair are:</h3>
         <ul>
-            <li>La Sportiva</li>
-            <li>Maxim Ropes</li>
-            <li>MEC</li>
-            <li>Arc'teryx</li>
-            <li>Scarpa</li>
-            <li>Petzl</li>
-            <li>Five Ten</li>
-            <li>Flashed</li>
-            <li>Hive</li>
+            <li><a href="http://www.sportiva.com/" target="_blank">La Sportiva</a></li>
+            <li><a href="http://www.maximdynamicropes.com/" target="_blank">Maxim Ropes</a></li>
+            <li><a href="http://www.mec.ca/" target="_blank">MEC</a></li>
+            <li><a href="http://arcteryx.com/" target="_blank">Arc'teryx</a></li>
+            <li><a href="https://www.scarpa.com/" target="_blank">Scarpa</a></li>
+            <li><a href="http://www.petzl.com/" target="_blank">Petzl</a></li>
+            <li><a href="http://fiveten.com/" target="_blank">Five Ten</a></li>
+            <li><a href="http://www.flashed.com/" target="_blank">Flashed</a></li>
+            <li><a href="hiveclimbing.com/" target="_blank">Hive</a></li>
         </ul>
         <h3>Check out the <a href="#">schedule page</a> for more information on trade fair and demo events.</h3>
-
-
-
     </div>
-
   </div>
 
 <!-- End Page Content -->

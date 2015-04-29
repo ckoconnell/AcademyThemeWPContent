@@ -360,25 +360,25 @@ HEADER STYLES
 
 
 	  .navSched {
-		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/schedIcon.png') no-repeat;
+		background: url('#{$file-path}wp-content/uploads/2015/04/schedIcon.png') no-repeat;
 		background-size: 50px;
 		background-position: center top;
 	  }
 
 	  .navContact {
-		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/contactIcon.png') no-repeat;
+		background: url('#{$file-path}wp-content/uploads/2015/04/contactIcon.png') no-repeat;
 		background-size: 50px;
 		background-position: center top;
 	  }
 
 	  .navMap {
-		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/mapIcon.png') no-repeat;
+		background: url('#{$file-path}wp-content/uploads/2015/04/mapIcon.png') no-repeat;
 		background-size: 50px;
 		background-position: center top;
 	  }
 
 	  .navDirection {
-		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/directionsIcon.png') no-repeat;
+		background: url('#{$file-path}wp-content/uploads/2015/04/directionsIcon.png') no-repeat;
 		background-size: 50px;
 		background-position: center top;
 	  }
@@ -426,49 +426,49 @@ HEADER STYLES
 
 
     .navSched {
-      background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/schedIcon.png') no-repeat;
+      background: url('#{$file-path}wp-content/uploads/2015/04/schedIcon.png') no-repeat;
       background-size: 25px;
       background-position: 5px 8px;
-      @media only screen and (max-width: 400px) {
+      @media only screen and (max-width: 520px) {
         background-position: center 1px;
         background-size: 30px;
       }
     }
 
     .navContact {
-      background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/contactIcon.png') no-repeat;
+      background: url('#{$file-path}wp-content/uploads/2015/04/contactIcon.png') no-repeat;
       background-size: 25px;
       background-position: 5px 8px;
-      @media only screen and (max-width: 400px) {
+      @media only screen and (max-width: 520px) {
         background-position: center 1px;
         background-size: 30px;
       }
     }
 
     .navMap {
-      background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/mapIcon.png') no-repeat;
+      background: url('#{$file-path}wp-content/uploads/2015/04/mapIcon.png') no-repeat;
       background-size: 25px;
       background-position: 5px 8px;
-      @media only screen and (max-width: 400px) {
+      @media only screen and (max-width: 520px) {
         background-position: center 1px;
         background-size: 30px;
       }
     }
 
     .navDirection {
-      background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/directionsIcon.png') no-repeat;
+      background: url('#{$file-path}wp-content/uploads/2015/04/directionsIcon.png') no-repeat;
       background-position: 5px 5px;
       background-size: 30px;
 
 
-      @media only screen and (max-width: 400px) {
+      @media only screen and (max-width: 520px) {
         background-position: center 1px;
         background-size: 30px;
       }
     }
     .miniNavItem {
-      width: 22%;
-      max-width: 130px;
+      width: 24%;
+      // max-width: 130px;
       height: 40px;
       float: left;
       display: inline-block;
@@ -482,7 +482,7 @@ HEADER STYLES
       color: white;
       position: relative;
 
-      @media only screen and (max-width: 400px) {
+      @media only screen and (max-width: 520px) {
         width: 23%;
         height: 60px;
       }
@@ -495,7 +495,7 @@ HEADER STYLES
         margin: 0;
         padding: 0;
         text-transform: uppercase;
-        font-size: 10px;
+        font-size: 12px;
         text-align: left;
         position: absolute;
         width: 100%;
@@ -503,8 +503,10 @@ HEADER STYLES
         color: #222;
         left: 35px;
         line-height: 9px;
+        padding-top: 5px;
+        font-weight:  900;
 
-        @media only screen and (max-width: 400px) {
+        @media only screen and (max-width: 520px) {
           width: 100%;
           top: 30px;
           left: 0;
@@ -589,8 +591,6 @@ and more scalable.
   }
 }
 
-
-
 .menuIcon {
   margin-right: 10px;
 }
@@ -622,10 +622,11 @@ and more scalable.
   li {
 	  width: 130px;
 	  max-width: 150px;
+	  height: 40px;
 
 	@media only screen and (max-width: 929px) {
-	  width: auto;
-	  max-width: 108px;
+	  width: 14%;
+	 // max-width: 108px;
 	}
 	@media only screen and (max-width: 767px) {
 	  width: 100%;
@@ -722,9 +723,232 @@ and more scalable.
 } /* end .nav */
 
 
+
+/*********************
+LORNE HOMEPAGE STYLES
+********************/
+
+/*Lorne Styles*/
+// body {background: #000 !important;}
+
+#mountain {
+  position: absolute;
+  top:0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url(#{$file-path}wp-content/uploads/2015/04/mountainLayer.png) no-repeat;
+  z-index:3;
+  pointer-events: none;
+  opacity:1;
+}
+
+#mountain-bg {
+  position: absolute;
+  top: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto;
+  background: url(#{$file-path}wp-content/uploads/2015/04/fullbleedbg.jpg) no-repeat;
+  z-index:1;
+  pointer-events: none;
+  opacity:1;
+}
+
+
+#bgvid {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.3;
+  z-index:2;
+  pointer-events: none;
+}
+
+#bgvid-bottom {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background-size: cover;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.05;
+  z-index:10;
+  transform: rotateY(180deg);
+  -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+  -moz-transform:rotateY(180deg); /* Firefox */
+  pointer-events: none;
+}
+
+
+.page-id-6 {
+  #container {width: 100%; height: 3000px; position: absolute; top:0; left:0; z-index:10;}
+}
+
+#clinics {height: 600px; width: 100%;
+  #intro {width: 500px; margin: 100px auto; text-align: center;
+	p {color: #fff; font-family: Avenir; font-size: 24px; line-height: 1.4; text-shadow: 1px 1px 1px rgba(0,0,0,0.4); font-weight: 500;}
+	a {text-decoration: none; font-family: Avenir; font-size:24px; border: 1px solid #ed5b22; padding:6px 10px; color: #ed5b22; background: rgba(255,255,255,0.7);}
+  }
+}
+
+#sunset {
+  background-image: url(#{$file-path}wp-content/uploads/2015/04/sunset.png);
+  /*background-attachment: fixed;*/
+  background-size: cover;
+  background-position: 0 0;
+  height: 600px;
+  width: 100%;
+  position: relative;
+  /*overflow: hidden;*/
+
+  .gradient {
+	height: 100%; width: 100%;
+	background: radial-gradient(ellipse at center, rgba(0,48,69,0.7) 1%,rgba(0,48,69,0.8) 97%,rgba(0,48,69,0.8) 100%);
+
+  }
+
+  #gondola {
+	position: absolute;
+	top:0;
+	right:0;
+	z-index:90;
+	height: 827px;
+	width: 600px;
+	background-image: url(#{$file-path}/wp-content/uploads/2015/04/gondola2.png);
+	background-position: 200px -160px;
+	background-repeat: no-repeat;
+
+	transition-delay: 1s;
+	transition: all 10s ease;
+  }
+  h2 {color: #fff; font-size: 76px; position: absolute; bottom:4px; left:40px; line-height: 0.7; font-weight: bold; padding:0; margin:0; text-transform: uppercase;
+	span {font-size: 60px;}
+  }
+
+  .content {
+	position: absolute; top:40px; left:40px;
+	h3 {margin:0; padding:0; line-height: 1; font-family: Avenir; color: #fff; font-size: 36px; text-transform: uppercase;}
+	p {width: 30%; font-family: Avenir; color: #fff; font-size: 20px;}
+  }
+}
+
+#sunset:hover {
+  #gondola {
+	background-position: 700px -800px;
+	transition-delay: 2s;
+  }
+}
+
+.container930 {
+  width: 930px; margin: 0 auto; overflow: auto;
+
+  .feature-sm {width: 430px; height: 500px; background: rgba(255,255,255,0.4); float: left;
+	.frame {height: 480px; margin: 10px; border: 10px solid #fff; position: relative;
+	  .feature-content {width: 100%; height: 200px; position: absolute; bottom:0; left:0; background: #000;}
+	}
+  }
+  .feature-sm.right {float: right;}
+
+  #trade {background: url(#{$file-path}wp-content/uploads/2015/04/tradePageBGColour.jpg) no-repeat top left;
+	background-size: cover;}
+}
+
+#athletes {margin: 80px 0 0 0; width: 100%; height: 400px; background: rgba(0,0,0,0.5);}
+
+
+#free {background-image: url(#{$file-path}wp-content/uploads/2015/04/funfreePageBGColour.jpg);}
+#music {background-image: url(#{$file-path}wp-content/uploads/2015/04/musicBG-450x150.jpg);}
+
+.feature-lrg {
+
+  height: 450px;
+  background-size:950px 450px;
+  background-position:0px 0px;
+  position: relative;
+  margin: 60px 0 0 0;
+  font-family: Avenir;
+  transition: all 0.5s ease-in;
+  overflow: hidden;
+
+  h2 {color: #fff; font-size: 76px; position: absolute; bottom:-2px; left:40px; line-height: 0.7; font-weight: bold; padding:0; margin:0; text-transform: uppercase;}
+  .content {min-height: 100%; position: absolute; top:0; right:-300px; background: #ed5b22; width:300px; text-align: center;
+	transition: all 0.5s ease-in;
+
+	h3 {font-family: Avenir; padding:40px 0 0 0; margin:0; font-size: 24px; font-weight: 900; opacity:0; text-align: center; color: #fff; transition: all 0.5s ease-in; transition-delay: 0.4s; }
+	p  {opacity:0; width: 80%; margin: 0 auto; text-align: center; padding:10px 0 0 0; transition: all 0.5s ease-in; transition-delay: 0.6s; color: #fff;}
+	a  {border: 1px solid #fff; color: #fff; text-decoration: none; margin:10px auto; padding:3px 10px; display: inline-block; opacity:0; transition: all 0.1s ease-in; transition-delay: 0s;}
+	a:hover {background: #fff; color: #000; transition-delay: 0;}
+  }
+}
+
+.feature-sm {
+  float: left;
+  height: 450px;
+  width: 450px;
+  background-size:450px 450px;
+  background-position:0px 0px;
+  position: relative;
+  margin: 60px 0 0 0;
+  font-family: Avenir;
+  transition: all 0.5s ease-in;
+  overflow: hidden;
+
+  h2 {color: #fff; font-size: 76px; position: absolute; bottom:-2px; left:40px; line-height: 0.7; font-weight: bold; padding:0; margin:0; text-transform: uppercase;}
+  .content {min-height: 100%; position: absolute; top:0; right:-300px; background: #ed5b22; width:300px; text-align: center;
+	transition: all 0.5s ease-in;
+
+	h3 {font-family: Avenir; padding:40px 0 0 0; margin:0; font-size: 24px; font-weight: 900; opacity:0; text-align: center; color: #fff; transition: all 0.5s ease-in; transition-delay: 0.4s; }
+	p  {opacity:0; width: 80%; margin: 0 auto; text-align: center; padding:10px 0 0 0; transition: all 0.5s ease-in; transition-delay: 0.6s; color: #fff;}
+	a  {border: 1px solid #fff; color: #fff; text-decoration: none; margin:10px auto; padding:3px 10px; display: inline-block; opacity:0; transition: all 0.1s ease-in; transition-delay: 0s;}
+	a:hover {background: #fff; color: #000; transition-delay: 0;}
+  }
+}
+
+
+.gradient {height: 450px; width: 100%; background: pink;
+  /* background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.01) 1%, rgba(0,0,0,1) 97%, rgba(0,0,0,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.01)), color-stop(1%,rgba(0,0,0,0.01)), color-stop(97%,rgba(0,0,0,1)), color-stop(100%,rgba(0,0,0,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.01) 1%,rgba(0,0,0,1) 97%,rgba(0,0,0,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.01) 1%,rgba(0,0,0,1) 97%,rgba(0,0,0,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.01) 1%,rgba(0,0,0,1) 97%,rgba(0,0,0,1) 100%); */
+
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.01) 1%,rgba(0,0,0,0.7) 97%,rgba(0,0,0,0.7) 100%); transition: all 0.1s ease-in; /* W3C */
+}
+
+
+.feature-lrg:hover {
+  background-size:1050px 500px;
+  background-position:-25px -25px;
+
+
+  .content {width: 300px; right:0;
+	h3 {opacity:1; padding:50px 0 0 0; }
+	p {opacity:1; padding: 10px 0 0 0;}
+	a {margin: 20px auto; opacity: 1;}
+  }
+
+  .gradient {
+	/*background: radial-gradient(ellipse at center, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 1%,rgba(0,0,0,1) 97%,rgba(0,0,0,1) 100%);*/
+  }
+}
+
+
+
+
+
+
+
 /*********************
 POSTS & CONTENT STYLES
 *********************/
+// Home Page Styles
+#contentHome {
+	background: none;
+}
+
+// Internal Page Styles
 
 #content {
 	width: 930px;
@@ -737,7 +961,6 @@ POSTS & CONTENT STYLES
  	 @media only screen and (max-width: 929px) {
 		width: 100%;
  	 }
-
 
   .pageContent {
 	height: 100%;
@@ -793,52 +1016,52 @@ POSTS & CONTENT STYLES
 
 	.clinicPage {
 	  background-color: whitesmoke;
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/clinicPageBGColour4.jpg') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/clinicPageBGColour4.jpg') no-repeat;
 	}
 
 	.athletePage {
 	  background-color: whitesmoke;
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/athletePageBGColour.jpg') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/athletePageBGColour.jpg') no-repeat;
 	}
 
 	.tradePage {
 	  background-color: whitesmoke;
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/tradePageBGColour.jpg') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/tradePageBGColour.jpg') no-repeat;
 	}
 
 	.funfreePage {
 	  background-color: whitesmoke;
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/funfreePageBGColour.jpg') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/funfreePageBGColour.jpg') no-repeat;
 	}
 
 	.hivePage {
 	  background-color: whitesmoke;
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/hivePageBGColour.jpg') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/hivePageBGColour.jpg') no-repeat;
 	}
 
 	.seminarPage {
 	  background-color: whitesmoke;
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/seminarPageBGColour.jpg') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/seminarPageBGColour.jpg') no-repeat;
 	}
 
 	.sunsetPage {
 	  background-color: whitesmoke;
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sunsetPageBGColour1.jpg') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sunsetPageBGColour1.jpg') no-repeat;
 	}
 
     .mapPage {
-      background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/venuemapPageBGColour.jpg') no-repeat;
+      background: url('#{$file-path}wp-content/uploads/2015/04/venuemapPageBGColour.jpg') no-repeat;
     }
     .schedulePage {
-      background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/schedulePageBGColour.jpg') no-repeat;
+      background: url('#{$file-path}wp-content/uploads/2015/04/schedulePageBGColour.jpg') no-repeat;
     }
 
     .contactPage {
-      background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/contactPageBGColour.jpg') no-repeat;
+      background: url('#{$file-path}wp-content/uploads/2015/04/contactPageBGColour.jpg') no-repeat;
     }
 
     .gettingherePage {
-      background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/gettingherePageBGColour.jpg') no-repeat;
+      background: url('#{$file-path}wp-content/uploads/2015/04/gettingherePageBGColour.jpg') no-repeat;
     }
 
     h1 {
@@ -948,6 +1171,22 @@ POSTS & CONTENT STYLES
 
         .button {
           margin-top: 20px;
+
+          p {
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+            position: relative;
+            padding: 10px 10px 8px;
+            border: 1px solid #666;
+            text-transform: uppercase;
+            text-decoration: none;
+            margin-left: 30px;
+            color: #666;
+            font-weight: 900;
+            font-size: 15px;
+            letter-spacing: -1px;
+          }
           a {
             text-align: center;
             width: 90%;
@@ -958,17 +1197,41 @@ POSTS & CONTENT STYLES
             text-transform: uppercase;
             text-decoration: none;
             margin-left: 30px;
+            // Remove this line when clinics go live
+            display: none;
            }
         }
       }
+
+
     }
+
+	.disclaimerWrap {
+	  float: left;
+	  width: 92%;
+	  margin-left: 30px;
+	  border: 1px solid $link-color;
+	  margin-bottom: 30px;
+	  margin-top: 15px;
+
+	  h3 {
+		text-transform: uppercase;
+		font-size: 18px;
+		line-height: 18px;
+		color: $link-color;
+	  }
+	  p {
+		width: 90%;
+		margin-top: -10px;
+	  }
+	}
 
     .clinicCatWrap {
       width: 97%;
       position: relative;
       box-sizing: border-box;
       margin-left: 15px;
-      margin-bottom: 60px;
+      margin-bottom: 30px;
       display: inline-block;
 
       .marginGutter {
@@ -1012,6 +1275,17 @@ POSTS & CONTENT STYLES
           border-left: 1px solid #eee;
         }
 
+        .registerPlaceholder {
+          font-family: Avenir;
+          font-weight: 900;
+          color: #666;
+          text-transform: uppercase;
+          border: 1px solid #666;
+          width: 80%;
+          margin: 0 auto;
+          padding: 5px 0 3px 0;
+        }
+
         p {
           text-align: center;
           width: 100%;
@@ -1027,6 +1301,8 @@ POSTS & CONTENT STYLES
           border: 1px solid $link-color;
           text-transform: uppercase;
           text-decoration: none;
+          // Remove this once the clinic registration is live
+          display: none;
 
           @media only screen and (max-width: 767px) {
             padding: 2px 5px 1px;
@@ -1044,7 +1320,7 @@ POSTS & CONTENT STYLES
           width: 100%;
           height: 400px;
           position: relative;
-          background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/clinicCatBluffs.jpg') no-repeat;
+          background: url('#{$file-path}wp-content/uploads/2015/04/clinicCatBluffs.jpg') no-repeat;
           background-size: cover;
           background-position: center ;
 
@@ -1059,7 +1335,7 @@ POSTS & CONTENT STYLES
           width: 100%;
           height: 400px;
           position: relative;
-          background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/clinicCatSeatosky.jpg') no-repeat;
+          background: url('#{$file-path}wp-content/uploads/2015/04/clinicCatSeatosky.jpg') no-repeat;
           background-size: cover;
           background-position: center bottom;
 
@@ -1216,9 +1492,10 @@ POSTS & CONTENT STYLES
 	  }
 
 	  .athleteScheduleWrap {
-		width: 27%;
+		width: 30%;
 		float: left;
 		box-sizing: border-box;
+        display: none;
 
 		@media only screen and (max-width: 929px) {
 		  width: 25%;
@@ -1275,6 +1552,8 @@ POSTS & CONTENT STYLES
 		  text-transform: uppercase;
 		  font-size: 12px;
 		  font-weight: 900;
+		  margin-top: 8px !important;
+		  display: inline-block;
 		  @media only screen and (max-width: 400px) {
 			margin-left: 15px;
 		  }
@@ -1284,7 +1563,7 @@ POSTS & CONTENT STYLES
 
 	.willGadd {
 	  .athleteImgWrap {
-		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/willGadd.jpg') no-repeat;
+		background: url('#{$file-path}wp-content/uploads/2015/04/willGadd.jpg') no-repeat;
 		background-size: cover;
 		background-position: right bottom;
 	  }
@@ -1293,7 +1572,7 @@ POSTS & CONTENT STYLES
 
 	.bretteHarrington {
 	  .athleteImgWrap {
-		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/bretteHarrington.jpg') no-repeat;
+		background: url('#{$file-path}wp-content/uploads/2015/04/bretteHarrington.jpg') no-repeat;
 		background-size: cover;
 		background-position: right top;
 	  }
@@ -1301,7 +1580,7 @@ POSTS & CONTENT STYLES
 
 	.craigDeMartino {
 	  .athleteImgWrap {
-		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/craigDeMartino.jpg') no-repeat;
+		background: url('#{$file-path}wp-content/uploads/2015/04/craigDeMartino.jpg') no-repeat;
 		background-size: cover;
 		background-position: right bottom;
 
@@ -1318,7 +1597,7 @@ POSTS & CONTENT STYLES
 
 	.jonathanSiegrist{
 	  .athleteImgWrap {
-		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/jonathanSiegrist.jpg') no-repeat;
+		background: url('#{$file-path}wp-content/uploads/2015/04/jonathanSiegrist.jpg') no-repeat;
 		background-size: cover;
 
 		background-position: right top;
@@ -1328,7 +1607,7 @@ POSTS & CONTENT STYLES
 
 	.marcandreLeclerc{
 	  .athleteImgWrap {
-		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/marcandreLeclerc.jpg') no-repeat;
+		background: url('#{$file-path}wp-content/uploads/2015/04/marcandreLeclerc.jpg') no-repeat;
 		background-size: cover;
 
 		background-position: right top;
@@ -1346,7 +1625,7 @@ POSTS & CONTENT STYLES
 
 	.paulMcSorley{
 	  .athleteImgWrap {
-		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/paulMcsorley.jpg') no-repeat;
+		background: url('#{$file-path}wp-content/uploads/2015/04/paulMcsorley.jpg') no-repeat;
 		background-size: cover;
 
 		background-position: right top;
@@ -1355,7 +1634,7 @@ POSTS & CONTENT STYLES
 
 	.robPizem{
 	  .athleteImgWrap {
-		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/robPizem.jpg') no-repeat;
+		background: url('#{$file-path}wp-content/uploads/2015/04/robPizem.jpg') no-repeat;
 		background-size: cover;
 
 		background-position: center top;
@@ -1365,7 +1644,7 @@ POSTS & CONTENT STYLES
 
 	.vikkiWeldon{
 	  .athleteImgWrap {
-		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/vikkiWeldon.jpg') no-repeat;
+		background: url('#{$file-path}wp-content/uploads/2015/04/vikkiWeldon.jpg') no-repeat;
 		background-size: cover;
 
 		background-position: center top;
@@ -1375,7 +1654,7 @@ POSTS & CONTENT STYLES
 
 	.jasonKruk{
 	  .athleteImgWrap {
-		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/jasonKruk.jpg') no-repeat;
+		background: url('#{$file-path}wp-content/uploads/2015/04/jasonKruk.jpg') no-repeat;
 		background-size: cover;
 
 		background-position: center top;
@@ -1384,7 +1663,7 @@ POSTS & CONTENT STYLES
 
 	.jesseHuey{
 	  .athleteImgWrap {
-		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/jesseHuey.jpg') no-repeat;
+		background: url('#{$file-path}wp-content/uploads/2015/04/jesseHuey.jpg') no-repeat;
 		background-size: cover;
 
 		background-position: center;
@@ -1393,7 +1672,7 @@ POSTS & CONTENT STYLES
 
 	.jonWalsh{
 	  .athleteImgWrap {
-		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/jonWalsh.jpg') no-repeat;
+		background: url('#{$file-path}wp-content/uploads/2015/04/jonWalsh.jpg') no-repeat;
 		background-size: cover;
 
 		background-position: center top;
@@ -1402,12 +1681,22 @@ POSTS & CONTENT STYLES
 
 	.katieBono{
 	  .athleteImgWrap {
-		background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/katieBono.jpg') no-repeat;
+		background: url('#{$file-path}wp-content/uploads/2015/04/katieBono.jpg') no-repeat;
 		background-size: cover;
 
 		background-position: center center;
 	  }
 	}
+
+    .raphaelSlawinski{
+      .athleteImgWrap {
+        background: url('#{$file-path}wp-content/uploads/2015/04/raphaelSlawinski.jpg') no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+    }
+
+
 	// Fun & Free Events Page Styles
 
 	.funEventWrap {
@@ -1457,7 +1746,7 @@ POSTS & CONTENT STYLES
 	// Educational Seminars Page Styles
 
 	.seminarWrap {
-	  margin-bottom: 30px;
+	  margin-top: 30px;
 	  margin-left: 30px;
 	  @media only screen and (max-width: 600px) {
 		margin-left: 15px;
@@ -1482,6 +1771,13 @@ POSTS & CONTENT STYLES
 		margin-top: 0;
 	  }
 
+	  .seminarDetails {
+		font-weight: 900;
+		margin-top: -13px;
+		text-transform: uppercase;
+		color: $link-color;
+	  }
+
 	  a {
 		margin-left: 30px;
 		margin-top: -10px;
@@ -1495,6 +1791,37 @@ POSTS & CONTENT STYLES
 		  max-width: 80%;
 		}
 	  }
+	}
+
+	// Hive Page Styles
+
+    .introComingSoon {
+      p {
+        font-weight: 900;
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+    }
+
+	.hiveDetailWrap {
+	  width: 45%;
+	  float: left;
+	  // display: inline-block;
+	  position: relative;
+	  border: 1px solid #aaa;
+      display: none;
+
+	  h1 {
+		font-size: 24px;
+		line-height: 24px;
+	  }
+	}
+	.marginRight {
+	  margin-right: 30px;
+	}
+
+	.marginLeft {
+	  margin-left: 30px;
 	}
 
 	// Speaker & Music Series Page Styles
@@ -1526,6 +1853,7 @@ POSTS & CONTENT STYLES
 		margin-left: 30px;
 		text-transform: uppercase;
 		margin-top: 30px;
+        line-height: 20px;
 	  }
 
 	  p {
@@ -1534,6 +1862,102 @@ POSTS & CONTENT STYLES
 		  width: 90%;
 		}
 	  }
+
+	  img {
+		position: relative;
+		display: inline-block;
+		margin-left: 30px;
+		width: 90%;
+	  }
+
+	  .hashtag {
+
+		a {
+		  font-size: 15px;
+		  margin-top: -5px;
+		}
+	  }
+
+	  .speakerAthleteWrap {
+		width: 42%;
+		box-sizing: border-box;
+		height: 150px;
+		position: relative;
+		float: left;
+		display: inline-block;
+        margin-bottom: 30px;
+
+		h3 {
+		  position: absolute;
+		  bottom: 0;
+		  width: 100%;
+		  text-align: left;
+		  color: #fff;
+		  text-transform: uppercase;
+		  line-height: 13px;
+		  left: 0;
+		  margin-left: 15px;
+		  font-weight: 900;
+		  font-size: 15px;
+		  text-shadow: 1px 1px 10px #000;
+		}
+
+	  }
+	  .bretteHarrington {
+		background: url('#{$file-path}wp-content/uploads/2015/04/bretteHarrington.jpg') no-repeat;
+	  	margin-left: 30px;
+		background-size: cover;
+		filter: grayscale(100%); /* Current draft standard */
+		-webkit-filter: grayscale(100%); /* New WebKit */
+		-moz-filter: grayscale(100%);
+		-ms-filter: grayscale(100%);
+		-o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */
+		filter: url(resources.svg#desaturate); /* Gecko */
+		filter: gray; /* IE */
+		-webkit-filter: grayscale(1); /* Old WebKit */
+	  }
+
+	  .vikkiWeldon {
+		  background: url('#{$file-path}wp-content/uploads/2015/04/vikkiWeldon.jpg') no-repeat;
+		  margin-left: 15px;
+		  background-size: cover;
+		  filter: grayscale(100%); /* Current draft standard */
+		  -webkit-filter: grayscale(100%); /* New WebKit */
+		  -moz-filter: grayscale(100%);
+		  -ms-filter: grayscale(100%);
+		  -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */
+		  filter: gray; /* IE */
+		  -webkit-filter: grayscale(1); /* Old WebKit */
+	  }
+
+      .raphaelSlawinski {
+        background: url('#{$file-path}wp-content/uploads/2015/04/raphaelSlawinski.jpg') no-repeat;
+        margin-right: 15px;
+        margin-left: 30px;
+        background-size: cover;
+        filter: grayscale(100%); /* Current draft standard */
+        -webkit-filter: grayscale(100%); /* New WebKit */
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */
+        filter: url(resources.svg#desaturate); /* Gecko */
+        filter: gray; /* IE */
+        -webkit-filter: grayscale(1); /* Old WebKit */
+      }
+
+      .marcandreLeclerc {
+        background: url('#{$file-path}wp-content/uploads/2015/04/marcandreLeclerc.jpg') no-repeat;
+        background-size: cover;
+        background-position: center -50px;
+        filter: grayscale(100%); /* Current draft standard */
+        -webkit-filter: grayscale(100%); /* New WebKit */
+        -moz-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+        -o-filter: grayscale(100%); /* Not yet supported in Gecko, Opera or IE */
+        filter: url(resources.svg#desaturate); /* Gecko */
+        filter: gray; /* IE */
+        -webkit-filter: grayscale(1); /* Old WebKit */
+      }
 	}
 
     // Contact Page Styles
@@ -1862,7 +2286,7 @@ POSTS & CONTENT STYLES
       min-height: 150px;
     }
 
-    .scheduleWrap {
+    .scheduleWrap  {
       width: 100%;
       position: relative;
       display: inline-block;
@@ -1993,9 +2417,15 @@ POSTS & CONTENT STYLES
 
         .seminars {
           // background-color: #412882 !important;
-          background-color: #a7b61e !important;
+          // background-color: #a7b61e !important;
+		  background-color: #6a5c7c !important;
+
 
         }
+
+		a {
+		  text-decoration: none !important;
+		}
 
         .eventWrap {
           text-align: left;
@@ -2003,6 +2433,7 @@ POSTS & CONTENT STYLES
           color: #fff;
           padding-bottom: 10px;
           margin-bottom: -10px;
+		  display: block;
           h3 {
             font-family: Avenir;
             text-transform: uppercase;
@@ -2486,7 +2917,7 @@ SIDEBARS & ASIDES
 
   .mobileClear {
 	display: none;
-	@media only screen and (max-width: 900px) {
+	@media only screen and (max-width: 700px) {
 	  display: block !important;
 	  clear: both !important;
 	}
@@ -2496,7 +2927,7 @@ SIDEBARS & ASIDES
 	position: relative;
 	display: inline-block;
 	float: left;
-	min-width: 140px;
+	width: 140px;
 	box-sizing: border-box;
 	height: 100%;
 
@@ -2510,6 +2941,7 @@ SIDEBARS & ASIDES
 	  text-align: center;
 	  width: 100%;
 	  font-weight: 900;
+
 	}
 
 	.sponsor {
@@ -2524,166 +2956,270 @@ SIDEBARS & ASIDES
 	  }
 	}
 
-	.hive {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_hive.png') no-repeat;
+	.gore {
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_goretex.png') no-repeat;
 	  background-size: 140px;
 	  height: 80px;
 	  background-position: 40px top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
+	}
+
+	.hive {
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_hive.png') no-repeat;
+	  background-size: 140px;
+	  height: 80px;
+	  background-position: 40px top;
+	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
+
 	}
 
 	.lasportiva {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_sportiva.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_sportiva.png') no-repeat;
 	  background-size: 100px;
 	  height: 60px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.canwest {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_canwest.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_canwest.png') no-repeat;
 	  background-size: 120px;
 	  height: 60px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.scarpa {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_scarpa.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_scarpa.png') no-repeat;
 	  background-size: 100px;
 	  height: 60px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.valhalla {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_valhalla.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_valhalla.png') no-repeat;
 	  background-size: 100px;
 	  height: 50px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.petzl {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_petzl.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_petzl.png') no-repeat;
 	  background-size: 90px;
 	  height: 55px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.flashed {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsors_flashed.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsors_flashed.png') no-repeat;
 	  background-size: 100px;
 	  height: 55px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.maxim {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_maxim.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_maxim.png') no-repeat;
 	  background-size: 100px;
 	  height: 55px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.whistlerbrewing {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_whistlerbrewing.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_whistlerbrewing.png') no-repeat;
 	  background-size: 120px;
 	  height: 75px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.mec {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_mec.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_mec.png') no-repeat;
 	  background-size: 120px;
 	  height: 65px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.sandman {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_sandman.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_sandman.png') no-repeat;
 	  background-size: 120px;
 	  height: 55px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.innate {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_innate.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_innate.png') no-repeat;
 	  background-size: 120px;
 	  height: 70px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.cliff {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_cliff.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_cliff.png') no-repeat;
 	  background-size: 140px;
 	  height: 80px;
 	  background-position: 52px top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.straight {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_straight.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_straight.png') no-repeat;
 	  background-size: 100px;
 	  height: 50px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.alpinist {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_alpinist.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_alpinist.png') no-repeat;
 	  background-size: 100px;
 	  height: 60px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.mountainculture {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_mountainculture.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_mountainculture.png') no-repeat;
 	  background-size: 100px;
 	  height: 55px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.mountainlife {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_mountainlife.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_mountainlife.png') no-repeat;
 	  background-size: 100px;
 	  height: 55px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.gripped {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_gripped.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_gripped.png') no-repeat;
 	  background-size: 90px;
 	  height: 55px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.sas {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_sas.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_sas.png') no-repeat;
 	  background-size: 140px;
 	  height: 85px;
 	  background-position: 50px top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
 	.climbersaccess {
-	  background: url('http://localhost/climbingacademydev/wp-content/uploads/2015/04/sponsor_climbersaccess.png') no-repeat;
+	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_climbersaccess.png') no-repeat;
 	  background-size: 100px;
 	  height: 80px;
 	  background-position: center top;
 	  width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
 	}
 
+    .executivesuites {
+      background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_executivesuites.png') no-repeat;
+      background-size: 140px;
+      height: 80px;
+      background-position: center top;
+      width: 100%;
+
+      @media only screen and (max-width: 767px) {
+        background-size: 100px;
+      }
+    }
 
   }
 
@@ -2697,7 +3233,7 @@ FOOTER STYLES
   position: relative;
   width: 930px;
   margin: 0 auto;
-  min-height: 250px;
+
   height: auto;
   font-family: Avenir;
 
@@ -2711,9 +3247,10 @@ FOOTER STYLES
   .footerContent {
 	background: #000;
 	opacity: 0.8;
-	height: 250px;
+	display: inline-block;
 	box-sizing: border-box;
-	padding: 20px 30px;
+	padding: 20px 30px 0;
+    margin-bottom: -7px;
 
 	@media only screen and (max-width: 767px) {
 	  width: 100%;
@@ -2722,8 +3259,8 @@ FOOTER STYLES
 	}
 
 	.leftPad {
-	  margin-left: 15px;
-	  margin-right: 90px !important;
+	  // margin-left: 15px;
+	  margin-right: 15px !important;
 	}
 
 	.mobileClear {
@@ -2773,7 +3310,8 @@ FOOTER STYLES
 
 	  p {
 		color: #fff;
-		font-size: 13px;
+		font-size: 11px;
+        text-transform: uppercase;
 	  }
 
 
@@ -2789,7 +3327,7 @@ FOOTER STYLES
 		top: -5px;
 		left: 130px;
 		img {
-		  width: 70px;
+		  width: 65px;
 		}
 	  }
 
@@ -2800,18 +3338,24 @@ FOOTER STYLES
 	}
 
 	.footerCol {
-	  width: 15%;
+	  width: 65%;
 	  height: auto;
 	  min-height: 200px;
-	  margin-right: 3%;
 	  float: left;
 	  position: relative;
 	  min-width: 150px;
 
-	  @media only screen and (max-width: 767px) {
-		margin-left: 30px;
-		width: 5%;
+	  @media only screen and (max-width: 929px) {
+		margin-left: 60px;
+		width: 50%;
 		min-width: 90px !important;
+	  }
+
+	  @media only screen and (max-width: 767px) {
+		margin-left: 45px;
+		width: 100%;
+		min-width: 90px !important;
+		padding-top: 30px;
 	  }
 
 	  ul {
@@ -2825,6 +3369,9 @@ FOOTER STYLES
 		  text-transform: uppercase;
 		  font-size: 13px;
 		  margin-bottom: 5px;
+		  float: left;
+		  display: inline-block;
+		  width: 190px;
 
 		  a {
 			color: #fff;

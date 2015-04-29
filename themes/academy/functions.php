@@ -58,10 +58,15 @@ function bones_ahoy() {
   // cleaning up excerpt
   add_filter( 'excerpt_more', 'bones_excerpt_more' );
 
+  add_theme_support( 'custom-header' );
+
 } /* end bones ahoy */
 
 // let's get this party started
 add_action( 'after_setup_theme', 'bones_ahoy' );
+
+
+add_theme_support( 'custom-header' );
 
 
 /************* OEMBED SIZE OPTIONS *************/
