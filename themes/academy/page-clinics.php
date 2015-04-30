@@ -64,7 +64,7 @@
         <div class="disclaimerWrap">
             <h3>Note: Sea To Sky Gondola Activites</h3>
             <p>All Sea to Sky clinic participants will be required to have a gondola pass.  If you do not hold a season pass, daily and multiday discounted passes can be purchased at the Sea to Sky ticket window. </p>
-            <p>The purchase of a daily pass allows you access to all other activities happening up at the Gondola through the day as well as in the evenings and a multi-day pass allows you access to all activities for the duration of the pass. See full <a href="#">schedule</a> for Sea to Sky activities.</p>
+            <p>The purchase of a daily pass allows you access to all other activities happening up at the Gondola through the day as well as in the evenings and a multi-day pass allows you access to all activities for the duration of the pass. See full <a href="/event-schedule/">schedule</a> for Sea to Sky activities.</p>
         </div>
         <div style="clear: both;"></div>
         <div class="clinicInfoWrap">
@@ -88,7 +88,7 @@
         <div class="clinicAthleteWrap">
             <h1>Athletes</h1>
             <p>Arc'teryx Climbing Academy has partnered with some of the best climbers in the world for this year's event.</p>
-            <p>To view the athletes that will be attending, along with their schedules for the weekend visit the  <a href="#">athletes page</a>.</p>
+            <p>To view the athletes that will be attending, along with their schedules for the weekend visit the  <a href="/attending-athletes/">athletes page</a>.</p>
         </div>
     </div>
 </div>

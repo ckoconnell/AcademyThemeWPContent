@@ -62,7 +62,7 @@
         <div class="disclaimerWrap">
             <h3>Note: Sea To Sky Gondola Activites</h3>
             <p>All Sea to Sky clinic participants will be required to have a gondola pass.  If you do not hold a season pass, daily and multiday discounted passes can be purchased at the Sea to Sky ticket window. </p>
-            <p>The purchase of a daily pass allows you access to all other activities happening up at the Gondola through the day as well as in the evenings and a multi-day pass allows you access to all activities for the duration of the pass. See full <a href="#">schedule</a> for Sea to Sky activities.</p>
+            <p>The purchase of a daily pass allows you access to all other activities happening up at the Gondola through the day as well as in the evenings and a multi-day pass allows you access to all activities for the duration of the pass. See full <a href="/event-schedule/">schedule</a> for Sea to Sky activities.</p>
         </div>
 
     </div>

@@ -32,8 +32,8 @@
 
         <div class="speakersWrap">
             <h1>Sunset Speaker Series</h1>
-            <h2>Friday July 10th: Women’s Climb Night</h2>
-            <p>Come join <a href="#">Vikki Weldon</a> and <a href="#">Brette Harrington</a> talk about their latest adventures.  From free soloing in Patagonia to new route developing in Morocco, these inspirational women will be sure to get the hairs up on your backs and your palms sweaty.  </p>
+            <h2>Friday July 10th:<br/>Women’s Climb Night</h2>
+            <p>Come join <a href="/attending-athletes/#vikkiWeldon">Vikki Weldon</a> and <a href="/attending-athletes/#bretteHarrington">Brette Harrington</a> talk about their latest adventures.  From free soloing in Patagonia to new route developing in Morocco, these inspirational women will be sure to get the hairs up on your backs and your palms sweaty.  </p>
             <p class="hashtag"><a href="http://definefeminine.arcteryx.com/" target="_blank">#defineFeminine</a></p>
             <div class="speakerAthleteWrap bretteHarrington">
                 <h3>Brette Harrington</h3>
@@ -42,10 +42,10 @@
                 <h3>Vikki Weldon</h3>
             </div>
             <div style="clear:both;"></div>
-            <h2>Saturday July 10th: Alpine Adventure Night</h2>
+            <h2>Saturday July 10th: <br/>Alpine Adventure Night</h2>
             <p>Come join two of the worlds leading alpinist’s and hear about their latest adventures.  2014 piolet D'or winner <a href="#">Raphael Slawinski</a> will be telling tales of Himalayan climbing adventures and surviving one of the biggest Earthquakes to hit Nepal in 80 years while <a href="#">Marc-Andre Leclerc</a> brings us stories from one of the most productive climbing trips to Patagonia.  This sweaty palmed evening will be sure to get you inspired.</p>
             <div class="speakerAthleteWrap raphaelSlawinski">
-                <h3>Raphael Slawinski</h3>
+                <h3>Raphael<br>Slawinski</h3>
             </div>
             <div class="speakerAthleteWrap marcandreLeclerc">
                 <h3>Marc-Andre Leclerc</h3>
@@ -59,7 +59,7 @@
         <div class="disclaimerWrap">
             <h3>Note: Sea To Sky Gondola Activites</h3>
             <p>All Sea to Sky clinic participants will be required to have a gondola pass.  If you do not hold a season pass, daily and multiday discounted passes can be purchased at the Sea to Sky ticket window. </p>
-            <p>The purchase of a daily pass allows you access to all other activities happening up at the Gondola through the day as well as in the evenings and a multi-day pass allows you access to all activities for the duration of the pass. See full <a href="#">schedule</a> for Sea to Sky activities.</p>
+            <p>The purchase of a daily pass allows you access to all other activities happening up at the Gondola through the day as well as in the evenings and a multi-day pass allows you access to all activities for the duration of the pass. See full <a href="/event-schedule/">schedule</a> for Sea to Sky activities.</p>
         </div>
     </div>
 </div>

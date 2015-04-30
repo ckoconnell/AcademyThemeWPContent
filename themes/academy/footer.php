@@ -11,17 +11,17 @@
 		<div class="mobileClear"></div>
 		<div class="footerCol">
 			<ul class="topMargin">
-				<li><a href="#">Event Schedule</a></li>
-				<li><a href="#">Getting Here</a></li>
-				<li><a href="#">Venue Map</a></li>
-				<li><a href="#">Contact Us</a></li>
-                <li><a href="#">Clinics & Workshops</a></li>
-                <li><a href="#">Sunset Speaker & Music Series</a></li>
-                <li><a href="#">Trade Fair & Demo Gear</a></li>
-                <li><a href="#">Fun & Free Events</a></li>
-                <li><a href="#">Educational Seminars</a></li>
-                <li><a href="#">The Hive Zone</a></li>
-                <li><a href="#">Attending Athletes</a></li>
+				<li><a href="/event-schedule/">Event Schedule</a></li>
+				<li><a href="/getting-here/">Getting Here</a></li>
+				<li><a href="/venue-map/">Venue Map</a></li>
+				<li><a href="/contact-us/">Contact Us</a></li>
+                <li><a href="/clinics-workshops/">Clinics & Workshops</a></li>
+                <li><a href="/sunset-speaker-music-series">Sunset Speaker & Music Series</a></li>
+                <li><a href="/trade-fair-demo-gear/">Trade Fair & Demo Gear</a></li>
+                <li><a href="/fun-free-events/">Fun & Free Events</a></li>
+                <li><a href="/educational-seminars/">Educational Seminars</a></li>
+                <li><a href="/the-hive-zone/">Hive Outside</a></li>
+                <li><a href="/attending-athletes/">Attending Athletes</a></li>
 			</ul>
 		</div>
 		<!-- <div class="mobileClear"></div> -->

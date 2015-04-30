@@ -24,7 +24,7 @@
         <div class="intro">
         </div>
         <p>There is lots to get involved with at the festival that is completely free of charge to the general public. Please note that with events happening on the Sea to Sky, a pass to the Gondola is required.  Discounted festival Gondola rates will be in effect, and once you are on top of the Gondola, everything up there except for the paid clinics will be free.  (Yoga, Key Note Speaker Series, Yoga Series, Live Music Series, Educational Seminars) </p>
-        <p class="bolder">***Check out the <a href="#">schedule page</a> for detailed information on our fun and free events***</p>
+        <p class="bolder">***Check out the <a href="/event-schedule/">schedule page</a> for detailed information on our fun and free events***</p>
 
         <div class="funEventWrap">
             <h1>Sponsor Trade Fair</h1>
@@ -60,7 +60,7 @@
         <div class="disclaimerWrap">
             <h3>Note: Sea To Sky Gondola Activites</h3>
             <p>All Sea to Sky clinic participants will be required to have a gondola pass.  If you do not hold a season pass, daily and multiday discounted passes can be purchased at the Sea to Sky ticket window. </p>
-            <p>The purchase of a daily pass allows you access to all other activities happening up at the Gondola through the day as well as in the evenings and a multi-day pass allows you access to all activities for the duration of the pass. See full <a href="#">schedule</a> for Sea to Sky activities.</p>
+            <p>The purchase of a daily pass allows you access to all other activities happening up at the Gondola through the day as well as in the evenings and a multi-day pass allows you access to all activities for the duration of the pass. See full <a href="/event-schedule/">schedule</a> for Sea to Sky activities.</p>
         </div>
     </div>
 </div>
