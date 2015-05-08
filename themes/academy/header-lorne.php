@@ -17,7 +17,7 @@
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-
+		<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/82864996-753f-4fbb-b756-113a3e2bb239.css"/>
 		<?php // icons & favicons (for more: http://www.jonathantneal.com/blog/understand-the-favicon/) ?>
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-icon.png">
 		<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
@@ -29,6 +29,8 @@
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png">
             <meta name="theme-color" content="#121212">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/scriptsHome.js"></script>
+
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 		<?php // wordpress head functions ?>
@@ -41,17 +43,24 @@
 	</head>
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
-<div id="mountain-bg"></div>
-<div id="mountain"></div>
-<video autoplay loop id="bgvid">
-    <source src="videos/polina.webm" type="video/webm">
-    <source src="http://ckoconnell.github.io/climbingfiles/fog.mp4" type="video/mp4">
-</video>
 
-<!-- <video autoplay loop id="bgvid-bottom">
-    <source src="videos/polina.webm" type="video/webm">
-    <source src="http://ckoconnell.github.io/climbingfiles/fog2.mp4" type="video/mp4">
-</video> -->
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TRGKCM"
+				  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TRGKCM');</script>
+<!-- End Google Tag Manager -->
+
+<!-- <div id="mountain-bg"></div> -->
+<!-- <div id="mountain"></div> -->
+
+
+<video autoplay loop id="bgvid">
+    <source src="<?php echo get_template_directory_uri(); ?>/fog.mp4" type="video/mp4">
+</video>
 
 		<div id="container">
 
@@ -60,17 +69,17 @@
 				<div class="menuMobileTitle"><span class="menuIcon">&#9776;</span>Menu</div>
 				<div class="menuMobile">
 					<ul>
-						<li><a href="http://localhost/climbing-academy/clinics-workshops">Clinics & Workshops</a></li>
-						<li><a href="http://localhost/climbing-academy/sunset-speaker-music-series">Speakers & Music Series</a></li>
-						<li><a href="http://localhost/climbing-academy/trade-fair-demo-gear">Trade Fair & Demo Gear</a></li>
-						<li><a href="http://localhost/climbing-academy/fun-free-events">Fun & Free Events</a></li>
-						<li><a href="http://localhost/climbing-academy/educational-seminars">Educational Seminars</a></li>
-						<li><a href="http://localhost/climbing-academy/hive-zone">The Hive Zone</a></li>
-						<li><a href="http://localhost/climbing-academy/attending-athletes">Attending Athletes</a></li>
+						<li><a href="/clinics-workshops/">Climbing Clinics</a></li>
+						<li><a href="/sunset-speaker-music-series/">Speakers & Music Series</a></li>
+						<li><a href="/trade-fair-demo-gear/">Trade Fair & Demo Gear</a></li>
+						<li><a href="/fun-free-events/">Fun & Free Events</a></li>
+						<li><a href="/educational-seminars/">Educational Seminars</a></li>
+						<li><a href="/hive-zone/">The Hive Zone</a></li>
+						<li><a href="/attending-athletes/">Attending Athletes</a></li>
 					</ul>
 				</div>
 
-				<div class="leftWrap">
+				<a href="../" class="leftWrap">
 					<div class="logoWrap">
 						<div class="academyLogo"><img src="wp-content/uploads/2015/04/academyLogo.png" /></div>
 
@@ -78,7 +87,7 @@
 					</div>
 					<div style="clear:both;"></div>
 					<h2>PURSUE YOUR PERFECT MOUNTAIN EXPERIENCE</h2>
-				</div>
+				</a>
 				<div class="rightWrap">
 					<div class="partnerWrap">
 
@@ -87,33 +96,33 @@
 						<h3>SQUAMISH, BC <br/> JULY 10-12, 2015</h3>
 					</div>
 					<div class="miniNavWrap">
-						<a href="http://localhost/climbing-academy/event-schedule" class="miniNavItem navSched">
+						<a href="/event-schedule/" class="miniNavItem navSched">
 							<h3>Event Schedule</h3>
 						</a>
-						<a href="http://localhost/climbing-academy/venue-map" class="miniNavItem navMap">
+						<a href="/venue-map/" class="miniNavItem navMap">
 							<h3>Venue Map</h3>
 						</a>
-						<a href="http://localhost/climbing-academy/getting-here" class="miniNavItem navDirection">
+						<a href="/getting-here/" class="miniNavItem navDirection">
 							<h3>Getting Here</h3>
 						</a>
-						<a href="http://localhost/climbing-academy/contact-us" class="miniNavItem navContact">
+						<a href="/contact-us/" class="miniNavItem navContact">
 							<h3>Contact Us</h3>
 						</a>
 					</div>
 				</div>
 				<div style="clear: both;"></div>
                 <div class="mobileMiniNavWrap">
-                    <a href="http://localhost/climbing-academy/event-schedule" class="miniNavItem navSched">
-                        <h3>Event<br>Schedule</h3>
+                    <a href="/event-schedule/" class="miniNavItem navSched">
+                        <h3>Event Schedule</h3>
                     </a>
-                    <a href="http://localhost/climbing-academy/venue-map" class="miniNavItem navMap">
-                        <h3>Venue<br>Map</h3>
+                    <a href="/venue-map/" class="miniNavItem navMap">
+                        <h3>Venue Map</h3>
                     </a>
-                    <a href="http://localhost/climbing-academy/getting-here" class="miniNavItem navDirection">
-                        <h3>Getting<br>Here</h3>
+                    <a href="/getting-here/" class="miniNavItem navDirection">
+                        <h3>Getting Here</h3>
                     </a>
-                    <a href="http://localhost/climbing-academy/contact-us" class="miniNavItem navContact">
-                        <h3>Contact<br>Us</h3>
+                    <a href="/contact-us/" class="miniNavItem navContact">
+                        <h3>Contact Us</h3>
                     </a>
                 </div>
 

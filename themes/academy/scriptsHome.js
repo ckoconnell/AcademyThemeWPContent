@@ -111,33 +111,58 @@ function loadGravatars() {
 jQuery(document).ready(function($) {
 
   var smokevid = document.getElementById("bgvid");
-      smokevid2 = document.getElementById("bgvid-bottom");
-  smokevid.playbackRate = 0.3;
-  smokevid2.playbackRate = 0.3;
+      // smokevid2 = document.getElementById("bgvid-bottom");
+  smokevid.playbackRate = 0.4;
+  // smokevid2.playbackRate = 0.3;
 
 
 
   var fromTop = $('body').offset().top;
       conHeight = $( '#container' ).height();
-      
+      viewportHeight = $( window ).height();
 
-    $('#mountain-bg, #mountain').css({
-      'height': conHeight + 500,
-    });
 
-// alert(conHeight);
+    // $('#mountain-bg, #mountain').css({
+    //   'height': conHeight + 500,
+    // });
 
-$( window ).scroll(function() {
-fromTop = $(document).scrollTop();
-console.log(fromTop);
+// $('#clinics').css('height', viewportHeight - 100);
 
+// $( window ).scroll(function() {
+// fromTop = $(document).scrollTop();
+// console.log(fromTop);
+// viewportHeight = $( window ).height();
+// $('#clinics').css('height', viewportHeight - 100 );
+
+// $('.header').css({
+  // 'opacity': 1-fromTop/200,
+  // 'top'    : fromTop * -0.5
+// });
+
+// $('#intro').css({
+//  'opacity': 1-fromTop/400,
+//  'top'    : fromTop * -0.7
+// });
+
+
+// $('#sunset').css({
+//   'margin-top'    : fromTop * -0.7
+// }); 
 
 // this is to keep the mountain background image at the bottom all the time
 if(conHeight > 2300){
-    console.log(fromTop);
-    if(fromTop > 2080){
+    // if(viewportHeight > fromTop){
+    //   console.log('yes');
+    //   $('#mountain-bg, #mountain').css({
+    //     'background-position': '0px -1980px',
+    //     'height' : '100%',
+    //     'position' : 'fixed' 
+    //   });
+    // } 
+    if(fromTop > 1980){
+      // alert('greater than 2000');
        $('#mountain-bg, #mountain').css({
-        'background-position': '0px -2080px',
+        'background-position': '0px -1980px',
         'height' : '100%',
         'position' : 'fixed' 
       });
@@ -154,17 +179,18 @@ if(conHeight > 2300){
       console.log('in the else');
     }
 }
-
-$("#container > div").withinViewport().each(function() {
-   $('#timeline > li[view-id="'+$(this)[0].id+'"]').addClass('active');
-});
-
-
   
 });
 
+// $( window ).resize(function() {
+// viewportHeight = $( window ).height();
+// $('#clinics').css('height', viewportHeight - 100);
+// });
 
-
+// $( '#clinics a' ).hover(function() {
+  // alert("see me");
+   // $( '#bgvid' ).toggleClass('dim');
+  // });
 
     
 

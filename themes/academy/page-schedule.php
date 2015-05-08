@@ -11,6 +11,23 @@
         <div class="pageHead schedulePage">
             <h1>Event<br>Schedule</h1>
         </div>
+        <p></p>
+        <div class="scheduleLegend">
+           <h3>Legend</h3>
+            <div class="scheduleLegendItem clinics">
+                <p>Climbing Clinics</p>
+            </div>
+            <div class="scheduleLegendItem sunset">
+                <p>Sunset Speaker &amp; Music Series</p>
+            </div>
+            <div class="scheduleLegendItem funfree">
+                <p>Fun &amp; Free Events</p>
+            </div>
+            <div class="scheduleLegendItem seminars">
+                <p>Educational Seminars</p>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
         <div class="scheduleWrap">
             <div class="dayWrap friday">
                 <h1>Friday<br><span class="dateText">July 10, 2015</span></h1>
@@ -53,7 +70,7 @@
                         <h1>Trade Fair & Demo Gear</h1>
                     </a>
                     <a class="eventWrap clinics" href="/clinics-workshops/">
-                        <h3>Clinics & Workshops</h3>
+                        <h3>Climbing Clinics</h3>
                         <p class="time">9:00am - 3:00pm</p>
                         <h1>Clinics & Workshops</h1>
                         <p>All Clincis will meet at the Trade Fair for Registration</p>
@@ -68,35 +85,31 @@
                         <h3>Fun & Free Events</h3>
                         <p class="time">1:30pm - 2:30pm</p>
                         <h1>Maxim Tug Of War</h1>
-                        <p>Registration at Maxim text during the day</p>
+                        <p>Registration at Maxim tent during the day</p>
                     </a>
                     <a class="eventWrap" href="/fun-free-events/">
                         <h3>Fun & Free Events</h3>
                         <p class="time">3:00pm - 4:00pm</p>
                         <h1>Dodge Ball</h1>
+                        <p style="padding-bottom: 10px;">Registration at Five-Ten tent during the day</p>
                     </a>
                 </div>
                 <div class="gondolaWrap">
                     <h1>Sea To Sky Activities</h1>
-                    <a class="eventWrap" href="/fun-free-events/">
-                        <h3>Fun & Free Events</h3>
-                        <p class="time">10:00am - 3:00pm</p>
-                        <h1>Sea To Sky Trail Build Day (ARC)</h1>
-                    </a>
                     <a class="eventWrap clinics" href="/clinics-workshops/">
-                        <h3>Clinics & Workshops</h3>
+                        <h3>Climbing Clinics</h3>
                         <p class="time">9:00am - 3:00pm</p>
                         <h1>Clinics & Workshops</h1>
                         <p>All Clincis will meet at the Trade Fair for Registration</p>
                     </a>
                     <a class="eventWrap" href="/fun-free-events/">
                         <h3>Fun & Free Events</h3>
-                        <p class="time">10:00am - 3:00pm</p>
+                        <p class="time">11:00am - 12:00pm</p>
                         <h1>Morning Yoga</h1>
                     </a>
                     <a class="eventWrap seminars" href="/educational-seminars/">
                         <h3>Educational Seminars</h3>
-                        <p class="time">10:30am - 3:30pm</p>
+                        <p class="time">11:00am - 4:30pm</p>
                         <h1>Seminars</h1>
                     </a>
                     <a class="eventWrap sunset" href="/sunset-speaker-music-series/">
@@ -128,7 +141,7 @@
                         <h1>Pancake Breakfast</h1>
                     </a>
                     <a class="eventWrap clinics" href="/clinics-workshops/">
-                        <h3>Clinics & Workshops</h3>
+                        <h3>Climbing Clinics</h3>
                         <p class="time">9:00am - 3:00pm</p>
                         <h1>Clinics & Workshops</h1>
                         <p>All Clincis will meet at the Trade Fair for Registration</p>
@@ -141,15 +154,15 @@
                     </a>
                     <a class="eventWrap" href="/fun-free-events/">
                         <h3>Fun & Free Events</h3>
-                        <p class="time">12:00pm - 2:00pm</p>
-                        <h1>The Hive Dyno Comp</h1>
+                        <p class="time">12:00pm - 3:00pm</p>
+                        <h1>The Hive Outside Dyno Comp</h1>
                     </a>
                 </div>
 
                 <div class="gondolaWrap">
                     <h1>Sea To Sky Activities</h1>
                     <a class="eventWrap clinics" href="/clinics-workshops/">
-                        <h3>Clinics & Workshops</h3>
+                        <h3>Climbing Clinics</h3>
                         <p class="time">9:00am - 3:00pm</p>
                         <h1>Clinics & Workshops</h1>
                         <p>All Clincis will meet at the Trade Fair for Registration</p>
@@ -161,7 +174,7 @@
                     </a>
                     <a class="eventWrap seminars" href="/educational-seminars/">
                         <h3>Educational Seminars</h3>
-                        <p class="time">10:30am - 3:30pm</p>
+                        <p class="time">11:00am - 4:30pm</p>
                         <h1>Seminars</h1>
                     </a>
                     <a class="eventWrap sunset" href="/sunset-speaker-music-series/">

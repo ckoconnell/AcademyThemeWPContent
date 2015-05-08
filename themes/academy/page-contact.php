@@ -16,7 +16,7 @@
         </div>
         <div class="contactWrap">
             <h1>Contact Us</h1>
-            <h3>General Inquiries:</h3>
+             <h3>General Inquiries:</h3>
             <p><a href="mailto:climbingacademy@arcteryx.com">climbingacademy@arcteryx.com</a></p>
             <h3>Sponsorship Inquiries:</h3>
             <p>Justin Sweeny</p>

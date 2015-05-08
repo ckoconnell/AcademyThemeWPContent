@@ -23,7 +23,7 @@
         </div>
         <div class="intro">
         </div>
-        <p>There is lots to get involved with at the festival that is completely free of charge to the general public. Please note that with events happening on the Sea to Sky, a pass to the Gondola is required.  Discounted festival Gondola rates will be in effect, and once you are on top of the Gondola, everything up there except for the paid clinics will be free.  (Yoga, Key Note Speaker Series, Yoga Series, Live Music Series, Educational Seminars) </p>
+        <p>Come join in on any number of the fun and free events happening at the festival this year.  From the Maxim Tug of War, to the Sea to Sky educational seminar series, there’s something for everyone to enjoy. </p>
         <p class="bolder">***Check out the <a href="/event-schedule/">schedule page</a> for detailed information on our fun and free events***</p>
 
         <div class="funEventWrap">
@@ -33,12 +33,12 @@
 
         <div class="funEventWrap">
             <h1>Five Ten Dodge Ball and Maxim Tug of War</h1>
-            <p>Back by popular demand we will once again be hosting both the Maxim tug of war as well as the Five Ten Dodge Ball.  These will take place near the trade fair under the chief, and registration will happen at the respective sponsor’s booth. (Maxim and Five Ten)</p>
+            <p>Back by popular demand we will once again be hosting both the Maxim tug of war as well as the Five Ten Dodge Ball.  These will take place near the trade fair under the chief, and registration will happen at the respective sponsor’s booth (Maxim and Five Ten). For details view the <a href="/event-schedule/">full schedule</a>.</p>
         </div>
 
         <div class="funEventWrap">
             <h1>Educational Seminars</h1>
-            <p>Join us up on the top of the Sea to Sky Gondola and get inspired.  Two nights of presentation from some of the world’s leading climbing athletes. </p>
+            <p>Join us up on the top of the Sea to Sky Gondola and get inspired. Two nights of presentations from some of the world’s leading climbing athletes. View <a href="/sunset-speaker-music-series/">Speaker and Music page</a> for details</p>
 
         </div>
 
@@ -49,18 +49,22 @@
 
         <div class="funEventWrap">
             <h1>SAS and CASBC Trail Maintenance Day </h1>
-            <p>Join the SAS and the CASBC and help give back to the community that you play in.  Meet at 8:00 AM on </p>
+            <p>Join the SAS and the CASBC and help give back to the community that you play in. Meet at 8:00 AM at the adventure center. Bring appropriate clothing, footwear, gloves and lunch for trail work. Lots of swag giveaways provided by all sponsors of the event.</p>
         </div>
 
         <div class="funEventWrap">
             <h1>Yoga</h1>
-            <p>For those of you searching for your inner Zen, then drop by one of our Yoga in Sky classes.  These classes will be taught up on the sea to sky gondola with spectacular views of the Howe Sound.   Mats and blocks will be provided—all you need to do is bring your relaxed soul.  Come dressed appropriately for this class – jeans not recommended!  This will run rain or shine.  In the case it does rain, the practice will resume at “The Yoga Studio“ at 37776 2nd Avenue on the second floor of the building.</p>
+            <p>For those of you searching for your inner Zen, drop by one of our Yoga In The Sky classes. These classes will be taught up on the sea to sky gondola with spectacular views of the Howe Sound. Come dressed appropriately for this class – jeans not recommended! This will run rain or shine. In the case it does rain, the practice will resume at “The Yoga Studio“ at 37776 2nd Avenue on the second floor of the building in downtown Squamish.</p>
+        </div>
+
+        <div class="funEventWrap">
+            <h1>The Hive Outside</h1>
+            <p>Hive Outside, brought to you by The Hive Bouldering Gym, is debuting at the 2015 Arc’teryx Climbing Academy. Hive Outside will offer an adventurous and educational experience for all ages.  The focus is to bring The Hive’s key pillars of Climbing, Education and Community from their world-class indoor facilities to the greater outdoor community and share the joys of climbing, health and adventure with everyone.</p>
         </div>
 
         <div class="disclaimerWrap">
             <h3>Note: Sea To Sky Gondola Activites</h3>
-            <p>All Sea to Sky clinic participants will be required to have a gondola pass.  If you do not hold a season pass, daily and multiday discounted passes can be purchased at the Sea to Sky ticket window. </p>
-            <p>The purchase of a daily pass allows you access to all other activities happening up at the Gondola through the day as well as in the evenings and a multi-day pass allows you access to all activities for the duration of the pass. See full <a href="/event-schedule/">schedule</a> for Sea to Sky activities.</p>
+            <p>Already a pass holder, take advantage of all activities on the Sea to Sky gondola free of charge.  Not a pass holder, no problem, discounted passes will be available during the festival.  Rates coming soon!</p>
         </div>
     </div>
 </div>

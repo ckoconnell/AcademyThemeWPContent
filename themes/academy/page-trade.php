@@ -32,7 +32,9 @@
             <li><a href="http://www.petzl.com/" target="_blank">Petzl</a></li>
             <li><a href="http://fiveten.com/" target="_blank">Five Ten</a></li>
             <li><a href="http://www.flashed.com/" target="_blank">Flashed</a></li>
-            <li><a href="hiveclimbing.com/" target="_blank">Hive</a></li>
+            <li><a href="http://hiveclimbing.com/" target="_blank">Hive</a></li>
+            <li><a href="http://www.gore-tex.com/" target="_blank">Gore-Tex</a></li>
+
         </ul>
         <h3>Check out the <a href="/event-schedule/">schedule page</a> for more information on trade fair and demo events.</h3>
     </div>

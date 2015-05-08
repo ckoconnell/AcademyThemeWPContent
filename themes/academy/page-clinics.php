@@ -30,10 +30,10 @@
             <div class="canWestWrap">
                 <img src="http://localhost/climbingacademydev/wp-content/uploads/2015/04/canwestBlack.png" />
                 <p>Canada West Mountain School has been operating in BC and across the globe for over ten years.</p>
-                <p>For more information, please visit <a href="http://themountainschool.com" target="_blank">themountainschool.com</a>, or for the full Arc'teryx Climbing Academy itinerary:</p>
+                <p>For more information, please visit <a href="http://themountainschool.com" target="_blank">themountainschool.com</a>, or for the full Arc'teryx Climbing Academy itinerary check out the <a href="/event-schedule/">schedule page</a>.</p>
                 <div  class="button">
-                    <p>Clinic Details Available Soon</p>
-                    <a href="#">View All Clinics</a>
+                    <!-- <p>Clinic Details Available Soon</p> -->
+                    <!-- <a href="#">View All Clinics</a> -->
                 </div>
             </div>
         </div>
@@ -44,9 +44,9 @@
                     <h1>Valley<br/>Zone</h1>
                 </div>
                 <div class="clinicCatBorder">
-                    <p>Intro Paragraph About The Zone Goes Here<br>Ideally we can have three lines worth of content here<br>If not, two should suffice.</p>
+                    <p>The Valley Clinic Zone offers clinics for various skill levels within the confines of the Squamish Valley.  Clinic zones will include but are not limited to the Smoke Bluffs, The Malamute, Grandwall Boulders, Murin Park.</p>
                     <div class="registerPlaceholder">Clinic Registration Opens Soon</div>
-                    <a href="#">Register for Bluff Zone Clinics</a>
+                    <a href="http://themountainschool.com/product-category/arcteryx-valley-clinics/">Register for Valley Zone Clinics</a>
                 </div>
             </div>
             <div class="clinicCat seatosky">
@@ -54,18 +54,20 @@
                     <h1>Sea To Sky <br/>Zone</h1>
                 </div>
                 <div class="clinicCatBorder">
-                    <p>Intro Paragraph About The Zone Goes Here<br>Ideally we can have three lines worth of content here<br>If not, two should suffice.</p>
+                    <p>The Sea to Sky clinic series offers clinics for various skill levels up on top of the scenic Sea to Sky Gondola.  Clinic zones will included the Sky Pilot zone, Habrich, Wrinkle Rock and Klettergarten (Ultraviolet Cliff).</p>
                     <div class="registerPlaceholder">Clinic Registration Opens Soon</div>
-                    <a href="#">Register for Sea To Sky Zone Clinics</a>
+                    <a href="http://themountainschool.com/product-category/arcteryx-sea-to-sky-clinic/" target="_blank">Register for Sea To Sky Zone Clinics</a>
                 </div>
             </div>
         </div>
         <div style="clear: both;"></div>
+        <!-- Commenting this out for launch
         <div class="disclaimerWrap">
             <h3>Note: Sea To Sky Gondola Activites</h3>
             <p>All Sea to Sky clinic participants will be required to have a gondola pass.  If you do not hold a season pass, daily and multiday discounted passes can be purchased at the Sea to Sky ticket window. </p>
             <p>The purchase of a daily pass allows you access to all other activities happening up at the Gondola through the day as well as in the evenings and a multi-day pass allows you access to all activities for the duration of the pass. See full <a href="/event-schedule/">schedule</a> for Sea to Sky activities.</p>
         </div>
+        -->
         <div style="clear: both;"></div>
         <div class="clinicInfoWrap">
             <h1>Clinic Details</h1>

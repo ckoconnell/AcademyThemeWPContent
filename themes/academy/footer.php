@@ -21,8 +21,10 @@
                 <li><a href="/fun-free-events/">Fun & Free Events</a></li>
                 <li><a href="/educational-seminars/">Educational Seminars</a></li>
                 <li><a href="/the-hive-zone/">Hive Outside</a></li>
-                <li><a href="/attending-athletes/">Attending Athletes</a></li>
-			</ul>
+                <li><a href="/attending-athletes/">Athletes</a></li>
+                <li><a href="/win/">Win</a></li>
+
+            </ul>
 		</div>
 		<!-- <div class="mobileClear"></div> -->
 	</div>
@@ -49,14 +51,16 @@
         <a href="http://www.petzl.com/" class="sponsor petzl" target="_blank"></a>
         <a href="http://www.flashed.com/" class="sponsor flashed" target="_blank"></a>
         <a href="http://www.maximdynamicropes.com/" class="sponsor maxim" target="_blank"></a>
+        <a href="http://www.executivesuitessquamish.com/" class="sponsor executivesuites" target="_blank"></a>
         <a href="http://whistlerbeer.com/" class="sponsor whistlerbrewing" target="_blank"></a>
+        <a href="http://fiveten.com/" class="sponsor fiveten" target="_blank"></a>
+
     </div>
     <div class="mobileClear"></div>
     <div class="sponsorCatWrap supplier">
         <h3 class="sponsorCatTitle">Supplier</h3>
         <a href="http://www.mec.ca/" class="sponsor mec" target="_blank"></a>
         <!-- <a href="https://www.sandmanhotels.ca/hotels/squamish/" class="sponsor sandman" target="_blank"></a> -->
-        <a href="http://www.executivesuitessquamish.com/" class="sponsor executivesuites" target="_blank"></a>
         <a href="http://www.innate-gear.com/" class="sponsor innate" target="_blank"></a>
         <a href="http://www.clifbar.ca/" class="sponsor cliff" target="_blank"></a>
     </div>

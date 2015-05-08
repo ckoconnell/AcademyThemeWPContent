@@ -21,6 +21,7 @@
         <div class="pageHead hivePage">
             <h1>Hive Outside</h1>
         </div>
+        <p>Hive Outside, brought to you by The Hive Bouldering Gym, is debuting at the 2015 Arc’teryx Climbing Academy. Hive Outside will offer an adventurous and educational experience for all ages.  The focus is to bring The Hive’s key pillars of Climbing, Education and Community from their world-class indoor facilities to the greater outdoor community and share the joys of climbing, health and adventure with everyone.</p>
         <div class="introComingSoon">
             <p>Hive Outside Details Coming Soon.</p>
         </div>
