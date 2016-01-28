@@ -14,51 +14,102 @@
 ?>
 
 <?php get_header(lorne); ?>
-<!-- <div id="content">
-div class="pageContent">
-        <div class="pageHead funfreePage">
-            <h1>Free & <br>Fun Events</h1>
-        </div>
+
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: Squamish - Homepage - Climbing Academy
+URL of the webpage where the tag is expected to be placed: http://squamish.arcteryxacademy.com/
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 05/18/2015
+-->
+<script type="text/javascript">
+    var axel = Math.random() + "";
+    var a = axel * 10000000000000;
+    document.write('<iframe src="http://4390389.fls.doubleclick.net/activityi;src=4390389;type=squamish;cat=squam0;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+    <iframe src="http://4390389.fls.doubleclick.net/activityi;src=4390389;type=squamish;cat=squam0;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+
+<div class="alertWrap">
+    <div class="alertBand"></div>
+    <h3>July 7, 2015 - 6:00pm PST</h3>
+    <h1>Attention Climbing Academy Attendees:</h1>
+    <p>We are aware of the wildfire conditions currently affecting the Sea to Sky corridor and are working with the relevant local authorities to ensure a safe and responsible event. </p>
+    <p>This space will be updated with any further updates or changes to the event program.</p>
+    <p>Click here for the <a href="https://weather.gc.ca/city/pages/bc-50_metric_e.html" target="_blank">Environment Canada Forecast for Squamish</a></p>
 </div>
-</div> -->
 
 <div id="clinics">
     <div id="intro">
         <p>Three days of international speakers, educational seminars and clinics on topics related to climbing. This year's festival features clinics and workshops in the Squamish Valley as well as the Sea To Sky Gondola</p>
-        <div class="clinicLinkWrap margRight margLeft">
-            <div class="topBG" id="clinicsLink"></div>
-            <p>Clinic Page Link</p>
-            <a href="/clinics-workshops/">View Clinic Details</a>
-        </div>
         <div class="clinicLinkWrap margRight">
-            <div class="topBG" id="valleyLink"></div>
-            <p>Valley Clinic Link</p>
-            <a href="/clinics-workshops/">Valley Clinics</a>
+            <div class="topBG" id="clinicsLink"></div>
+            <div class="bottomContent">
+                <p>Arc'teryx Climbing Academy offers climbing clinics for various skill levels led by world class athlete intructors.</p>
+                <a href="/clinics-workshops/">View Clinic Details</a>
+            </div>
+        </div>
+        <div class="clinicLinkWrap  margRight">
+            <div class="topBG" id="seatoskyLink"></div>
+            <div class="bottomContent">
+                <p>Clinic zones will include but are not limited to the Sky Pilot zone, Habrich, Wrinkle Rock and Klettergarten (Ultraviolet Cliff).</p>
+                <a href="http://themountainschool.com/product-category/arcteryx-sea-to-sky-clinic/" target="_blank">Sea To Sky Clinics</a>
+            </div>
         </div>
         <div class="clinicLinkWrap">
-            <div class="topBG" id="seatoskyLink"></div>
-            <p>Sea To Sky Clinic Link</p>
-            <a href="/clinics-workshops/">Sea To Sky Clinics</a>
+            <div class="topBG" id="valleyLink"></div>
+            <div class="bottomContent">
+                <p>Clinic zones will include but are not limited to the Smoke Bluffs, The Malamute, Grandwall Boulders, Murin Park.</p>
+                <a href="http://themountainschool.com/product-category/arcteryx-valley-clinics/" target="_blank">Valley Clinics</a>
+            </div>
         </div>
-
         <!-- <a href="/clinics-workshops/">Register for Clinics &amp; Workshops</a> -->
-
     </div>
 </div>
 <div style="clear: both;"></div>
 <div class="container930">
 
-<div id="sunset">
+    <div class="teaserVideo">
+        <iframe width="100%" height="524" src="https://www.youtube.com/embed/GabcQ_haYYQ?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div style="clear:both;"></div>
+
+    <div id="sunset">
     <h2><span>Sunset Speaker</span><br />&amp; Music Series</h2>
     <div class="content">
         <h3> </h3>
-        <p>Open air evening of keynote speakers, films, and live music.</p>
-        <a href="/sunset-speaker-music-series/">View Sea To Sky Program</a>
+
+
     </div>
+    <div style="clear:both;"></div>
     <div class="gradient"></div>
+    <div class="bottomContent">
+        <div class="bottomColLeft">
+            <h1>&nbsp;</h1>
+            <p>Open air evenings of keynote speakers, films, and live music.</p>
+            <a href="/sunset-speaker-music-series/">View Sea To Sky Program</a>
+        </div>
+        <div class="bottomCol">
+            <h1>Friday, July 10th </h1>
+            <h3>ALPINE ADVENTURE NIGHT</h3>
+            <p>Raphael Slawinski and Marc-Andre Leclerc host an evening of adventure tales from the ends of the earth.</p>
+            <h3>Live: The Boom Booms</h3>
+            <p>Influenced by travel, the Booms released their latin-laced debut album ¡Hot Rum! in 2011.</p>
+        </div>
+        <div class="bottomCol">
+            <h1>Saturday, July 11th</h1>
+            <h3>WOMEN’S CLIMB NIGHT</h3>
+            <p>Join Vikki Weldon and Brette Harrington as they share stories from their latest adventures.</p>
+            <h3>Live: Jon and Roy</h3>
+            <p>The duo arrived in 2005 almost fully formed, with a foundation built upon Middleton's unique approach to the acoustic guitar and Vizer's original rhythmic patterns.</p>
+        </div>
+
+    </div>
     <!-- <div id="gondola"></div> -->
 </div>
-
+<div style="clear:both;"></div>
 
 
 <div id="trade" class="feature-sm">
@@ -136,7 +187,7 @@ div class="pageContent">
         <img src="http://localhost/climbingacademydev/wp-content/uploads/2015/04/athletes/10.jpg" />
         <div class="athlete-bio">
             <h3>Rob Pizem</h3>
-            <a href="">Read Bio</a>
+            <a href="/attending-athletes/#robPizem">Read Bio</a>
         </div>
     </div>
 
@@ -149,6 +200,7 @@ div class="pageContent">
     </div>
 </div>
 
+<div style="clear: both;"></div>
 
 <div id="seminar" class="feature-sm">
     <div class="feature-image"></div>

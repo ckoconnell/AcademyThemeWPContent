@@ -56,12 +56,10 @@
 		<div id="container">
 
 			<!-- Start Contest CTA -->
-
-			<a href="http://localhost/climbingacademydev/win/" class="contestCTAWrap">
+			 <a href="http://localhost/climbingacademydev/win/" class="contestCTAWrap">
 				<h3>Enter Now For<br/>Your Chance To</h3>
 				<h1>Win</h1>
 			</a>
-
 			<!-- Start Header -->
 			<div class="header">
 				<div class="menuMobileTitle"><span class="menuIcon">&#9776;</span>Menu</div>
@@ -74,6 +72,7 @@
 						<li><a href="/educational-seminars/">Educational Seminars</a></li>
 						<li><a href="/the-hive-zone/">The Hive Zone</a></li>
 						<li><a href="/attending-athletes/">Attending Athletes</a></li>
+						<li><a href="/community/">Community</a></li>
                         <li><a href="/win/">Win</a></li>
                     </ul>
 				</div>
@@ -147,6 +146,8 @@
 						$( ".menuMobile" ).toggleClass( "blockDisplay" );
 					});
 				</script>
+
+
 
 
 				</div>

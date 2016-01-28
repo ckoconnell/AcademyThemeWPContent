@@ -1,19 +1,27 @@
 <?php
 /*
  Template Name: Academy Clinics Page
- *
- * This is your custom page template. You can create as many of these as you need.
- * Simply name is "page-whatever.php" and in add the "Template Name" title at the
- * top, the same way it is here.
- *
- * When you create your page, you can just select the template and viola, you have
- * a custom page template to call your very own. Your mother would be so proud.
- *
- * For more info: http://codex.wordpress.org/Page_Templates
 */
 ?>
 
 <?php get_header(); ?>
+
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: Squamish - Clinic Information - Climbing Academy
+URL of the webpage where the tag is expected to be placed: http://squamish.arcteryxacademy.com/clinics-workshops/
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 05/18/2015
+-->
+<script type="text/javascript">
+    var axel = Math.random() + "";
+    var a = axel * 10000000000000;
+    document.write('<iframe src="http://4390389.fls.doubleclick.net/activityi;src=4390389;type=squamish;cat=squam002;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+    <iframe src="http://4390389.fls.doubleclick.net/activityi;src=4390389;type=squamish;cat=squam002;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
 
 <div id="content">
 
@@ -46,7 +54,7 @@
                 <div class="clinicCatBorder">
                     <p>The Valley Clinic Zone offers clinics for various skill levels within the confines of the Squamish Valley.  Clinic zones will include but are not limited to the Smoke Bluffs, The Malamute, Grandwall Boulders, Murin Park.</p>
                     <div class="registerPlaceholder">Clinic Registration Opens Soon</div>
-                    <a href="http://themountainschool.com/product-category/arcteryx-valley-clinics/">Register for Valley Zone Clinics</a>
+                    <a href="http://themountainschool.com/product-category/arcteryx-valley-clinics/" target="_blank">Register for Valley Zone Clinics</a>
                 </div>
             </div>
             <div class="clinicCat seatosky">
@@ -54,7 +62,7 @@
                     <h1>Sea To Sky <br/>Zone</h1>
                 </div>
                 <div class="clinicCatBorder">
-                    <p>The Sea to Sky clinic series offers clinics for various skill levels up on top of the scenic Sea to Sky Gondola.  Clinic zones will included the Sky Pilot zone, Habrich, Wrinkle Rock and Klettergarten (Ultraviolet Cliff).</p>
+                    <p>The Sea to Sky clinic series offers clinics for various skill levels up on top of the scenic Sea to Sky Gondola.  Clinic zones will include the Sky Pilot zone, Habrich, Wrinkle Rock and Klettergarten (Ultraviolet Cliff).</p>
                     <div class="registerPlaceholder">Clinic Registration Opens Soon</div>
                     <a href="http://themountainschool.com/product-category/arcteryx-sea-to-sky-clinic/" target="_blank">Register for Sea To Sky Zone Clinics</a>
                 </div>
@@ -87,10 +95,25 @@
             <p>Cancellations up to 2 weeks prior to festival are subject to a 10% administration fee, no refunds will be given after June 25th, 2015.</p>
         </div>
         <div class="mobileClear"></div>
+
         <div class="clinicAthleteWrap">
             <h1>Athletes</h1>
             <p>Arc'teryx Climbing Academy has partnered with some of the best climbers in the world for this year's event.</p>
             <p>To view the athletes that will be attending, along with their schedules for the weekend visit the  <a href="/attending-athletes/">athletes page</a>.</p>
+        </div>
+
+        <div style="clear: both;"></div>
+
+        <div class="disclaimerWrap">
+            <h3>Note: Sea To Sky Gondola Activites</h3>
+            <p>Already a pass holder?  Take advantage of all activities on the Sea to Sky gondola free of charge.</p>
+            <p>Not a pass holder?  No problem, discounted passes will be available during the festival. For discounted passes during the Climbing Academy, simply head to the ticket window and state you are here as part of the Climbing Academy.</p>
+            <p class="bolder">The Sea To Sky Gondola is offering the following special rates:</p>
+            <ul>
+                <li>20% Off Day Passes from July 10<sup>th</sup> to the 12<sup>th</sup></li>
+                <li>$75 For A Three Day Pass + Upgrade To A Full Season Pass for Only $35 More</li>
+            </ul>
+            <p>Remember, once on top of the Gondola all events are free.  Refer to the <a href="/event-schedule/">schedule page</a> for full details.</p>
         </div>
     </div>
 </div>

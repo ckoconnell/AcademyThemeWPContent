@@ -167,7 +167,7 @@ HEADER STYLES
   }
 
   .leftWrap {
-	width: 380px;
+	width: 450px;
 	height: auto;
 	float: left;
 	box-sizing: border-box;
@@ -189,6 +189,7 @@ HEADER STYLES
 
 	.logoWrap {
 	  margin-top: 2px;
+	  margin-left: 15%;
 
 	  @media only screen and (max-width: 768px) {
 		margin-top: 10px;
@@ -311,8 +312,9 @@ HEADER STYLES
 	}
 
 	.partnerWrap {
-	  width: 220px;
+	  width: 100%;
 	  float: left;
+	  padding-left: 100px;
 	  box-sizing: border-box;
 	  margin-top: 16px;
 
@@ -801,6 +803,15 @@ and more scalable.
   opacity: 0.8;
   padding: 0 10px !important;
 
+  display: none;
+
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 5s; /* Firefox < 16 */
+  -ms-animation: fadein 5s; /* Internet Explorer */
+  -o-animation: fadein 5s; /* Opera < 12.1 */
+  animation: fadein 5s;
+
+
   h3 {
 	color: white;
 	font-family:'Avenir LT W01_85 Heavy';
@@ -815,7 +826,9 @@ and more scalable.
   }
 
   h1 {
-	color: white;
+	// color: white;
+    color: $link-color;
+
 	font-family:'Avenir LT W01_85 Heavy';
 	text-transform: uppercase;
 	font-size: 30px;
@@ -827,6 +840,35 @@ and more scalable.
 	margin-bottom: 0;
   }
 
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 /*********************
@@ -913,10 +955,23 @@ LORNE HOMEPAGE STYLES
 
 	.margRight {
 	  margin-right: 30px;
+
+	  @media only screen and (max-width: 767px) {
+		margin-right:3%;
+	  }
+	  @media only screen and (max-width: 600px) {
+		margin-right: 0;
+	  }
 	}
 
 	.margLeft {
 	  margin-left: 15px;
+	  @media only screen and (max-width: 767px) {
+		margin-left:2%;
+	  }
+	  @media only screen and (max-width: 600px) {
+		margin-left: 0;
+	  }
 	}
 
 	.mobileClear {
@@ -953,6 +1008,7 @@ LORNE HOMEPAGE STYLES
 	  padding:10px 20px;
 	  color: #ed5b22;
 	  transition: all 0.4s ease;
+	  margin-top: 0;
 
 	  @media only screen and (max-width: 600px) {
 		margin-top: -50% !important;
@@ -972,7 +1028,7 @@ LORNE HOMEPAGE STYLES
 	a:hover {background: #EB5B2E; color: #fff;}
 
 	.clinicLinkWrap {
-	  width: 30%;
+	  width: 31%;
 	  max-width: 300px;
 	  display: inline-block;
 	  float: left;
@@ -981,37 +1037,190 @@ LORNE HOMEPAGE STYLES
 	  background: #fff;
 	  z-index: 100;
 	  opacity: 1;
+	  overflow: hidden;
+	  height: 380px;
+
+	  @media only screen and (max-width: 860px) {
+		width: 30%;
+		max-width: none;
+		height: 400px;
+	  }
+
+	  @media only screen and (max-width: 767px) {
+		max-width: none;
+		height: 400px;
+	  }
+
+	  @media only screen and (max-width: 600px) {
+		width: 100%;
+		clear: both;
+		height: 200px;
+		margin-bottom: 30px;
+	  }
+
+	  @media only screen and (max-width: 400px) {
+		width: 100%;
+		clear: both;
+		height: 250px;
+		margin-bottom: 30px;
+	  }
+
 
 	  p {
 		margin-top: 30px;
+		font-size: 15px;
+
+		@media only screen and (max-width: 929px) {
+		  height: 100px;
+		}
+		@media only screen and (max-width: 767px) {
+		  height: 120px;
+		}
+
+		@media only screen and (max-width: 600px) {
+		  height: auto;
+		  margin-top: 10px !important;
+		  text-align: left;
+		  width: 100%;
+		  float: right;
+		  display: inline-block;
+		  clear: both;
+		  margin-bottom: 15px;
+		  padding: 0;
+		}
 	  }
 
+	  a {
+		@media only screen and (max-width: 600px) {
+		  float: left;
+		  display: inline-block;
+		  clear: both;
+		  margin-top: 0 !important;
+		}
+	  }
+	}
+
+	.bottomContent {
+	  min-height: 150px;
+	  @media only screen and (max-width: 600px) {
+		width: 60%;
+		float: left;
+		display: inline-block;
+	  }
 	}
 
 	.topBG {
 	  width: 100%;
-	  height: 180px;
+	  height: 165px;
+	  box-sizing: border-box;
+
+	  @media only screen and (max-width: 600px) {
+		width: 30%;
+		height: 125%;
+		float: left;
+		margin-right: 20px;
+	  }
+
+	  @media only screen and (max-width: 400px) {
+		height: 250px;
+
+	  }
+
 	}
 
 	#clinicsLink {
-	  background-image: url('#{$file-path}wp-content/uploads/2015/04/clinicPageBGColour4.jpg');
-	  background-size: 150%;
-	  background-repeat: no-repeat;
-	  background-position: center;
-	}
-
-	#seatoskyLink {
-	  background-image: url('#{$file-path}wp-content/uploads/2015/04/clinicCatSeatosky.jpg');
+	  background-image: url('#{$file-path}wp-content/uploads/2015/05/academyWrapHero4.jpg');
 	  background-size: 100%;
 	  background-repeat: no-repeat;
-	  background-position: center center;
+	  background-position: center top;
+
+	  @media only screen and (max-width: 767px) {
+		background-size: cover;
+	  }
+	}
+
+	#blogwrapLink {
+	  background-image: url('#{$file-path}wp-content/uploads/2015/07/academyWrapHero4.jpg');
+	  background-size: 100%;
+	  background-repeat: no-repeat;
+	  background-position: center top;
+
+	  @media only screen and (max-width: 767px) {
+		background-size: cover;
+	  }
+	}
+
+	#flickrLink {
+	  background-image: url('#{$file-path}wp-content/uploads/2015/07/academyWrapHero5.jpg');
+	  background-size: 100%;
+	  background-repeat: no-repeat;
+	  background-position: center top;
+
+	  @media only screen and (max-width: 767px) {
+		background-size: cover;
+	  }
+	}
+
+	#outletLink {
+	  background-image: url('#{$file-path}wp-content/uploads/2015/07/academyWrapHero3.jpg');
+	  background-size: 100%;
+	  background-repeat: no-repeat;
+	  background-position: center top;
+
+	  @media only screen and (max-width: 767px) {
+		background-size: cover;
+	  }
+	}
+
+	.externalLinks {
+
+	  .bottomContent {
+
+		p {
+		  margin-bottom: -10px;
+		}
+
+		ul {
+		  box-sizing: border-box;
+		  padding: 0 20px;
+		  li {
+			text-align: left;
+			font-family: "Avenir LT W01_85 Heavy";
+			font-size: 12px;
+			line-height: 1em;
+			text-transform: uppercase;
+			margin-bottom: 10px;
+			a {
+			  padding: 0 !important;
+			  border: none !important;
+			  line-height: 1em !important;
+			}
+		  }
+		}
+	  }
+	}
+
+
+	#seatoskyLink {
+	  background-image: url('#{$file-path}wp-content/uploads/2015/05/homeSky2.jpg');
+	  background-size: 100%;
+	  background-repeat: no-repeat;
+	  background-position: center top;
+	  @media only screen and (max-width: 767px) {
+		background-size: cover;
+		background-position: center top;
+	  }
 	}
 
 	#valleyLink {
-	  background-image: url('#{$file-path}wp-content/uploads/2015/04/clinicCatBluffs.jpg');
+	  background-image: url('#{$file-path}wp-content/uploads/2015/05/homeValley3.jpg');
 	  background-size: 100%;
 	  background-repeat: no-repeat;
-	  background-position: center center;
+	  background-position: center top;
+	  @media only screen and (max-width: 767px) {
+		background-size: cover;
+		background-position: right top;
+	  }
 	}
 
     .marginRight {
@@ -1023,58 +1232,239 @@ LORNE HOMEPAGE STYLES
 	  p {font-size:18px; }
 	  a {font-size:13px;}
 	}
+
+	@media only screen and (max-width: 400px) {
+	  p {
+		font-size: 15px;
+	  }
+	  a {
+		font-size:11px;
+		padding: 10px 0px;
+	  }
+	}
+
   }
 }
 
 #sunset {
-  background-image: url('#{$file-path}wp-content/uploads/2015/04/sunset.jpg');
-  height: 450px;
-  background-size: cover;
+//  background-image: url('#{$file-path}wp-content/uploads/2015/04/sunset.jpg');
+  // background-image: url('#{$file-path}wp-content/uploads/2015/05/sunset2.jpg');
+  background-image: url('#{$file-path}wp-content/uploads/2015/05/sunset3.jpg');
+  height: 750px;
+  background-size: 100%;
   /*background-attachment: fixed;*/
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center -90px;
   position: relative;
   overflow: hidden;
   z-index: 3;
-  -webkit-filter: grayscale(0.6);
-  -moz-filter: grayscale(0.6);
-  -ms-filter: grayscale(0.6);
-  filter: grayscale(0.6);
-  margin-top: 20%;
+  margin-top: 5%;
+
+  @media only screen and (max-width: 860px) {
+	background-position: center top;
+  }
+
+  @media only screen and (max-width: 700px) {
+	background-position: center 50px;
+  }
+
+  @media only screen and (max-width: 650px) {
+	background-position: center 80px;
+  }
+
+  @media only screen and (max-width: 600px) {
+	background-position: center 0px;
+	height: 750px !important;
+  }
+
+  @media only screen and (max-width: 400px) {
+	background-size: 140%;
+	height: 850px !important;
+  }
+
+
 
   .gradient {
 	height: 100%; width: 100%;
 	background: radial-gradient(ellipse at center, rgba(69,69,69,0.6) 1%,rgba(69,69,69,0.7) 97%,rgba(69,69,69,0.9) 100%);
-
-
-
+	display: none;
   }
 
-  #gondola {
-	position: absolute;
-	top:0;
-	right:0;
-	z-index:90;
-	height: 827px;
-	width: 600px;
-	background-image: url('#{$file-path}wp-content/uploads/2015/04/gondola2.png');
-	background-position: 200px -160px;
-	background-repeat: no-repeat;
-	transition-delay: 1s;
-	transition: all 10s ease;
-  }
-  h2 {color: #fff; font-size: 76px; position: absolute; bottom:1px; left:40px; line-height: 0.7; font-weight: bold; padding:0; margin:0; text-transform: uppercase;
+  h2 {color: #fff; font-size: 76px; position: absolute; bottom:300px; left:40px; line-height: 0.7; font-weight: bold; padding:0; margin:0; text-transform: uppercase;
 	span {font-size: 60px;}
+
+	@media only screen and (max-width: 750px) {
+	 bottom: 375px;
+
+	}
+
+	@media only screen and (max-width: 650px) {
+	  font-size: 60px;
+	  span {
+		font-size: 48px;
+	  }
+	}
+
+	@media only screen and (max-width: 600px) {
+	  bottom: 460px;
+	}
+
+	@media only screen and (max-width: 400px) {
+	  bottom: 560px;
+	}
+
   }
 
   .content {text-align: left; z-index: 250;
-	position: absolute; top:60px; left:40px;
+	position: absolute; top:140px; left:40px;
 	h3 {margin:0; padding:0; line-height: 1; font-family:'Avenir LT W01_65 Medium' !important; color: #fff; font-size: 36px; text-transform: uppercase; text-align: left;}
 	p {width: 250px; margin: 40px auto 20px; margin-left: 0; line-height: 1.3; font-family:'Avenir LT W01_65 Medium' !important; color: #fff; font-size: 20px; text-align: left;}
-	a  {font-family: Avenir; border: 1px solid #EB5B2E; color: #EB5B2E; padding:10px 20px; font-size: 14px; text-decoration: none; margin: 0 auto; display: inline-block; font-weight: bold; text-transform: uppercase; transition: all 0.3s ease;}
-	a:hover  {z-index: 40; color: #fff; background: #EB5B2E;}
+
   }
 
+  .bottomContent {
+	width: 100%;
+	background: #fff;
+	height: 300px;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	overflow: hidden;
+
+	@media only screen and (max-width: 750px) {
+	 	height: 375px;
+
+	}
+
+	@media only screen and (max-width: 600px) {
+	  height: 462px;
+
+	}
+
+	@media only screen and (max-width: 400px) {
+	  height: 562px;
+
+	}
+
+	.bottomCol {
+	  width: 32%;
+	  float: left;
+	  display: inline-block;
+	  box-sizing: border-box;
+
+	  @media only screen and (max-width: 600px) {
+		width: 100%;
+	  }
+	}
+
+	.bottomColLeft {
+	  width: 32%;
+	  float: left;
+	  display: inline-block;
+	  box-sizing: border-box;
+
+	  @media only screen and (max-width: 600px) {
+		width: 100%;
+	  }
+
+
+	  h1 {
+		@media only screen and (max-width: 600px) {
+		  display: none !important;
+		}
+	  }
+
+	  p {
+		font-size: 24px;
+		line-height: 30px;
+
+		@media only screen and (max-width: 600px) {
+		 font-size: 18px;
+		  margin-top: 15px;
+		  line-height: 13px;
+		}
+	  }
+
+	  a {
+		@media only screen and (max-width: 400px) {
+		  margin-left: 15px !important;
+		}
+	  }
+	}
+
+	a  {
+	  font-family: 'Avenir LT W01_65 Medium';
+	  border: 1px solid #EB5B2E;
+	  color: #fff;
+	  padding:10px 20px;
+	  font-size: 14px;
+	  text-decoration: none;
+	  margin-left: 45px;
+	  margin-top: 15px;
+	  background: #EB5B2E;
+	  display: inline-block;
+	  font-weight: bold;
+	  text-transform: uppercase;
+	  transition: all 0.3s ease;
+
+
+	}
+
+	a:hover  {
+	  z-index: 40;
+	  color: #fff;
+	  background: #EB5B2E;}
+
+
+	h1 {
+	  font-family: 'Avenir LT W01_85 Heavy';
+	  font-size: 13px;
+	  line-height: 18px;
+	  margin-left: 45px;
+	  padding-bottom: 0;
+	  marigin-bottom: 0;
+	  margin-top: 30px;
+	  padding-top: 0;
+	  text-transform: uppercase;
+	  color: #aaa;
+
+	  @media only screen and (max-width: 400px) {
+		margin-left: 15px;
+	  }
+	}
+
+	h3 {
+	  font-family: 'Avenir LT W01_65 Medium';
+	  font-size: 15px;
+	  line-height: 15px;
+	  margin-left: 45px;
+	  padding-bottom: 0;
+	  margin-bottom: 0;
+	  margin-top: 10px;
+	  padding-top: 0;
+	  text-transform: uppercase;
+
+	  @media only screen and (max-width: 400px) {
+		margin-left: 15px;
+	  }
+	}
+
+	p {
+	  font-family: 'Avenir LT W01_55 Roman';
+	  font-size: 14px;
+	  line-height: 17px;
+	  margin-left: 45px;
+	  padding-bottom: 0;
+	  margin-bottom: 0;
+	  margin-top: 0;
+	  padding-top: 0;
+
+	  @media only screen and (max-width: 400px) {
+		margin-left: 15px;
+	  }
+	}
+
+  }
 
   @media only screen and (max-width: 600px) {
 	height: 500px;
@@ -1097,9 +1487,34 @@ LORNE HOMEPAGE STYLES
 
 .container930 {
   max-width: 930px; margin: 60px auto; overflow: auto; position: relative;
-  .feature-sm {width: 430px; height: 550px; background: #fff; float: left; margin: 40px 0 40px 0;
-	.feature-image {height: 330px; width: 430px; transition: all 0.3s ease; background-size: 160%;}
-	.feature-content {width: 430px; height: 200px; position: relative; background: #fff; text-align: center;
+  .feature-sm {
+	width: 48%;
+	max-width: 430px;
+	height: 550px;
+	background: #fff;
+	float: left;
+	margin: 40px 0 40px 0;
+	overflow: hidden;
+
+	@media only screen and (max-width: 400px) {
+	  height: 600px;
+
+	}
+
+	.feature-image {
+	  height: 330px;
+	  width: 100%;
+	  transition: all 0.3s ease;
+	  background-size: 160%;
+	}
+	.feature-content {
+	  width: 100%;
+	  height: 200px;
+	  position: relative;
+	  background: #fff;
+	  text-align: center;
+
+
 	  h3 {position: absolute; top:-78px; text-align: left; left:20px; padding:0; margin:0; font-family:'Avenir LT W01_65 Medium' !important; color: #fff; font-size: 46px; line-height: 0.7; letter-spacing: -1px; font-weight: bold; text-transform: uppercase;}
 	  p  {font-family:'Avenir LT W01_65 Medium' !important; padding: 0 20px; text-align: center; font-family:'Avenir LT W01_65 Medium' !important; color: #333; font-size: 16px; line-height: 1.5;}
 	  a  {font-family:'Avenir LT W01_65 Medium' !important; border: 1px solid #EB5B2E; color: #EB5B2E; padding:10px 20px; font-size: 14px; text-decoration: none; margin: 0 auto; display: inline-block; font-weight: bold; text-transform: uppercase; transition: all 0.3s ease;}
@@ -1109,6 +1524,13 @@ LORNE HOMEPAGE STYLES
   .feature-sm.right {float: right;}
 }
 .feature-sm:hover .feature-image { background-size: 180%; background-position: -20px -20px;}
+
+.teaserVideo {
+  width: 100%;
+  background: #fff;
+  display: inline-flex;
+  padding: 0;
+}
 
 #athletes {margin: 80px 0 0 0; width: 100%; height: 400px; /*background: rgba(0,0,0,0.5);*/ clear: both;
   .athlete-container {float: left; margin:0 30px 30px 0; position: relative; width:210px; height: 266px; overflow: hidden;
@@ -1141,11 +1563,11 @@ LORNE HOMEPAGE STYLES
   .athlete-container:hover .athlete-bio {bottom:0;}
 
 }
-@media only screen and (max-width: 600px) {
-  .container930 .feature-sm {float: left; width: 100%;
+@media only screen and (max-width: 767px) {
+  .container930 .feature-sm {float: left; width: 100%; max-width: none;
 	.feature-image {
       width: 100%;
-      height: 250px;
+      height: 350px;
 
     }
 	.feature-content {
@@ -1174,10 +1596,34 @@ LORNE HOMEPAGE STYLES
   }
 
 }
-#free .feature-image{background-image: url('#{$file-path}wp-content/uploads/2015/04/funfreePageBGColour.jpg');}
-#music .feature-image{background-image: url('#{$file-path}wp-content/uploads/2015/04/musicBG-450x150.jpg');}
-#seminar .feature-image{background-image: url('#{$file-path}wp-content/uploads/2015/04/seminarPageBGColour.jpg'); clear: both;}
-#hivezone .feature-image{background-image: url('#{$file-path}wp-content/uploads/2015/04/hivePageBGColour.jpg'); clear: both;}
+#free .feature-image{
+  background-image: url('#{$file-path}wp-content/uploads/2015/04/funfreePageBGColour.jpg');
+  @media only screen and (max-width: 600px) {
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+}
+#music .feature-image {
+  background-image: url('#{$file-path}wp-content/uploads/2015/04/musicBG-450x150.jpg');
+  @media only screen and (max-width: 600px) {
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+}
+#seminar .feature-image {
+  background-image: url('#{$file-path}wp-content/uploads/2015/04/seminarPageBGColour.jpg'); clear: both;
+  @media only screen and (max-width: 600px) {
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+}
+#hivezone .feature-image {
+  background-image: url('#{$file-path}wp-content/uploads/2015/04/hivePageBGColour.jpg'); clear: both;
+  @media only screen and (max-width: 600px) {
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+}
 
 
 /*********************
@@ -1508,6 +1954,28 @@ POSTS & CONTENT STYLES
       }
     }
 
+	.communityPage {
+	  background: url('#{$file-path}wp-content/uploads/2015/05/communitypageBG2.jpg') no-repeat;
+	}
+
+	.communityPage:before {
+	  position: absolute;
+	  display: inline-block;
+	  content: '';
+	  bottom: 15px;
+	  right: 20px;
+	  text-transform: uppercase;
+	  font-size: 11px;
+	  color: #fff;
+	  text-shadow: 1px 1px 2px #212121;
+	  font-weight: 900;
+	  font-family:'Avenir LT W01_85 Heavy';
+
+	  @media only screen and (max-width: 600px) {
+		display: none;
+	  }
+	}
+
     h1 {
 	  font-family:'Avenir LT W01_65 Medium';
 	  text-transform: uppercase;
@@ -1655,9 +2123,10 @@ POSTS & CONTENT STYLES
 	  float: left;
 	  width: 92%;
 	  margin-left: 30px;
-	  // border: 1px solid $link-color;
+	  border: 1px solid $link-color !important;
 	  margin-bottom: 30px;
 	  margin-top: 15px;
+
 
       @media only screen and (max-width: 560px) {
         margin-left: 5px;
@@ -1669,10 +2138,38 @@ POSTS & CONTENT STYLES
 		line-height: 18px;
 		color: $link-color;
 	  }
+	  .bolder {
+		// font-size: 16px;
+		line-height: 18px;
+		color: black;
+		font-weight: 500;
+		margin-top: 15px;
+
+	  }
+
+	  ul {
+		margin-top: -10px;
+
+
+		li {
+		  font-weight: 900;
+		  font-size: 15px;
+		  color: $link-color;
+		  text-transform: none;
+		  list-style: square;
+		}
+	  }
+
+	  span {
+		margin: 10px 0;
+		padding-left: 30px;
+		font-weight: 700;
+	  }
+
 	  p {
 		width: 90%;
 		margin-top: -10px;
-        font-family:'Avenir LT W01_85 Heavy';
+        font-family:'Avenir LT W01_65 Medium';
 
       }
 	}
@@ -1801,11 +2298,11 @@ POSTS & CONTENT STYLES
     }
 
     .clinicInfoWrap {
-      width: 65%;
+      width: 60%;
       float: left;
       position: relative;
       display: inline-block;
-
+	  box-sizing: border-box;
       @media only screen and (max-width: 600px) {
         width: 100%;
       }
@@ -1839,6 +2336,8 @@ POSTS & CONTENT STYLES
       float: left;
       position: relative;
       display: inline-block;
+	  box-sizing: border-box;
+	  overflow: hidden;
 
       @media only screen and (max-width: 600px) {
         width: 90%;
@@ -1850,7 +2349,7 @@ POSTS & CONTENT STYLES
       }
 
       p {
-        width: 100%;
+        width: 90%;
       }
     }
 
@@ -2247,7 +2746,7 @@ POSTS & CONTENT STYLES
 	// Hive Page Styles
 
     .introComingSoon {
-	  display: none;
+	  // display: none;
       p {
         font-weight: 900;
         font-size: 18px;
@@ -2261,11 +2760,31 @@ POSTS & CONTENT STYLES
 	  display: inline-block;
 	  position: relative;
 	  border: 1px solid #aaa;
+	  margin-top: 30px;
       // display: none;
 
 	  h1 {
 		font-size: 24px;
 		line-height: 24px;
+	  }
+
+	  h3 {
+		text-transform: uppercase;
+		width: 70%;
+		line-height: 15px;
+		color: $link-color;
+	  }
+
+	  p {
+		width: 90%;
+	  }
+
+	  ul {
+		margin-bottom: 30px;
+
+		li {
+		  font-family: "Avenir LT W01_85 Heavy";
+		}
 	  }
 	}
 	.marginRight {
@@ -2311,6 +2830,14 @@ POSTS & CONTENT STYLES
 		text-transform: uppercase;
 	  }
 
+	  h4 {
+		font-weight: 900;
+		font-size: 16px;
+		color: #000;
+		margin-left: 30px;
+		line-height: 16px;
+	  }
+
 	  p {
 		width: 80%;
 		@media only screen and (max-width: 600px) {
@@ -2323,6 +2850,11 @@ POSTS & CONTENT STYLES
 		display: inline-block;
 		margin-left: 30px;
 		width: 90%;
+	  }
+
+	  .tighter {
+		margin-top: -15px;
+		margin-bottom: 15px;
 	  }
 
 	  .hashtag {
@@ -2518,6 +3050,56 @@ POSTS & CONTENT STYLES
         width: 100%;
       }
 
+	  .hotelFeatureWrap {
+		width: 80%;
+
+		position: relative;
+		padding-top: 0;
+		overflow: hidden;
+		margin-bottom: 30px;
+		margin-left: 30px;
+
+		.hotelTop {
+		  width: 100%;
+		  height: 200px;
+		  background: url('#{$file-path}wp-content/uploads/2015/05/executiveSuites.jpg') no-repeat;
+		  background-position: -338px -50px;
+		  position: relative;
+		  margin-top: -12px;
+
+		  img {
+			position: absolute;
+			width: 120px;
+			top: 30px;
+			left: 15px;
+		  }
+
+		  h1 {
+			font-family:'Avenir LT W01_85 Heavy';
+			font-size: 22px;
+			color: white;
+			position: absolute;
+			bottom: -15px;
+			line-height: 17px;
+		  }
+		}
+
+		.hotelBottom {
+		  width: 100%;
+		  border-right: 1px solid #ccc;
+		  border-bottom: 1px solid #ccc;
+		  border-left: 1px solid #eee;
+		  box-sizing: border-box;
+		  padding-top: 15px;
+
+		  p {
+			// margin-top: 15px;
+			width: 90%;
+			word-break: keep-all;
+		  }
+		}
+	  }
+
       h1 {
         font-family:'Avenir LT W01_55 Roman';
         font-size: 18px;
@@ -2563,6 +3145,7 @@ POSTS & CONTENT STYLES
       box-sizing: border-box;
       float: left;
       display: inline-block;
+	  margin-top: 60px;
 
       h1 {
         font-family:'Avenir LT W01_55 Roman';
@@ -2571,6 +3154,7 @@ POSTS & CONTENT STYLES
         font-weight: bold;
         margin-left: 30px;
         line-height: 30px;
+		margin-bottom: 10px;
 
       }
 
@@ -2585,6 +3169,7 @@ POSTS & CONTENT STYLES
         margin-left: 30px;
         margin-top: 0;
         margin-bottom: 10px;
+		width: 100%;
       }
     }
 
@@ -2648,7 +3233,119 @@ POSTS & CONTENT STYLES
 	  }
 	}
 
+
+	// Community Page Styles
+
+	.communityEventsWrap {
+	  width: 45%;
+	  float: left;
+	  box-sizing: border-box;
+	  // border: 1px solid pink;
+
+	  @media only screen and (max-width: 600px) {
+		width: 90%;
+	  }
+
+	  .communityEvent {
+		margin-bottom: 60px;
+	  }
+
+	  h1 {
+		line-height: 22px;
+		margin-top: 15px;
+	  }
+
+	  h2 {
+		font-family:'Avenir LT W01_65 Medium';
+		margin-left: 30px;
+		font-size: 16px;
+		line-height: 18px;
+		text-transform: uppercase;
+		margin-top: -10px;
+		width: 60%;
+	  }
+	  p {
+		width: 90%;
+	  }
+	}
+
+	.communityBeneficiaryWrap {
+	  width: 45%;
+	  margin-left: 3%;
+	  box-sizing: border-box;
+	  float: left;
+
+	  @media only screen and (max-width: 600px) {
+		width: 90%;
+	  }
+
+	  .communityBeneficiary {
+		margin-bottom: 60px;
+
+		img {
+		  float: left;
+		  width: 80px;
+		  margin-right: 15px;
+		  margin-left: 30px;
+		  margin-top: 30px;
+
+		  @media only screen and (max-width: 600px) {
+			margin-left: 15px;
+		  }
+		}
+
+		.climbersAccess {
+		  width: 160px;
+		  margin-top: 30px;
+		  margin-bottom: 15px;
+		}
+	  }
+
+	  a {
+		// margin-left: 30px;
+
+	  }
+
+	  h1 {
+		margin-bottom: -10px;
+		line-height: 22px;
+		width: 80%;
+
+		@media only screen and (max-width: 600px) {
+		  margin-left: 15px;
+		}
+	  }
+
+	  p {
+		width: 90%;
+		@media only screen and (max-width: 600px) {
+		  margin-left: 15px;
+		}
+	  }
+
+	  ul {
+		li {
+		  text-transform: none;
+		}
+	  }
+	}
+
     // Venue Map Page Styles
+
+	.venueMapMobile {
+	  width: 100%;
+	  height: auto;
+	  position: relative;
+	  display: none;
+
+	  img {
+		width: 100%;
+	  }
+
+	  @media only screen and (max-width: 768px) {
+		display: inline-block;
+	  }
+	}
 
     .venuemapWrap {
       width: 100%;
@@ -2657,6 +3354,10 @@ POSTS & CONTENT STYLES
       display: inline-block;
       background-size: contain;
       position: relative;
+
+	  @media only screen and (max-width: 768px) {
+		display: none;
+	  }
 
 	  h1 {
 		position: absolute;
@@ -2669,6 +3370,8 @@ POSTS & CONTENT STYLES
 		line-height: 50px;
 		letter-spacing: -2px;
 		text-shadow: 1px 1px 3px #aaa;
+
+		// display: none;
 	  }
 
 
@@ -2740,6 +3443,7 @@ POSTS & CONTENT STYLES
           width: 12px;
           height: 12px;
           transform: rotate(45deg);
+		  -webkit-transform: rotate(45deg);
           background: white;
           position: absolute;
           content: '';
@@ -2747,17 +3451,100 @@ POSTS & CONTENT STYLES
           margin-top: 15px;
         }
 
-        .mapGondolaBase {
-          top: 80%;
-          left: 58%;
+		.mapArrowRight {
+		  z-index: 20;
+		  position: absolute;
+		  display:  block;
+		  padding: 6px 10px 5px 12px;
+		  background: white;
+		  color: #000;
+		  text-transform: uppercase;
+		  font-size: 10px;
+		  font-weight: 300;
+		  line-height: 12px;
+		  box-shadow: 1px 1px 5px #000;
+		  text-align: left;
+		}
+
+		.mapArrowRight:before {
+		  width: 12px;
+		  height: 12px;
+		  transform: rotate(45deg);
+		  -webkit-transform: rotate(45deg);
+		  background: white;
+		  position: absolute;
+		  content: '';
+		  right: -6px;
+		  margin-top: 15px;
+		}
+
+		.mapArrowTop {
+		  z-index: 20;
+		  position: absolute;
+		  display:  block;
+		  padding: 6px 10px 5px 12px;
+		  background: white;
+		  color: #000;
+		  text-transform: uppercase;
+		  font-size: 10px;
+		  font-weight: 300;
+		  line-height: 12px;
+		  box-shadow: 1px 1px 5px #000;
+		  text-align: left;
+		}
+
+		.mapArrowTop:before {
+		  width: 12px;
+		  height: 12px;
+		  transform: rotate(45deg);
+		  -webkit-transform: rotate(45deg);
+		  background: white;
+		  position: absolute;
+		  content: '';
+		  top: -6px;
+
+		}
+
+		.mapArrowBottom {
+		  z-index: 20;
+		  position: absolute;
+		  display:  block;
+		  padding: 6px 10px 5px 12px;
+		  background: white;
+		  color: #000;
+		  text-transform: uppercase;
+		  font-size: 10px;
+		  font-weight: 300;
+		  line-height: 12px;
+		  box-shadow: 1px 1px 5px #000;
+		  text-align: left;
+		}
+
+		.mapArrowBottom:before {
+		  width: 12px;
+		  height: 12px;
+		  transform: rotate(45deg);
+		  -webkit-transform: rotate(45deg);
+		  background: white;
+		  position: absolute;
+		  content: '';
+		  bottom: -6px;
+		  right: 20px;
+		}
+
+
+		.mapGondolaBase {
+          bottom: 7%;
+          left: 56%;
+		  z-index: 25 !important;
         }
         .mapGondolaSummit {
           top: 43%;
           left: 45%;
         }
         .mapTradeFair {
-          top: 82%;
-          left: 45%;
+          top: 72%;
+          left: 38%;
         }
         .mapMtHabrich {
           top: 19%;
@@ -2780,19 +3567,206 @@ POSTS & CONTENT STYLES
           bottom: 25%;
           left: 3%;
         }
+		.mapVancouver {
+		  bottom: 25%;
+		  right: 2%;
+		}
+      }
+    }
+
+	// Venue Map Listing Area
+
+	.venueMapIntro {
+
+	  h1 {
+		line-height: 18px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	  }
+	}
+
+	.venueMapListing {
+	  width: 100%;
+	  position: relative;
+	  float: left;
+	  box-sizing: border-box;
+	  margin-top: 30px;
+
+	  .sideMargins {
+		margin-left: 3%;
+		margin-right: 3%;
+	  }
+
+	  .venueListingCol {
+		width: 33%;
+		float: left;
+		padding-left: 15px;
+		box-sizing: border-box;
+		// border: 1px solid teal;
+
+		@media only screen and (max-width: 599px) {
+		  width: 95%;
+		}
+	  }
+
+	  .venueItem {
+		width: 100%;
+		box-sizing: border-box;
+		margin: 15px 0;
+		border-top: 1px solid #eee;
+		border-left: 1px solid #eee;
+		border-right: 1px solid #ddd;
+		border-bottom: 1px solid #ddd;
+		background-color: #efefef;
+	  }
+
+	  .venueItemTop {
+		width: 100%;
+		height: 150px;
+		background: #333;
+		border-top: 1px solid #eee;
+		border-left: 1px solid #eee;
+		border-right: 1px solid #ddd;
+
+		@media only screen and (max-width: 599px) {
+		  height: 225px;
+		}
+
+	  }
+
+	  .executivesuitesTop {
+		background: url('#{$file-path}wp-content/uploads/2015/05/executiveSuites.jpg') no-repeat;
+		background-size: cover;
+		background-position: right center;
+	  }
+
+	  .seatoskybaseTop {
+		background: url('#{$file-path}wp-content/uploads/2015/05/gondolabaseTop.jpg') no-repeat;
+		background-size: cover;
+		background-position: right center;
       }
 
 
-    }
+      .seatoskysummitTop {
+        background: url('#{$file-path}wp-content/uploads/2015/05/seatoskybaseTop.jpg') no-repeat;
+        background-size: cover;
+        background-position: right center;
+      }
 
-    // Getting Here Page Styles
+      .tradefairTop {
+        background: url('#{$file-path}wp-content/uploads/2015/05/tradefairTop.jpg') no-repeat;
+        background-size: cover;
+        background-position: center top;
+      }
+
+      .adventurecentreTop {
+        background: url('#{$file-path}wp-content/uploads/2015/05/adventurecentreTop.jpg') no-repeat;
+        background-size: cover;
+        background-position: center bottom;
+      }
+
+	  h1 {
+		font-size: 15px;
+		line-height: 14px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		text-align: center;
+		color: #444;
+		height: 35px;
+		margin-left: 0;
+		padding-left: 0;
+	  }
+
+	  h3 {
+		width: 90%;
+		font-size: 15px;
+		line-height: 14px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		margin-left: 10px;
+		margin-top: 5px;
+		text-transform: uppercase;
+		font-family:'Avenir LT W01_55 Roman';
+	  }
+
+	  p {
+		width: 95%;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding: 0;
+		line-height: 15px;
+		margin-left: 10px;
+	  }
+
+	}
+
+
+	// Getting Here Page Styles
+
+	.gettingHereCol {
+	  width: 33%;
+	  box-sizing: border-box;
+	  float: left;
+	  margin-bottom: 60px;
+
+	  @media only screen and (max-width: 599px) {
+		width: 95%;
+	  }
+
+	  // border: 1px solid teal;
+
+	  h1, h3, p {
+		margin-bottom: 0;
+		margin-top: 0;
+		padding-top: 0;
+		padding-bottom: 0;
+	  }
+
+	  h1 {
+		font-size: 18px;
+		line-height: 16px;
+		// color: $link-color;
+	  }
+
+	  h3 {
+		margin-top: 10px;
+		text-transform: uppercase;
+		color: $link-color;
+	  }
+
+	  p {
+		line-height: 14px;
+		width: 85%;
+	  }
+	}
 
     .googleMapWrap {
-      width: 640px;
-      float: right;
-      margin-right: 30px;
-      position: relative;
+      width: 100%;
+      float: left;
+	  box-sizing: border-box;
+      padding-right: 30px;
+      padding-left: 30px;
+	  position: relative;
+	  display: inline-block;
+
+
+	  @media only screen and (max-width: 767px) {
+		// display: none;
+	  }
+
+	  h1 {
+		margin-left: 0;
+	  }
+
+	  p {
+		margin-left: 0px;
+		margin-top: -15px;
+		width: 90%;
+	  }
+
     }
+
+	/*
 
     .lmm-listmarkers {
       // display: none !important;
@@ -2814,13 +3788,59 @@ POSTS & CONTENT STYLES
       }
     }
 
+     */
+
     .lmm-listmarkers-markername {
       font-size: 14px;
+	  margin-left: 10px;
+	  text-transform: uppercase;
+	  color: #333;
     }
 
     .lmm-listmarkers-popuptext {
+	  font-size: 0px;
+	 // width: 60px;
+      position: relative;
+      width: 90%;
+      .lmm-listmarkers-panel-icons {
+        // width: 60px;
+        position: absolute;
+        right: -15px;
+        a {
+          margin: 0 5px;
 
+          img:before {
+            content: 'testing';
+          }
+        }
+      }
     }
+
+	.lmm-listmarkers {
+	  table {
+		margin-top: 15px;
+		border-left: none !important;
+		border-right: none !important;
+		tr {
+		  background: #eee;
+		  margin: 5px 10px;
+		  display: inline-block;
+		  width: 47%;
+		  float: left;
+		  box-sizing: border-box;
+		  border-top: 1px solid #ccc;
+		  border-left: 1px solid #ccc;
+		  border-bottom: 1px solid #ddd;
+		  border-right: 1px solid #ddd;
+
+          @media screen and (max-width: 860px) {
+            width: 90%;
+          }
+		}
+	  }
+	}
+
+
 
 	// Schedule Page Styles
 
@@ -2839,6 +3859,7 @@ POSTS & CONTENT STYLES
       h3 {
         margin-left: 0px;
         margin-bottom: 0px;
+		text-transform: uppercase;
       }
 
       .scheduleLegendItem {
@@ -2875,6 +3896,10 @@ POSTS & CONTENT STYLES
       .seminars {
         background-color: #6a5c7c;
       }
+
+	  .community {
+		background-color: #49b349;
+	  }
     }
 
 
@@ -3013,9 +4038,14 @@ POSTS & CONTENT STYLES
           // background-color: #412882 !important;
           // background-color: #a7b61e !important;
 		  background-color: #6a5c7c !important;
-
-
         }
+
+		.community {
+		  //background-color: #c1d36d !important;
+		  // background-color: #bf5931 !important;
+		  background-color: #49b349 !important;
+
+		}
 
 		a {
 		  text-decoration: none !important;
@@ -3550,6 +4580,19 @@ SIDEBARS & ASIDES
 	  }
 	}
 
+	.arc {
+	  background: url('#{$file-path}wp-content/uploads/2015/05/arcLogo1.png') no-repeat;
+	  background-size: 100px;
+	  height: 80px;
+	  background-position: 25px top;
+	  width: 100%;
+	  margin-top: 10px;
+
+	  @media only screen and (max-width: 767px) {
+		background-size: 100px;
+	  }
+	}
+
 	.gore {
 	  background: url('#{$file-path}wp-content/uploads/2015/04/sponsor_goretex.png') no-repeat;
 	  background-size: 140px;
@@ -3809,6 +4852,7 @@ SIDEBARS & ASIDES
       height: 80px;
       background-position: center top;
       width: 100%;
+	  margin-top: 15px;
 
       @media only screen and (max-width: 767px) {
         background-size: 100px;
@@ -3851,6 +4895,168 @@ FOOTER STYLES
 	display: inline-block;
   }
 
+  .borderLeft {
+  //    border-left: 1px solid #aaa;
+  }
+
+
+  .communityCallout {
+    display: inline-block;
+    border-top: none;
+
+
+    @media only screen and (max-width: 600px) {
+      padding-left: 15px;
+      border-top: 1px solid #666;
+      margin-top: 15px;
+    }
+  }
+
+  .footerTop {
+    width: 100%;
+    // height: 160px;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    background: #000 !important;
+    margin-bottom: -10px;
+    padding: 0 15px 15px 15px;
+    opacity: 0.9;
+  }
+
+  .contestCallout {
+    padding-left: 15px;
+    box-sizing: border-box;
+    h3 {
+      text-transform: uppercase;
+      line-height: 15px;
+      font-size: 14px;
+      font-family: 'Avenir LT W01_85 Heavy';
+      margin-top: 0;
+      color: $link-color !important;
+      font-size: 24px;
+      line-height: 20px;
+      margin-bottom: 10px;
+
+    }
+
+    a {
+      color: #000;
+      background: $link-color;
+      padding: 5px 12px 4px;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+
+    p {
+      width: 80%;
+    }
+  }
+
+
+  .footerTopCol {
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    padding-top: 15px;
+
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+    }
+
+    h3 {
+      color: white;
+    }
+
+    p {
+      color: white;
+      font-size: 13px;
+      line-height: 15px;
+      margin-top: -5px;
+	  width: 30%;
+    }
+
+    .footerTopCommunityLogo {
+      margin-right: 30px;
+      margin-bottom: 10px;
+      display: inline-block;
+      position: relative;
+
+      img {
+        height: 50px;
+      }
+    }
+
+    a {
+      font-family: 'Avenir LT W01_85 Heavy';
+    }
+  }
+
+  .footerColLogo {
+	width: 30%;
+	height: auto;
+	min-height: 200px;
+	margin-right: 3%;
+	float: left;
+	position: relative;
+	min-width: 150px;
+
+	@media only screen and (max-width: 600px) {
+	  width: 100%;
+	  height: auto;
+	  min-height: 0px;
+	}
+
+
+	h1 {
+	  color: #FFF;
+	  text-transform: uppercase;
+	  font-size: 24px;
+	  margin: 0;
+	  font-family:'Avenir LT W01_65 Medium';
+	  line-height: 19px;
+	  font-weight: 900;
+
+	}
+
+	h2 {
+	  color: #FFF;
+	  text-transform: uppercase;
+	  font-size: 16px;
+	  margin: 0;
+	  padding-top: 10px;
+	  line-height: 18px;
+	  font-weight: 700;
+	}
+
+	p {
+	  color: #fff;
+	  font-size: 11px;
+	  text-transform: uppercase;
+	}
+
+
+	.seatoskylogo {
+	  width: 200px;
+	  margin-top: -30px;
+	  img {
+	  }
+	}
+
+	.academyLogo {
+	  position: absolute;
+	  top: -5px;
+	  left: 130px;
+	  img {
+		width: 65px;
+	  }
+	}
+
+	.topMargin {
+	  margin-top: 15px;
+	}
+
+  }
 
   .footerContent {
 	background: #000;
@@ -3879,71 +5085,7 @@ FOOTER STYLES
 	  }
 	}
 
-	.footerColLogo {
-	  width: 30%;
-	  height: auto;
-	  min-height: 200px;
-	  margin-right: 3%;
-	  float: left;
-	  position: relative;
-	  min-width: 150px;
 
-	  @media only screen and (max-width: 600px) {
-		width: 100%;
-		height: auto;
-		min-height: 0px;
-	  }
-
-
-	  h1 {
-		color: #FFF;
-		text-transform: uppercase;
-		font-size: 24px;
-		margin: 0;
-		font-family:'Avenir LT W01_65 Medium';
-		line-height: 19px;
-		font-weight: 900;
-
-	  }
-
-	  h2 {
-		color: #FFF;
-		text-transform: uppercase;
-		font-size: 16px;
-		margin: 0;
-		padding-top: 10px;
-		line-height: 18px;
-		font-weight: 700;
-	  }
-
-	  p {
-		color: #fff;
-		font-size: 11px;
-        text-transform: uppercase;
-	  }
-
-
-	  .seatoskylogo {
-		width: 200px;
-		margin-top: -30px;
-		img {
-		}
-	  }
-
-	  .academyLogo {
-		position: absolute;
-		top: -5px;
-		left: 130px;
-		img {
-		  width: 65px;
-		}
-	  }
-
-	  .topMargin {
-		margin-top: 15px;
-	  }
-
-	}
 
 	.footerCol {
 	  width: 65%;
@@ -4003,6 +5145,52 @@ FOOTER STYLES
 	  }
 
 	}
+  }
+}
+
+.alertWrap {
+  width: 100%;
+  max-width: 930px;
+  margin: 0 auto;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 15px;
+  margin-top: 30px;
+  position: relative;
+  display: none;
+
+  .alertBand {
+	position: absolute;
+	background: $link-color;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 100%;
+  }
+
+  h3 {
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	margin-left: 5%;
+  }
+  h1 {
+	font-size: 18px;
+	font-family: "Avenir LT W01_85 Heavy";
+	text-transform: uppercase;
+	line-height: 1em;
+	color: $link-color;
+	margin-left: 5%;
+  }
+
+  p {
+	font-size: 15px;
+	line-height: 1.5em;
+	color: black;
+	width: 80%;
+	margin-top: -5px;
+	margin-left: 5%;
   }
 }
 

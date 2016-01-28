@@ -1,19 +1,27 @@
 <?php
 /*
  Template Name: Academy Fun & Free Events Page
- *
- * This is your custom page template. You can create as many of these as you need.
- * Simply name is "page-whatever.php" and in add the "Template Name" title at the
- * top, the same way it is here.
- *
- * When you create your page, you can just select the template and viola, you have
- * a custom page template to call your very own. Your mother would be so proud.
- *
- * For more info: http://codex.wordpress.org/Page_Templates
 */
 ?>
 
 <?php get_header(); ?>
+
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: Squamish - Fun and Free - Climbing Academy
+URL of the webpage where the tag is expected to be placed: http://squamish.arcteryxacademy.com/fun-free-events/
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 05/18/2015
+-->
+<script type="text/javascript">
+    var axel = Math.random() + "";
+    var a = axel * 10000000000000;
+    document.write('<iframe src="http://4390389.fls.doubleclick.net/activityi;src=4390389;type=squamish;cat=squam006;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+    <iframe src="http://4390389.fls.doubleclick.net/activityi;src=4390389;type=squamish;cat=squam006;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
 
 <div id="content">
 
@@ -28,7 +36,7 @@
 
         <div class="funEventWrap">
             <h1>Sponsor Trade Fair</h1>
-            <p>Join us on Saturday and Sunday at Squamish Junction Park for the Trade Fair and Demo Day. Demo gear from some of the leading vendors in climbing apparel, shoes and harnesses, and meet the people that bring you the products that let you to push your limits, and explore the world.</p>
+            <p>Join us on Saturday and Sunday at our new trade fair location in the Stawamus Chief middle parking lot for the Trade Fair and Demo Day. Demo gear from some of the leading vendors in climbing apparel, shoes and harnesses, and meet the people that bring you the products that let you to push your limits, and explore the world.</p>
         </div>
 
         <div class="funEventWrap">
@@ -45,11 +53,6 @@
         <div class="funEventWrap">
             <h1>Sunset Music Series</h1>
             <p>Come get your groove on and watch two of BC’s best bands perform in front of spectacular views. The Boom Booms will play a show on Friday the 10th and Jon and Roy will be performing on Saturday the 11th.  </p>
-        </div>
-
-        <div class="funEventWrap">
-            <h1>SAS and CASBC Trail Maintenance Day </h1>
-            <p>Join the SAS and the CASBC and help give back to the community that you play in. Meet at 8:00 AM at the adventure center. Bring appropriate clothing, footwear, gloves and lunch for trail work. Lots of swag giveaways provided by all sponsors of the event.</p>
         </div>
 
         <div class="funEventWrap">

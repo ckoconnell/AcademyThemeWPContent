@@ -556,11 +556,6 @@ COLORS
 Need help w/ choosing your colors? Try this site out:
 http://0to255.com/
 *********************/
-/*
-Here's a great tutorial on how to
-use color variables properly:
-http://sachagreif.com/sass-color-variables/
-*/
 /******************************************************************
 Site Name:
 Author:
@@ -1626,7 +1621,7 @@ HEADER STYLES
 }
 /* line 169, ../scss/breakpoints/_base.scss */
 .header .leftWrap {
-  width: 380px;
+  width: 450px;
   height: auto;
   float: left;
   box-sizing: border-box;
@@ -1655,6 +1650,7 @@ HEADER STYLES
 /* line 190, ../scss/breakpoints/_base.scss */
 .header .leftWrap .logoWrap {
   margin-top: 2px;
+  margin-left: 15%;
 }
 @media only screen and (max-width: 768px) {
   /* line 190, ../scss/breakpoints/_base.scss */
@@ -1662,38 +1658,38 @@ HEADER STYLES
     margin-top: 10px;
   }
 }
-/* line 198, ../scss/breakpoints/_base.scss */
+/* line 199, ../scss/breakpoints/_base.scss */
 .header .leftWrap .logoWrap .academyLogo {
   margin-top: 20px;
   width: 115px;
   float: right;
 }
 @media only screen and (max-width: 929px) {
-  /* line 198, ../scss/breakpoints/_base.scss */
+  /* line 199, ../scss/breakpoints/_base.scss */
   .header .leftWrap .logoWrap .academyLogo {
     margin-right: 10px;
   }
 }
-/* line 208, ../scss/breakpoints/_base.scss */
+/* line 209, ../scss/breakpoints/_base.scss */
 .header .leftWrap .logoWrap .academyLogo img {
   width: 115px;
   margin-left: 10px;
 }
 @media only screen and (max-width: 929px) {
-  /* line 208, ../scss/breakpoints/_base.scss */
+  /* line 209, ../scss/breakpoints/_base.scss */
   .header .leftWrap .logoWrap .academyLogo img {
     width: 95px !important;
   }
 }
 @media only screen and (max-width: 400px) {
-  /* line 208, ../scss/breakpoints/_base.scss */
+  /* line 209, ../scss/breakpoints/_base.scss */
   .header .leftWrap .logoWrap .academyLogo img {
     width: 95px;
     margin-left: -10px;
     margin-top: 2px;
   }
 }
-/* line 224, ../scss/breakpoints/_base.scss */
+/* line 225, ../scss/breakpoints/_base.scss */
 .header .leftWrap .logoWrap h1 {
   margin-top: 25px;
   font-family: 'Avenir LT W01_85 Heavy';
@@ -1708,7 +1704,7 @@ HEADER STYLES
   color: #000;
 }
 @media only screen and (max-width: 930px) {
-  /* line 224, ../scss/breakpoints/_base.scss */
+  /* line 225, ../scss/breakpoints/_base.scss */
   .header .leftWrap .logoWrap h1 {
     width: 220px;
     font-size: 40px;
@@ -1716,21 +1712,21 @@ HEADER STYLES
   }
 }
 @media only screen and (max-width: 520px) {
-  /* line 224, ../scss/breakpoints/_base.scss */
+  /* line 225, ../scss/breakpoints/_base.scss */
   .header .leftWrap .logoWrap h1 {
     font-size: 36px;
     line-height: 28px;
   }
 }
-/* line 249, ../scss/breakpoints/_base.scss */
+/* line 250, ../scss/breakpoints/_base.scss */
 .header .leftWrap .logoWrap h1 .letterspacingClimbing {
   letter-spacing: 1px;
 }
-/* line 252, ../scss/breakpoints/_base.scss */
+/* line 253, ../scss/breakpoints/_base.scss */
 .header .leftWrap .logoWrap h1 .letterspacingAcademy {
   letter-spacing: -1px;
 }
-/* line 259, ../scss/breakpoints/_base.scss */
+/* line 260, ../scss/breakpoints/_base.scss */
 .header .leftWrap h2 {
   text-transform: uppercase;
   line-height: 22px;
@@ -1745,13 +1741,13 @@ HEADER STYLES
   color: #000;
 }
 @media only screen and (max-width: 929px) {
-  /* line 259, ../scss/breakpoints/_base.scss */
+  /* line 260, ../scss/breakpoints/_base.scss */
   .header .leftWrap h2 {
     margin-right: 15px;
   }
 }
 @media only screen and (max-width: 400px) {
-  /* line 259, ../scss/breakpoints/_base.scss */
+  /* line 260, ../scss/breakpoints/_base.scss */
   .header .leftWrap h2 {
     letter-spacing: -0.8px !important;
     float: left;
@@ -1759,7 +1755,7 @@ HEADER STYLES
     font-size: 13px;
   }
 }
-/* line 288, ../scss/breakpoints/_base.scss */
+/* line 289, ../scss/breakpoints/_base.scss */
 .header .rightWrap {
   width: 450px;
   height: 175px;
@@ -1767,13 +1763,13 @@ HEADER STYLES
   float: right;
 }
 @media only screen and (max-width: 930px) {
-  /* line 288, ../scss/breakpoints/_base.scss */
+  /* line 289, ../scss/breakpoints/_base.scss */
   .header .rightWrap {
     width: auto;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 288, ../scss/breakpoints/_base.scss */
+  /* line 289, ../scss/breakpoints/_base.scss */
   .header .rightWrap {
     float: left;
     margin-left: 40px;
@@ -1781,7 +1777,7 @@ HEADER STYLES
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 288, ../scss/breakpoints/_base.scss */
+  /* line 289, ../scss/breakpoints/_base.scss */
   .header .rightWrap {
     float: left;
     width: 100%;
@@ -1790,26 +1786,27 @@ HEADER STYLES
     height: 85px;
   }
 }
-/* line 313, ../scss/breakpoints/_base.scss */
+/* line 314, ../scss/breakpoints/_base.scss */
 .header .rightWrap .partnerWrap {
-  width: 220px;
+  width: 100%;
   float: left;
+  padding-left: 100px;
   box-sizing: border-box;
   margin-top: 16px;
 }
 @media only screen and (max-width: 930px) {
-  /* line 313, ../scss/breakpoints/_base.scss */
+  /* line 314, ../scss/breakpoints/_base.scss */
   .header .rightWrap .partnerWrap {
     width: 190px;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 313, ../scss/breakpoints/_base.scss */
+  /* line 314, ../scss/breakpoints/_base.scss */
   .header .rightWrap .partnerWrap {
     width: 100%;
   }
 }
-/* line 327, ../scss/breakpoints/_base.scss */
+/* line 329, ../scss/breakpoints/_base.scss */
 .header .rightWrap .partnerWrap h3 {
   font-family: 'Avenir LT W01_85 Heavy';
   line-height: 18px;
@@ -1818,14 +1815,14 @@ HEADER STYLES
   margin-top: 20px;
 }
 @media only screen and (max-width: 768px) {
-  /* line 327, ../scss/breakpoints/_base.scss */
+  /* line 329, ../scss/breakpoints/_base.scss */
   .header .rightWrap .partnerWrap h3 {
     font-size: 19px;
     line-height: 16px;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 327, ../scss/breakpoints/_base.scss */
+  /* line 329, ../scss/breakpoints/_base.scss */
   .header .rightWrap .partnerWrap h3 {
     float: left;
     display: inline-block;
@@ -1837,7 +1834,7 @@ HEADER STYLES
   }
 }
 @media only screen and (max-width: 400px) {
-  /* line 327, ../scss/breakpoints/_base.scss */
+  /* line 329, ../scss/breakpoints/_base.scss */
   .header .rightWrap .partnerWrap h3 {
     font-size: 14px;
     width: 110px;
@@ -1845,7 +1842,7 @@ HEADER STYLES
     margin-left: 90px;
   }
 }
-/* line 361, ../scss/breakpoints/_base.scss */
+/* line 363, ../scss/breakpoints/_base.scss */
 .header .rightWrap .partnerWrap h4 {
   margin-top: 20px;
   text-transform: uppercase;
@@ -1854,7 +1851,7 @@ HEADER STYLES
   color: #333;
 }
 @media only screen and (max-width: 600px) {
-  /* line 361, ../scss/breakpoints/_base.scss */
+  /* line 363, ../scss/breakpoints/_base.scss */
   .header .rightWrap .partnerWrap h4 {
     margin-left: 8px;
     margin-top: -10px;
@@ -1862,13 +1859,13 @@ HEADER STYLES
     font-size: 9px;
   }
 }
-/* line 376, ../scss/breakpoints/_base.scss */
+/* line 378, ../scss/breakpoints/_base.scss */
 .header .rightWrap .partnerWrap img {
   margin-top: -40px;
   width: 180px;
 }
 @media only screen and (max-width: 600px) {
-  /* line 376, ../scss/breakpoints/_base.scss */
+  /* line 378, ../scss/breakpoints/_base.scss */
   .header .rightWrap .partnerWrap img {
     margin-left: 5px;
     position: absolute;
@@ -1876,7 +1873,7 @@ HEADER STYLES
     padding-top: 20px;
   }
 }
-/* line 390, ../scss/breakpoints/_base.scss */
+/* line 392, ../scss/breakpoints/_base.scss */
 .header .rightWrap .miniNavWrap {
   float: left;
   width: 220px;
@@ -1885,40 +1882,40 @@ HEADER STYLES
   box-sizing: border-box;
 }
 @media only screen and (max-width: 767px) {
-  /* line 390, ../scss/breakpoints/_base.scss */
+  /* line 392, ../scss/breakpoints/_base.scss */
   .header .rightWrap .miniNavWrap {
     display: none;
   }
 }
-/* line 402, ../scss/breakpoints/_base.scss */
+/* line 404, ../scss/breakpoints/_base.scss */
 .header .rightWrap .miniNavWrap .navSched {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/schedIcon.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/schedIcon.png") no-repeat;
   background-size: 50px;
   background-position: center top;
 }
-/* line 408, ../scss/breakpoints/_base.scss */
+/* line 410, ../scss/breakpoints/_base.scss */
 .header .rightWrap .miniNavWrap .navContact {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/contactIcon.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/contactIcon.png") no-repeat;
   background-size: 50px;
   background-position: center top;
 }
-/* line 414, ../scss/breakpoints/_base.scss */
+/* line 416, ../scss/breakpoints/_base.scss */
 .header .rightWrap .miniNavWrap .navWin {
   display: none !important;
 }
-/* line 418, ../scss/breakpoints/_base.scss */
+/* line 420, ../scss/breakpoints/_base.scss */
 .header .rightWrap .miniNavWrap .navMap {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/mapIcon.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/mapIcon.png") no-repeat;
   background-size: 50px;
   background-position: center top;
 }
-/* line 424, ../scss/breakpoints/_base.scss */
+/* line 426, ../scss/breakpoints/_base.scss */
 .header .rightWrap .miniNavWrap .navDirection {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/directionsIcon.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/directionsIcon.png") no-repeat;
   background-size: 50px;
   background-position: center top;
 }
-/* line 429, ../scss/breakpoints/_base.scss */
+/* line 431, ../scss/breakpoints/_base.scss */
 .header .rightWrap .miniNavWrap .miniNavItem {
   width: 100px;
   height: 60px;
@@ -1932,7 +1929,7 @@ HEADER STYLES
   color: white;
   position: relative;
 }
-/* line 444, ../scss/breakpoints/_base.scss */
+/* line 446, ../scss/breakpoints/_base.scss */
 .header .rightWrap .miniNavWrap .miniNavItem h3 {
   margin: 0;
   padding: 0;
@@ -1944,12 +1941,12 @@ HEADER STYLES
   bottom: 5px;
   color: #222;
 }
-/* line 460, ../scss/breakpoints/_base.scss */
+/* line 462, ../scss/breakpoints/_base.scss */
 .header .mobileMiniNavWrap {
   display: none;
 }
 @media only screen and (max-width: 767px) {
-  /* line 460, ../scss/breakpoints/_base.scss */
+  /* line 462, ../scss/breakpoints/_base.scss */
   .header .mobileMiniNavWrap {
     display: inline-block;
     width: 100%;
@@ -1958,59 +1955,59 @@ HEADER STYLES
     padding-left: 10px;
   }
 }
-/* line 472, ../scss/breakpoints/_base.scss */
+/* line 474, ../scss/breakpoints/_base.scss */
 .header .mobileMiniNavWrap .navSched {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/schedIcon.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/schedIcon.png") no-repeat;
   background-size: 25px;
   background-position: 5px 8px;
 }
 @media only screen and (max-width: 520px) {
-  /* line 472, ../scss/breakpoints/_base.scss */
+  /* line 474, ../scss/breakpoints/_base.scss */
   .header .mobileMiniNavWrap .navSched {
     background-position: center 1px;
     background-size: 30px;
   }
 }
-/* line 482, ../scss/breakpoints/_base.scss */
+/* line 484, ../scss/breakpoints/_base.scss */
 .header .mobileMiniNavWrap .navContact {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/contactIcon.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/contactIcon.png") no-repeat;
   background-size: 25px;
   background-position: 5px 8px;
 }
 @media only screen and (max-width: 520px) {
-  /* line 482, ../scss/breakpoints/_base.scss */
+  /* line 484, ../scss/breakpoints/_base.scss */
   .header .mobileMiniNavWrap .navContact {
     background-position: center 1px;
     background-size: 30px;
   }
 }
-/* line 492, ../scss/breakpoints/_base.scss */
+/* line 494, ../scss/breakpoints/_base.scss */
 .header .mobileMiniNavWrap .navMap {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/mapIcon.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/mapIcon.png") no-repeat;
   background-size: 25px;
   background-position: 5px 8px;
 }
 @media only screen and (max-width: 520px) {
-  /* line 492, ../scss/breakpoints/_base.scss */
+  /* line 494, ../scss/breakpoints/_base.scss */
   .header .mobileMiniNavWrap .navMap {
     background-position: center 1px;
     background-size: 30px;
   }
 }
-/* line 502, ../scss/breakpoints/_base.scss */
+/* line 504, ../scss/breakpoints/_base.scss */
 .header .mobileMiniNavWrap .navDirection {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/directionsIcon.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/directionsIcon.png") no-repeat;
   background-position: 5px 5px;
   background-size: 30px;
 }
 @media only screen and (max-width: 520px) {
-  /* line 502, ../scss/breakpoints/_base.scss */
+  /* line 504, ../scss/breakpoints/_base.scss */
   .header .mobileMiniNavWrap .navDirection {
     background-position: center 1px;
     background-size: 30px;
   }
 }
-/* line 513, ../scss/breakpoints/_base.scss */
+/* line 515, ../scss/breakpoints/_base.scss */
 .header .mobileMiniNavWrap .miniNavItem {
   width: 24%;
   height: 40px;
@@ -2025,17 +2022,17 @@ HEADER STYLES
   position: relative;
 }
 @media only screen and (max-width: 520px) {
-  /* line 513, ../scss/breakpoints/_base.scss */
+  /* line 515, ../scss/breakpoints/_base.scss */
   .header .mobileMiniNavWrap .miniNavItem {
     width: 23%;
     height: 60px;
   }
 }
-/* line 534, ../scss/breakpoints/_base.scss */
+/* line 536, ../scss/breakpoints/_base.scss */
 .header .mobileMiniNavWrap .miniNavItem a {
   text-decoration: none;
 }
-/* line 538, ../scss/breakpoints/_base.scss */
+/* line 540, ../scss/breakpoints/_base.scss */
 .header .mobileMiniNavWrap .miniNavItem h3 {
   margin: 0;
   padding: 0;
@@ -2052,7 +2049,7 @@ HEADER STYLES
   font-weight: 900;
 }
 @media only screen and (max-width: 599px) {
-  /* line 538, ../scss/breakpoints/_base.scss */
+  /* line 540, ../scss/breakpoints/_base.scss */
   .header .mobileMiniNavWrap .miniNavItem h3 {
     width: 60%;
     top: 2px;
@@ -2064,7 +2061,7 @@ HEADER STYLES
   }
 }
 @media only screen and (max-width: 520px) {
-  /* line 538, ../scss/breakpoints/_base.scss */
+  /* line 540, ../scss/breakpoints/_base.scss */
   .header .mobileMiniNavWrap .miniNavItem h3 {
     width: 100%;
     top: 30px;
@@ -2076,7 +2073,7 @@ HEADER STYLES
   }
 }
 @media only screen and (max-width: 401px) {
-  /* line 538, ../scss/breakpoints/_base.scss */
+  /* line 540, ../scss/breakpoints/_base.scss */
   .header .mobileMiniNavWrap .miniNavItem h3 {
     width: 100%;
     top: 25px;
@@ -2088,11 +2085,11 @@ HEADER STYLES
   }
 }
 
-/* line 592, ../scss/breakpoints/_base.scss */
+/* line 594, ../scss/breakpoints/_base.scss */
 #logo {
   margin: 0.75em 0;
 }
-/* line 595, ../scss/breakpoints/_base.scss */
+/* line 597, ../scss/breakpoints/_base.scss */
 #logo a {
   color: white;
 }
@@ -2107,12 +2104,12 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
-/* line 612, ../scss/breakpoints/_base.scss */
+/* line 614, ../scss/breakpoints/_base.scss */
 .menuMobileTitle {
   display: none;
 }
 @media only screen and (max-width: 767px) {
-  /* line 612, ../scss/breakpoints/_base.scss */
+  /* line 614, ../scss/breakpoints/_base.scss */
   .menuMobileTitle {
     width: 100%;
     display: inline-block;
@@ -2128,12 +2125,12 @@ and more scalable.
   }
 }
 
-/* line 629, ../scss/breakpoints/_base.scss */
+/* line 631, ../scss/breakpoints/_base.scss */
 .menuMobile {
   display: none;
 }
 @media only screen and (max-width: 767px) {
-  /* line 629, ../scss/breakpoints/_base.scss */
+  /* line 631, ../scss/breakpoints/_base.scss */
   .menuMobile {
     width: 100%;
     display: inline-block;
@@ -2147,11 +2144,11 @@ and more scalable.
     display: none;
   }
 }
-/* line 644, ../scss/breakpoints/_base.scss */
+/* line 646, ../scss/breakpoints/_base.scss */
 .menuMobile ul {
   margin-top: -10px;
 }
-/* line 648, ../scss/breakpoints/_base.scss */
+/* line 650, ../scss/breakpoints/_base.scss */
 .menuMobile a {
   color: #fff;
   text-decoration: none;
@@ -2163,17 +2160,17 @@ and more scalable.
   padding: 4px 0 10px 0;
 }
 
-/* line 660, ../scss/breakpoints/_base.scss */
+/* line 662, ../scss/breakpoints/_base.scss */
 .menuIcon {
   margin-right: 10px;
 }
 
-/* line 664, ../scss/breakpoints/_base.scss */
+/* line 666, ../scss/breakpoints/_base.scss */
 .blockDisplay {
   display: inline-block !important;
 }
 
-/* line 668, ../scss/breakpoints/_base.scss */
+/* line 670, ../scss/breakpoints/_base.scss */
 .nav {
   border-bottom: 0;
   margin: 0 auto;
@@ -2187,22 +2184,22 @@ and more scalable.
   /* end current highlighters */
 }
 @media only screen and (max-width: 929px) {
-  /* line 668, ../scss/breakpoints/_base.scss */
+  /* line 670, ../scss/breakpoints/_base.scss */
   .nav {
     width: 100%;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 668, ../scss/breakpoints/_base.scss */
+  /* line 670, ../scss/breakpoints/_base.scss */
   .nav {
     height: 0;
   }
 }
-/* line 684, ../scss/breakpoints/_base.scss */
+/* line 686, ../scss/breakpoints/_base.scss */
 .nav ul {
   margin: 0 auto;
 }
-/* line 688, ../scss/breakpoints/_base.scss */
+/* line 690, ../scss/breakpoints/_base.scss */
 .nav li {
   width: 130px;
   max-width: 150px;
@@ -2216,19 +2213,19 @@ and more scalable.
   */
 }
 @media only screen and (max-width: 929px) {
-  /* line 688, ../scss/breakpoints/_base.scss */
+  /* line 690, ../scss/breakpoints/_base.scss */
   .nav li {
     width: 14%;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 688, ../scss/breakpoints/_base.scss */
+  /* line 690, ../scss/breakpoints/_base.scss */
   .nav li {
     width: 100%;
     max-width: 100%;
   }
 }
-/* line 702, ../scss/breakpoints/_base.scss */
+/* line 704, ../scss/breakpoints/_base.scss */
 .nav li a {
   display: block;
   color: white;
@@ -2249,7 +2246,7 @@ and more scalable.
   */
 }
 @media only screen and (max-width: 929px) {
-  /* line 702, ../scss/breakpoints/_base.scss */
+  /* line 704, ../scss/breakpoints/_base.scss */
   .nav li a {
     height: 40px;
     font-size: 11px;
@@ -2257,7 +2254,7 @@ and more scalable.
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 702, ../scss/breakpoints/_base.scss */
+  /* line 704, ../scss/breakpoints/_base.scss */
   .nav li a {
     width: 100%;
     font-size: 15px;
@@ -2267,12 +2264,12 @@ and more scalable.
     background: #000;
   }
 }
-/* line 760, ../scss/breakpoints/_base.scss */
+/* line 762, ../scss/breakpoints/_base.scss */
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 30px;
 }
-/* line 783, ../scss/breakpoints/_base.scss */
+/* line 785, ../scss/breakpoints/_base.scss */
 .nav li.current-menu-item,
 .nav li.current_page_item,
 .nav li.current_page_ancestor {
@@ -2280,7 +2277,7 @@ and more scalable.
 }
 
 /* end .nav */
-/* line 793, ../scss/breakpoints/_base.scss */
+/* line 795, ../scss/breakpoints/_base.scss */
 .contestCTAWrap {
   position: fixed;
   z-index: 100;
@@ -2291,8 +2288,18 @@ and more scalable.
   overflow: hidden;
   opacity: 0.8;
   padding: 0 10px !important;
+  display: none;
+  -webkit-animation: fadein 5s;
+  /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 5s;
+  /* Firefox < 16 */
+  -ms-animation: fadein 5s;
+  /* Internet Explorer */
+  -o-animation: fadein 5s;
+  /* Opera < 12.1 */
+  animation: fadein 5s;
 }
-/* line 804, ../scss/breakpoints/_base.scss */
+/* line 815, ../scss/breakpoints/_base.scss */
 .contestCTAWrap h3 {
   color: white;
   font-family: 'Avenir LT W01_85 Heavy';
@@ -2305,9 +2312,9 @@ and more scalable.
   margin-top: 0;
   padding-top: 10px;
 }
-/* line 817, ../scss/breakpoints/_base.scss */
+/* line 828, ../scss/breakpoints/_base.scss */
 .contestCTAWrap h1 {
-  color: white;
+  color: #ed5b22;
   font-family: 'Avenir LT W01_85 Heavy';
   text-transform: uppercase;
   font-size: 30px;
@@ -2319,11 +2326,75 @@ and more scalable.
   margin-bottom: 0;
 }
 
+@keyframes fadein {
+  /* line 846, ../scss/breakpoints/_base.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 847, ../scss/breakpoints/_base.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  /* line 852, ../scss/breakpoints/_base.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 853, ../scss/breakpoints/_base.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  /* line 858, ../scss/breakpoints/_base.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 859, ../scss/breakpoints/_base.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  /* line 864, ../scss/breakpoints/_base.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 865, ../scss/breakpoints/_base.scss */
+  to {
+    opacity: 1;
+  }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  /* line 870, ../scss/breakpoints/_base.scss */
+  from {
+    opacity: 0;
+  }
+
+  /* line 871, ../scss/breakpoints/_base.scss */
+  to {
+    opacity: 1;
+  }
+}
+
 /*********************
 LORNE HOMEPAGE STYLES
 ********************/
 /*Lorne Styles*/
-/* line 839, ../scss/breakpoints/_base.scss */
+/* line 881, ../scss/breakpoints/_base.scss */
 #mountain {
   position: absolute;
   top: 0;
@@ -2332,39 +2403,39 @@ LORNE HOMEPAGE STYLES
   width: auto;
   height: auto;
   z-index: -100;
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/mountainLayer2.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/mountainLayer2.png") no-repeat;
   z-index: 3;
   pointer-events: none;
   opacity: 1;
 }
 
-/* line 851, ../scss/breakpoints/_base.scss */
+/* line 893, ../scss/breakpoints/_base.scss */
 #mountain-bg {
   /*position: absolute;*/
   position: fixed;
   top: 0;
   height: 3000px;
   width: 100%;
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/fullbleedbg.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/fullbleedbg.jpg") no-repeat;
   z-index: -1;
   pointer-events: none;
   opacity: 0.8;
   /*transition: all 0.5s ease;*/
 }
 
-/* line 864, ../scss/breakpoints/_base.scss */
+/* line 906, ../scss/breakpoints/_base.scss */
 .gradient {
   height: 100%;
   width: 100%;
   background: radial-gradient(ellipse at center, rgba(0, 48, 69, 0.7) 1%, rgba(0, 48, 69, 0.8) 97%, rgba(0, 48, 69, 0.8) 100%);
 }
 
-/* line 870, ../scss/breakpoints/_base.scss */
+/* line 912, ../scss/breakpoints/_base.scss */
 #bgvid.dim {
   opacity: 0.5;
 }
 
-/* line 873, ../scss/breakpoints/_base.scss */
+/* line 915, ../scss/breakpoints/_base.scss */
 #bgvid {
   position: fixed;
   right: 0;
@@ -2383,7 +2454,7 @@ LORNE HOMEPAGE STYLES
   transition: all 0.8s ease;
 }
 @media only screen and (max-width: 767px) {
-  /* line 873, ../scss/breakpoints/_base.scss */
+  /* line 915, ../scss/breakpoints/_base.scss */
   #bgvid {
     display: none;
   }
@@ -2401,7 +2472,7 @@ LORNE HOMEPAGE STYLES
     -webkit-transform:rotateY(180deg);
     pointer-events: none;
 }*/
-/* line 906, ../scss/breakpoints/_base.scss */
+/* line 948, ../scss/breakpoints/_base.scss */
 .page-id-6 #container {
   width: 100%;
   height: 3000px;
@@ -2411,20 +2482,20 @@ LORNE HOMEPAGE STYLES
   z-index: 10;
 }
 
-/* line 909, ../scss/breakpoints/_base.scss */
+/* line 951, ../scss/breakpoints/_base.scss */
 .fixed-head {
   position: fixed;
   border: 2px solid red;
 }
 
-/* line 911, ../scss/breakpoints/_base.scss */
+/* line 953, ../scss/breakpoints/_base.scss */
 #clinics {
   width: 100%;
   max-width: 930px;
   margin: 0 auto;
   z-index: 30;
 }
-/* line 912, ../scss/breakpoints/_base.scss */
+/* line 954, ../scss/breakpoints/_base.scss */
 #clinics #intro {
   width: 100%;
   max-width: 930px;
@@ -2432,26 +2503,50 @@ LORNE HOMEPAGE STYLES
   padding: 2% 0 0 0;
   text-align: center;
 }
-/* line 914, ../scss/breakpoints/_base.scss */
+/* line 956, ../scss/breakpoints/_base.scss */
 #clinics #intro .margRight {
   margin-right: 30px;
 }
-/* line 918, ../scss/breakpoints/_base.scss */
+@media only screen and (max-width: 767px) {
+  /* line 956, ../scss/breakpoints/_base.scss */
+  #clinics #intro .margRight {
+    margin-right: 3%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 956, ../scss/breakpoints/_base.scss */
+  #clinics #intro .margRight {
+    margin-right: 0;
+  }
+}
+/* line 967, ../scss/breakpoints/_base.scss */
 #clinics #intro .margLeft {
   margin-left: 15px;
 }
-/* line 922, ../scss/breakpoints/_base.scss */
+@media only screen and (max-width: 767px) {
+  /* line 967, ../scss/breakpoints/_base.scss */
+  #clinics #intro .margLeft {
+    margin-left: 2%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 967, ../scss/breakpoints/_base.scss */
+  #clinics #intro .margLeft {
+    margin-left: 0;
+  }
+}
+/* line 977, ../scss/breakpoints/_base.scss */
 #clinics #intro .mobileClear {
   display: none;
 }
 @media only screen and (max-width: 600px) {
-  /* line 922, ../scss/breakpoints/_base.scss */
+  /* line 977, ../scss/breakpoints/_base.scss */
   #clinics #intro .mobileClear {
     clear: both;
     display: block;
   }
 }
-/* line 930, ../scss/breakpoints/_base.scss */
+/* line 985, ../scss/breakpoints/_base.scss */
 #clinics #intro p {
   color: #333;
   font-family: 'Avenir LT W01_65 Medium' !important;
@@ -2462,12 +2557,12 @@ LORNE HOMEPAGE STYLES
   font-weight: 500;
 }
 @media only screen and (max-width: 600px) {
-  /* line 930, ../scss/breakpoints/_base.scss */
+  /* line 985, ../scss/breakpoints/_base.scss */
   #clinics #intro p {
     margin-top: -50% !important;
   }
 }
-/* line 945, ../scss/breakpoints/_base.scss */
+/* line 1000, ../scss/breakpoints/_base.scss */
 #clinics #intro a {
   text-decoration: none;
   font-family: 'Avenir LT W01_65 Medium' !important;
@@ -2478,15 +2573,16 @@ LORNE HOMEPAGE STYLES
   padding: 10px 20px;
   color: #ed5b22;
   transition: all 0.4s ease;
+  margin-top: 0;
 }
 @media only screen and (max-width: 600px) {
-  /* line 945, ../scss/breakpoints/_base.scss */
+  /* line 1000, ../scss/breakpoints/_base.scss */
   #clinics #intro a {
     margin-top: -50% !important;
   }
 }
 @media only screen and (max-width: 550px) {
-  /* line 945, ../scss/breakpoints/_base.scss */
+  /* line 1000, ../scss/breakpoints/_base.scss */
   #clinics #intro a {
     display: inline-block;
     width: 100%;
@@ -2494,14 +2590,14 @@ LORNE HOMEPAGE STYLES
     margin-bottom: 30px !important;
   }
 }
-/* line 972, ../scss/breakpoints/_base.scss */
+/* line 1028, ../scss/breakpoints/_base.scss */
 #clinics #intro a:hover {
   background: #EB5B2E;
   color: #fff;
 }
-/* line 974, ../scss/breakpoints/_base.scss */
+/* line 1030, ../scss/breakpoints/_base.scss */
 #clinics #intro .clinicLinkWrap {
-  width: 30%;
+  width: 31%;
   max-width: 300px;
   display: inline-block;
   float: left;
@@ -2510,102 +2606,310 @@ LORNE HOMEPAGE STYLES
   background: #fff;
   z-index: 100;
   opacity: 1;
+  overflow: hidden;
+  height: 380px;
 }
-/* line 985, ../scss/breakpoints/_base.scss */
+@media only screen and (max-width: 860px) {
+  /* line 1030, ../scss/breakpoints/_base.scss */
+  #clinics #intro .clinicLinkWrap {
+    width: 30%;
+    max-width: none;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 1030, ../scss/breakpoints/_base.scss */
+  #clinics #intro .clinicLinkWrap {
+    max-width: none;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 1030, ../scss/breakpoints/_base.scss */
+  #clinics #intro .clinicLinkWrap {
+    width: 100%;
+    clear: both;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* line 1030, ../scss/breakpoints/_base.scss */
+  #clinics #intro .clinicLinkWrap {
+    width: 100%;
+    clear: both;
+    height: 250px;
+    margin-bottom: 30px;
+  }
+}
+/* line 1069, ../scss/breakpoints/_base.scss */
 #clinics #intro .clinicLinkWrap p {
   margin-top: 30px;
+  font-size: 15px;
 }
-/* line 991, ../scss/breakpoints/_base.scss */
+@media only screen and (max-width: 929px) {
+  /* line 1069, ../scss/breakpoints/_base.scss */
+  #clinics #intro .clinicLinkWrap p {
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 1069, ../scss/breakpoints/_base.scss */
+  #clinics #intro .clinicLinkWrap p {
+    height: 120px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 1069, ../scss/breakpoints/_base.scss */
+  #clinics #intro .clinicLinkWrap p {
+    height: auto;
+    margin-top: 10px !important;
+    text-align: left;
+    width: 100%;
+    float: right;
+    display: inline-block;
+    clear: both;
+    margin-bottom: 15px;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 1093, ../scss/breakpoints/_base.scss */
+  #clinics #intro .clinicLinkWrap a {
+    float: left;
+    display: inline-block;
+    clear: both;
+    margin-top: 0 !important;
+  }
+}
+/* line 1103, ../scss/breakpoints/_base.scss */
+#clinics #intro .bottomContent {
+  min-height: 150px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 1103, ../scss/breakpoints/_base.scss */
+  #clinics #intro .bottomContent {
+    width: 60%;
+    float: left;
+    display: inline-block;
+  }
+}
+/* line 1112, ../scss/breakpoints/_base.scss */
 #clinics #intro .topBG {
   width: 100%;
-  height: 180px;
+  height: 165px;
+  box-sizing: border-box;
 }
-/* line 996, ../scss/breakpoints/_base.scss */
+@media only screen and (max-width: 600px) {
+  /* line 1112, ../scss/breakpoints/_base.scss */
+  #clinics #intro .topBG {
+    width: 30%;
+    height: 125%;
+    float: left;
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* line 1112, ../scss/breakpoints/_base.scss */
+  #clinics #intro .topBG {
+    height: 250px;
+  }
+}
+/* line 1131, ../scss/breakpoints/_base.scss */
 #clinics #intro #clinicsLink {
-  background-image: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/clinicPageBGColour4.jpg");
-  background-size: 150%;
+  background-image: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/05/academyWrapHero4.jpg");
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
 }
-/* line 1003, ../scss/breakpoints/_base.scss */
+@media only screen and (max-width: 767px) {
+  /* line 1131, ../scss/breakpoints/_base.scss */
+  #clinics #intro #clinicsLink {
+    background-size: cover;
+  }
+}
+/* line 1142, ../scss/breakpoints/_base.scss */
+#clinics #intro #blogwrapLink {
+  background-image: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/07/academyWrapHero4.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+@media only screen and (max-width: 767px) {
+  /* line 1142, ../scss/breakpoints/_base.scss */
+  #clinics #intro #blogwrapLink {
+    background-size: cover;
+  }
+}
+/* line 1153, ../scss/breakpoints/_base.scss */
+#clinics #intro #flickrLink {
+  background-image: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/07/academyWrapHero5.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+@media only screen and (max-width: 767px) {
+  /* line 1153, ../scss/breakpoints/_base.scss */
+  #clinics #intro #flickrLink {
+    background-size: cover;
+  }
+}
+/* line 1164, ../scss/breakpoints/_base.scss */
+#clinics #intro #outletLink {
+  background-image: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/07/academyWrapHero3.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+@media only screen and (max-width: 767px) {
+  /* line 1164, ../scss/breakpoints/_base.scss */
+  #clinics #intro #outletLink {
+    background-size: cover;
+  }
+}
+/* line 1179, ../scss/breakpoints/_base.scss */
+#clinics #intro .externalLinks .bottomContent p {
+  margin-bottom: -10px;
+}
+/* line 1183, ../scss/breakpoints/_base.scss */
+#clinics #intro .externalLinks .bottomContent ul {
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+/* line 1186, ../scss/breakpoints/_base.scss */
+#clinics #intro .externalLinks .bottomContent ul li {
+  text-align: left;
+  font-family: "Avenir LT W01_85 Heavy";
+  font-size: 12px;
+  line-height: 1em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+/* line 1193, ../scss/breakpoints/_base.scss */
+#clinics #intro .externalLinks .bottomContent ul li a {
+  padding: 0 !important;
+  border: none !important;
+  line-height: 1em !important;
+}
+/* line 1204, ../scss/breakpoints/_base.scss */
 #clinics #intro #seatoskyLink {
-  background-image: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/clinicCatSeatosky.jpg");
+  background-image: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/05/homeSky2.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
 }
-/* line 1010, ../scss/breakpoints/_base.scss */
+@media only screen and (max-width: 767px) {
+  /* line 1204, ../scss/breakpoints/_base.scss */
+  #clinics #intro #seatoskyLink {
+    background-size: cover;
+    background-position: center top;
+  }
+}
+/* line 1215, ../scss/breakpoints/_base.scss */
 #clinics #intro #valleyLink {
-  background-image: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/clinicCatBluffs.jpg");
+  background-image: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/05/homeValley3.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
 }
-/* line 1017, ../scss/breakpoints/_base.scss */
+@media only screen and (max-width: 767px) {
+  /* line 1215, ../scss/breakpoints/_base.scss */
+  #clinics #intro #valleyLink {
+    background-size: cover;
+    background-position: right top;
+  }
+}
+/* line 1226, ../scss/breakpoints/_base.scss */
 #clinics #intro .marginRight {
   margin-right: 60px !important;
 }
 @media only screen and (max-width: 600px) {
-  /* line 912, ../scss/breakpoints/_base.scss */
+  /* line 954, ../scss/breakpoints/_base.scss */
   #clinics #intro {
     padding: 50% 40px 0 40px;
     width: 100%;
     margin: 0;
     left: 0;
   }
-  /* line 1023, ../scss/breakpoints/_base.scss */
+  /* line 1232, ../scss/breakpoints/_base.scss */
   #clinics #intro p {
     font-size: 18px;
   }
-  /* line 1024, ../scss/breakpoints/_base.scss */
+  /* line 1233, ../scss/breakpoints/_base.scss */
   #clinics #intro a {
     font-size: 13px;
   }
 }
+@media only screen and (max-width: 400px) {
+  /* line 1237, ../scss/breakpoints/_base.scss */
+  #clinics #intro p {
+    font-size: 15px;
+  }
+  /* line 1240, ../scss/breakpoints/_base.scss */
+  #clinics #intro a {
+    font-size: 11px;
+    padding: 10px 0px;
+  }
+}
 
-/* line 1029, ../scss/breakpoints/_base.scss */
+/* line 1249, ../scss/breakpoints/_base.scss */
 #sunset {
-  background-image: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sunset.jpg");
-  height: 450px;
-  background-size: cover;
+  background-image: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/05/sunset3.jpg");
+  height: 750px;
+  background-size: 100%;
   /*background-attachment: fixed;*/
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center -90px;
   position: relative;
   overflow: hidden;
   z-index: 3;
-  -webkit-filter: grayscale(0.6);
-  -moz-filter: grayscale(0.6);
-  -ms-filter: grayscale(0.6);
-  filter: grayscale(0.6);
-  margin-top: 20%;
+  margin-top: 5%;
 }
-/* line 1045, ../scss/breakpoints/_base.scss */
+@media only screen and (max-width: 860px) {
+  /* line 1249, ../scss/breakpoints/_base.scss */
+  #sunset {
+    background-position: center top;
+  }
+}
+@media only screen and (max-width: 700px) {
+  /* line 1249, ../scss/breakpoints/_base.scss */
+  #sunset {
+    background-position: center 50px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  /* line 1249, ../scss/breakpoints/_base.scss */
+  #sunset {
+    background-position: center 80px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 1249, ../scss/breakpoints/_base.scss */
+  #sunset {
+    background-position: center 0px;
+    height: 750px !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* line 1249, ../scss/breakpoints/_base.scss */
+  #sunset {
+    background-size: 140%;
+    height: 850px !important;
+  }
+}
+/* line 1287, ../scss/breakpoints/_base.scss */
 #sunset .gradient {
   height: 100%;
   width: 100%;
   background: radial-gradient(ellipse at center, rgba(69, 69, 69, 0.6) 1%, rgba(69, 69, 69, 0.7) 97%, rgba(69, 69, 69, 0.9) 100%);
+  display: none;
 }
-/* line 1053, ../scss/breakpoints/_base.scss */
-#sunset #gondola {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 90;
-  height: 827px;
-  width: 600px;
-  background-image: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/gondola2.png");
-  background-position: 200px -160px;
-  background-repeat: no-repeat;
-  transition-delay: 1s;
-  transition: all 10s ease;
-}
-/* line 1066, ../scss/breakpoints/_base.scss */
+/* line 1293, ../scss/breakpoints/_base.scss */
 #sunset h2 {
   color: #fff;
   font-size: 76px;
   position: absolute;
-  bottom: 1px;
+  bottom: 300px;
   left: 40px;
   line-height: 0.7;
   font-weight: bold;
@@ -2613,19 +2917,47 @@ LORNE HOMEPAGE STYLES
   margin: 0;
   text-transform: uppercase;
 }
-/* line 1067, ../scss/breakpoints/_base.scss */
+/* line 1294, ../scss/breakpoints/_base.scss */
 #sunset h2 span {
   font-size: 60px;
 }
-/* line 1070, ../scss/breakpoints/_base.scss */
+@media only screen and (max-width: 750px) {
+  /* line 1293, ../scss/breakpoints/_base.scss */
+  #sunset h2 {
+    bottom: 375px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  /* line 1293, ../scss/breakpoints/_base.scss */
+  #sunset h2 {
+    font-size: 60px;
+  }
+  /* line 1303, ../scss/breakpoints/_base.scss */
+  #sunset h2 span {
+    font-size: 48px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 1293, ../scss/breakpoints/_base.scss */
+  #sunset h2 {
+    bottom: 460px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* line 1293, ../scss/breakpoints/_base.scss */
+  #sunset h2 {
+    bottom: 560px;
+  }
+}
+/* line 1318, ../scss/breakpoints/_base.scss */
 #sunset .content {
   text-align: left;
   z-index: 250;
   position: absolute;
-  top: 60px;
+  top: 140px;
   left: 40px;
 }
-/* line 1072, ../scss/breakpoints/_base.scss */
+/* line 1320, ../scss/breakpoints/_base.scss */
 #sunset .content h3 {
   margin: 0;
   padding: 0;
@@ -2636,7 +2968,7 @@ LORNE HOMEPAGE STYLES
   text-transform: uppercase;
   text-align: left;
 }
-/* line 1073, ../scss/breakpoints/_base.scss */
+/* line 1321, ../scss/breakpoints/_base.scss */
 #sunset .content p {
   width: 250px;
   margin: 40px auto 20px;
@@ -2647,92 +2979,235 @@ LORNE HOMEPAGE STYLES
   font-size: 20px;
   text-align: left;
 }
-/* line 1074, ../scss/breakpoints/_base.scss */
-#sunset .content a {
-  font-family: Avenir;
+/* line 1325, ../scss/breakpoints/_base.scss */
+#sunset .bottomContent {
+  width: 100%;
+  background: #fff;
+  height: 300px;
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  overflow: hidden;
+}
+@media only screen and (max-width: 750px) {
+  /* line 1325, ../scss/breakpoints/_base.scss */
+  #sunset .bottomContent {
+    height: 375px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 1325, ../scss/breakpoints/_base.scss */
+  #sunset .bottomContent {
+    height: 462px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* line 1325, ../scss/breakpoints/_base.scss */
+  #sunset .bottomContent {
+    height: 562px;
+  }
+}
+/* line 1349, ../scss/breakpoints/_base.scss */
+#sunset .bottomContent .bottomCol {
+  width: 32%;
+  float: left;
+  display: inline-block;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 600px) {
+  /* line 1349, ../scss/breakpoints/_base.scss */
+  #sunset .bottomContent .bottomCol {
+    width: 100%;
+  }
+}
+/* line 1360, ../scss/breakpoints/_base.scss */
+#sunset .bottomContent .bottomColLeft {
+  width: 32%;
+  float: left;
+  display: inline-block;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 600px) {
+  /* line 1360, ../scss/breakpoints/_base.scss */
+  #sunset .bottomContent .bottomColLeft {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* line 1371, ../scss/breakpoints/_base.scss */
+  #sunset .bottomContent .bottomColLeft h1 {
+    display: none !important;
+  }
+}
+/* line 1377, ../scss/breakpoints/_base.scss */
+#sunset .bottomContent .bottomColLeft p {
+  font-size: 24px;
+  line-height: 30px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 1377, ../scss/breakpoints/_base.scss */
+  #sunset .bottomContent .bottomColLeft p {
+    font-size: 18px;
+    margin-top: 15px;
+    line-height: 13px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  /* line 1388, ../scss/breakpoints/_base.scss */
+  #sunset .bottomContent .bottomColLeft a {
+    margin-left: 15px !important;
+  }
+}
+/* line 1395, ../scss/breakpoints/_base.scss */
+#sunset .bottomContent a {
+  font-family: 'Avenir LT W01_65 Medium';
   border: 1px solid #EB5B2E;
-  color: #EB5B2E;
+  color: #fff;
   padding: 10px 20px;
   font-size: 14px;
   text-decoration: none;
-  margin: 0 auto;
+  margin-left: 45px;
+  margin-top: 15px;
+  background: #EB5B2E;
   display: inline-block;
   font-weight: bold;
   text-transform: uppercase;
   transition: all 0.3s ease;
 }
-/* line 1075, ../scss/breakpoints/_base.scss */
-#sunset .content a:hover {
+/* line 1413, ../scss/breakpoints/_base.scss */
+#sunset .bottomContent a:hover {
   z-index: 40;
   color: #fff;
   background: #EB5B2E;
 }
+/* line 1419, ../scss/breakpoints/_base.scss */
+#sunset .bottomContent h1 {
+  font-family: 'Avenir LT W01_85 Heavy';
+  font-size: 13px;
+  line-height: 18px;
+  margin-left: 45px;
+  padding-bottom: 0;
+  marigin-bottom: 0;
+  margin-top: 30px;
+  padding-top: 0;
+  text-transform: uppercase;
+  color: #aaa;
+}
+@media only screen and (max-width: 400px) {
+  /* line 1419, ../scss/breakpoints/_base.scss */
+  #sunset .bottomContent h1 {
+    margin-left: 15px;
+  }
+}
+/* line 1436, ../scss/breakpoints/_base.scss */
+#sunset .bottomContent h3 {
+  font-family: 'Avenir LT W01_65 Medium';
+  font-size: 15px;
+  line-height: 15px;
+  margin-left: 45px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 10px;
+  padding-top: 0;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 400px) {
+  /* line 1436, ../scss/breakpoints/_base.scss */
+  #sunset .bottomContent h3 {
+    margin-left: 15px;
+  }
+}
+/* line 1452, ../scss/breakpoints/_base.scss */
+#sunset .bottomContent p {
+  font-family: 'Avenir LT W01_55 Roman';
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 45px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+@media only screen and (max-width: 400px) {
+  /* line 1452, ../scss/breakpoints/_base.scss */
+  #sunset .bottomContent p {
+    margin-left: 15px;
+  }
+}
 @media only screen and (max-width: 600px) {
-  /* line 1029, ../scss/breakpoints/_base.scss */
+  /* line 1249, ../scss/breakpoints/_base.scss */
   #sunset {
     height: 500px;
   }
-  /* line 1081, ../scss/breakpoints/_base.scss */
+  /* line 1471, ../scss/breakpoints/_base.scss */
   #sunset h2 {
     font-size: 46px;
     /*height:400px;*/
   }
-  /* line 1082, ../scss/breakpoints/_base.scss */
+  /* line 1472, ../scss/breakpoints/_base.scss */
   #sunset h2 span {
     font-size: 34px;
   }
-  /* line 1085, ../scss/breakpoints/_base.scss */
+  /* line 1475, ../scss/breakpoints/_base.scss */
   #sunset .content h3 {
     font-size: 32px;
   }
-  /* line 1086, ../scss/breakpoints/_base.scss */
+  /* line 1476, ../scss/breakpoints/_base.scss */
   #sunset .content p {
     line-height: 1.4;
     font-size: 20px;
   }
-  /* line 1087, ../scss/breakpoints/_base.scss */
+  /* line 1477, ../scss/breakpoints/_base.scss */
   #sunset .content a {
     font-size: 14px;
   }
 }
 
-/* line 1092, ../scss/breakpoints/_base.scss */
+/* line 1482, ../scss/breakpoints/_base.scss */
 #sunset:hover #gondola {
   background-position: 700px -800px;
   transition-delay: 2s;
 }
 
-/* line 1098, ../scss/breakpoints/_base.scss */
+/* line 1488, ../scss/breakpoints/_base.scss */
 .container930 {
   max-width: 930px;
   margin: 60px auto;
   overflow: auto;
   position: relative;
 }
-/* line 1100, ../scss/breakpoints/_base.scss */
+/* line 1490, ../scss/breakpoints/_base.scss */
 .container930 .feature-sm {
-  width: 430px;
+  width: 48%;
+  max-width: 430px;
   height: 550px;
   background: #fff;
   float: left;
   margin: 40px 0 40px 0;
+  overflow: hidden;
 }
-/* line 1101, ../scss/breakpoints/_base.scss */
+@media only screen and (max-width: 400px) {
+  /* line 1490, ../scss/breakpoints/_base.scss */
+  .container930 .feature-sm {
+    height: 600px;
+  }
+}
+/* line 1504, ../scss/breakpoints/_base.scss */
 .container930 .feature-sm .feature-image {
   height: 330px;
-  width: 430px;
+  width: 100%;
   transition: all 0.3s ease;
   background-size: 160%;
 }
-/* line 1102, ../scss/breakpoints/_base.scss */
+/* line 1510, ../scss/breakpoints/_base.scss */
 .container930 .feature-sm .feature-content {
-  width: 430px;
+  width: 100%;
   height: 200px;
   position: relative;
   background: #fff;
   text-align: center;
 }
-/* line 1103, ../scss/breakpoints/_base.scss */
+/* line 1518, ../scss/breakpoints/_base.scss */
 .container930 .feature-sm .feature-content h3 {
   position: absolute;
   top: -78px;
@@ -2748,7 +3223,7 @@ LORNE HOMEPAGE STYLES
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 1104, ../scss/breakpoints/_base.scss */
+/* line 1519, ../scss/breakpoints/_base.scss */
 .container930 .feature-sm .feature-content p {
   font-family: 'Avenir LT W01_65 Medium' !important;
   padding: 0 20px;
@@ -2758,7 +3233,7 @@ LORNE HOMEPAGE STYLES
   font-size: 16px;
   line-height: 1.5;
 }
-/* line 1105, ../scss/breakpoints/_base.scss */
+/* line 1520, ../scss/breakpoints/_base.scss */
 .container930 .feature-sm .feature-content a {
   font-family: 'Avenir LT W01_65 Medium' !important;
   border: 1px solid #EB5B2E;
@@ -2772,23 +3247,31 @@ LORNE HOMEPAGE STYLES
   text-transform: uppercase;
   transition: all 0.3s ease;
 }
-/* line 1106, ../scss/breakpoints/_base.scss */
+/* line 1521, ../scss/breakpoints/_base.scss */
 .container930 .feature-sm .feature-content a:hover {
   color: #fff;
   background: #EB5B2E;
 }
-/* line 1109, ../scss/breakpoints/_base.scss */
+/* line 1524, ../scss/breakpoints/_base.scss */
 .container930 .feature-sm.right {
   float: right;
 }
 
-/* line 1111, ../scss/breakpoints/_base.scss */
+/* line 1526, ../scss/breakpoints/_base.scss */
 .feature-sm:hover .feature-image {
   background-size: 180%;
   background-position: -20px -20px;
 }
 
-/* line 1113, ../scss/breakpoints/_base.scss */
+/* line 1528, ../scss/breakpoints/_base.scss */
+.teaserVideo {
+  width: 100%;
+  background: #fff;
+  display: inline-flex;
+  padding: 0;
+}
+
+/* line 1535, ../scss/breakpoints/_base.scss */
 #athletes {
   margin: 80px 0 0 0;
   width: 100%;
@@ -2796,7 +3279,7 @@ LORNE HOMEPAGE STYLES
   /*background: rgba(0,0,0,0.5);*/
   clear: both;
 }
-/* line 1114, ../scss/breakpoints/_base.scss */
+/* line 1536, ../scss/breakpoints/_base.scss */
 #athletes .athlete-container {
   float: left;
   margin: 0 30px 30px 0;
@@ -2805,7 +3288,7 @@ LORNE HOMEPAGE STYLES
   height: 266px;
   overflow: hidden;
 }
-/* line 1115, ../scss/breakpoints/_base.scss */
+/* line 1537, ../scss/breakpoints/_base.scss */
 #athletes .athlete-container .view-all-athletes {
   position: absolute;
   height: 100%;
@@ -2815,14 +3298,14 @@ LORNE HOMEPAGE STYLES
   text-align: center;
   padding: 30px 0 0 0;
 }
-/* line 1116, ../scss/breakpoints/_base.scss */
+/* line 1538, ../scss/breakpoints/_base.scss */
 #athletes .athlete-container .view-all-athletes p {
   width: 80%;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 10px;
 }
-/* line 1117, ../scss/breakpoints/_base.scss */
+/* line 1539, ../scss/breakpoints/_base.scss */
 #athletes .athlete-container .view-all-athletes a {
   font-family: 'Avenir LT W01_65 Medium' !important;
   border: 1px solid #EB5B2E;
@@ -2836,12 +3319,12 @@ LORNE HOMEPAGE STYLES
   text-transform: uppercase;
   transition: all 0.3s ease;
 }
-/* line 1118, ../scss/breakpoints/_base.scss */
+/* line 1540, ../scss/breakpoints/_base.scss */
 #athletes .athlete-container .view-all-athletes a:hover {
   color: #fff;
   background: #EB5B2E;
 }
-/* line 1120, ../scss/breakpoints/_base.scss */
+/* line 1542, ../scss/breakpoints/_base.scss */
 #athletes .athlete-container .athlete-bio {
   height: 90px;
   width: 210px;
@@ -2853,7 +3336,7 @@ LORNE HOMEPAGE STYLES
   text-align: center;
   transition: all 0.4s ease;
 }
-/* line 1121, ../scss/breakpoints/_base.scss */
+/* line 1543, ../scss/breakpoints/_base.scss */
 #athletes .athlete-container .athlete-bio h3 {
   font-family: 'Avenir LT W01_65 Medium' !important;
   padding: 10px 0 10px 0;
@@ -2863,7 +3346,7 @@ LORNE HOMEPAGE STYLES
   margin: 0;
   text-transform: uppercase;
 }
-/* line 1122, ../scss/breakpoints/_base.scss */
+/* line 1544, ../scss/breakpoints/_base.scss */
 #athletes .athlete-container .athlete-bio a {
   font-family: 'Avenir LT W01_65 Medium' !important;
   border: 1px solid #EB5B2E;
@@ -2877,12 +3360,12 @@ LORNE HOMEPAGE STYLES
   text-transform: uppercase;
   transition: all 0.3s ease;
 }
-/* line 1123, ../scss/breakpoints/_base.scss */
+/* line 1545, ../scss/breakpoints/_base.scss */
 #athletes .athlete-container .athlete-bio a:hover {
   color: #fff;
   background: #EB5B2E;
 }
-/* line 1125, ../scss/breakpoints/_base.scss */
+/* line 1547, ../scss/breakpoints/_base.scss */
 #athletes .athlete-container img {
   max-width: 210px;
   height: auto;
@@ -2896,99 +3379,128 @@ LORNE HOMEPAGE STYLES
   filter: grayscale(0.8);
   transition: all 1s ease;
 }
-/* line 1135, ../scss/breakpoints/_base.scss */
+/* line 1557, ../scss/breakpoints/_base.scss */
 #athletes .athlete-container:nth-child(4), #athletes .athlete-container:nth-child(8), #athletes .athlete-container:nth-child(12) {
   margin: 0 0 30px 0;
 }
-/* line 1136, ../scss/breakpoints/_base.scss */
+/* line 1558, ../scss/breakpoints/_base.scss */
 #athletes .athlete-container:hover img {
   -webkit-filter: grayscale(0);
   -moz-filter: grayscale(0);
   -ms-filter: grayscale(0);
   filter: grayscale(0);
 }
-/* line 1141, ../scss/breakpoints/_base.scss */
+/* line 1563, ../scss/breakpoints/_base.scss */
 #athletes .athlete-container:hover .athlete-bio {
   bottom: 0;
 }
 
-@media only screen and (max-width: 600px) {
-  /* line 1145, ../scss/breakpoints/_base.scss */
+@media only screen and (max-width: 767px) {
+  /* line 1567, ../scss/breakpoints/_base.scss */
   .container930 .feature-sm {
     float: left;
     width: 100%;
+    max-width: none;
   }
-  /* line 1146, ../scss/breakpoints/_base.scss */
+  /* line 1568, ../scss/breakpoints/_base.scss */
   .container930 .feature-sm .feature-image {
     width: 100%;
-    height: 250px;
+    height: 350px;
   }
-  /* line 1151, ../scss/breakpoints/_base.scss */
+  /* line 1573, ../scss/breakpoints/_base.scss */
   .container930 .feature-sm .feature-content {
     width: 100%;
   }
-  /* line 1154, ../scss/breakpoints/_base.scss */
+  /* line 1576, ../scss/breakpoints/_base.scss */
   .container930 .feature-sm .feature-content h3 {
     font-size: 36px;
     font-family: 'Avenir LT W01_65 Medium';
     top: -70px;
   }
 
-  /* line 1161, ../scss/breakpoints/_base.scss */
+  /* line 1583, ../scss/breakpoints/_base.scss */
   .feature-sm.right {
     float: left;
     width: 100%;
   }
 
-  /* line 1163, ../scss/breakpoints/_base.scss */
+  /* line 1585, ../scss/breakpoints/_base.scss */
   #athletes .athlete-container .athlete-bio {
     bottom: 0;
   }
 }
-/* line 1167, ../scss/breakpoints/_base.scss */
+/* line 1589, ../scss/breakpoints/_base.scss */
 #trade .feature-image {
-  background-image: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/tradePageBGColour.jpg");
+  background-image: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/tradePageBGColour.jpg");
   clear: both;
 }
 @media only screen and (max-width: 600px) {
-  /* line 1167, ../scss/breakpoints/_base.scss */
+  /* line 1589, ../scss/breakpoints/_base.scss */
   #trade .feature-image {
     background-size: cover;
     background-repeat: no-repeat;
   }
 }
 
-/* line 1177, ../scss/breakpoints/_base.scss */
+/* line 1599, ../scss/breakpoints/_base.scss */
 #free .feature-image {
-  background-image: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/funfreePageBGColour.jpg");
+  background-image: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/funfreePageBGColour.jpg");
+}
+@media only screen and (max-width: 600px) {
+  /* line 1599, ../scss/breakpoints/_base.scss */
+  #free .feature-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
-/* line 1178, ../scss/breakpoints/_base.scss */
+/* line 1606, ../scss/breakpoints/_base.scss */
 #music .feature-image {
-  background-image: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/musicBG-450x150.jpg");
+  background-image: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/musicBG-450x150.jpg");
+}
+@media only screen and (max-width: 600px) {
+  /* line 1606, ../scss/breakpoints/_base.scss */
+  #music .feature-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
-/* line 1179, ../scss/breakpoints/_base.scss */
+/* line 1613, ../scss/breakpoints/_base.scss */
 #seminar .feature-image {
-  background-image: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/seminarPageBGColour.jpg");
+  background-image: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/seminarPageBGColour.jpg");
   clear: both;
 }
+@media only screen and (max-width: 600px) {
+  /* line 1613, ../scss/breakpoints/_base.scss */
+  #seminar .feature-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
 
-/* line 1180, ../scss/breakpoints/_base.scss */
+/* line 1620, ../scss/breakpoints/_base.scss */
 #hivezone .feature-image {
-  background-image: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/hivePageBGColour.jpg");
+  background-image: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/hivePageBGColour.jpg");
   clear: both;
+}
+@media only screen and (max-width: 600px) {
+  /* line 1620, ../scss/breakpoints/_base.scss */
+  #hivezone .feature-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
 
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-/* line 1187, ../scss/breakpoints/_base.scss */
+/* line 1633, ../scss/breakpoints/_base.scss */
 #contentHome {
   background: none;
 }
 
-/* line 1193, ../scss/breakpoints/_base.scss */
+/* line 1639, ../scss/breakpoints/_base.scss */
 #content {
   width: 930px;
   margin: 0 auto;
@@ -2998,28 +3510,51 @@ POSTS & CONTENT STYLES
   padding-bottom: 90px;
 }
 @media only screen and (max-width: 929px) {
-  /* line 1193, ../scss/breakpoints/_base.scss */
+  /* line 1639, ../scss/breakpoints/_base.scss */
   #content {
     width: 100%;
   }
 }
-/* line 1205, ../scss/breakpoints/_base.scss */
+/* line 1651, ../scss/breakpoints/_base.scss */
 #content .pageContent {
   height: 100%;
   display: inline-block;
   position: relative;
+  	/*
+  
+      .lmm-listmarkers {
+        // display: none !important;
+        font-family: Avenir !important;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 35% !important;
+        // overflow: hidden;
+        display: inline-block;
+        margin-left: -250px;
+        font-size: 12px;
+        font-weight: 900;
+  
+        table {
+          width: 240px !important;
+          border-left: none !important;
+          border-right: none !important;
+        }
+      }
+  
+       */
 }
 @media only screen and (max-width: 929px) {
-  /* line 1205, ../scss/breakpoints/_base.scss */
+  /* line 1651, ../scss/breakpoints/_base.scss */
   #content .pageContent {
     width: 100%;
   }
 }
-/* line 1214, ../scss/breakpoints/_base.scss */
+/* line 1660, ../scss/breakpoints/_base.scss */
 .contestPage #content .pageContent {
   margin-bottom: 0 !important;
 }
-/* line 1218, ../scss/breakpoints/_base.scss */
+/* line 1664, ../scss/breakpoints/_base.scss */
 #content .pageContent .pageHead {
   height: 450px;
   width: 930px;
@@ -3029,19 +3564,19 @@ POSTS & CONTENT STYLES
   margin-bottom: 30px;
 }
 @media only screen and (max-width: 929px) {
-  /* line 1218, ../scss/breakpoints/_base.scss */
+  /* line 1664, ../scss/breakpoints/_base.scss */
   #content .pageContent .pageHead {
     width: 100%;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 1218, ../scss/breakpoints/_base.scss */
+  /* line 1664, ../scss/breakpoints/_base.scss */
   #content .pageContent .pageHead {
     height: 300px;
     background-size: cover !important;
   }
 }
-/* line 1235, ../scss/breakpoints/_base.scss */
+/* line 1681, ../scss/breakpoints/_base.scss */
 #content .pageContent .pageHead h1 {
   font-family: 'Avenir LT W01_65 Medium';
   font-weight: 900;
@@ -3055,7 +3590,7 @@ POSTS & CONTENT STYLES
   letter-spacing: -3.5px !important;
 }
 @media only screen and (max-width: 600px) {
-  /* line 1235, ../scss/breakpoints/_base.scss */
+  /* line 1681, ../scss/breakpoints/_base.scss */
   #content .pageContent .pageHead h1 {
     font-size: 48px;
     line-height: 36px;
@@ -3063,7 +3598,7 @@ POSTS & CONTENT STYLES
   }
 }
 @media only screen and (max-width: 400px) {
-  /* line 1235, ../scss/breakpoints/_base.scss */
+  /* line 1681, ../scss/breakpoints/_base.scss */
   #content .pageContent .pageHead h1 {
     font-size: 48px;
     line-height: 36px;
@@ -3071,12 +3606,12 @@ POSTS & CONTENT STYLES
     margin-left: 15px;
   }
 }
-/* line 1266, ../scss/breakpoints/_base.scss */
+/* line 1712, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicPage {
   background-color: whitesmoke;
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/clinicPageBGColour4.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/clinicPageBGColour4.jpg") no-repeat;
 }
-/* line 1271, ../scss/breakpoints/_base.scss */
+/* line 1717, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicPage:before {
   position: absolute;
   display: inline-block;
@@ -3091,17 +3626,17 @@ POSTS & CONTENT STYLES
   font-family: 'Avenir LT W01_85 Heavy';
 }
 @media only screen and (max-width: 600px) {
-  /* line 1271, ../scss/breakpoints/_base.scss */
+  /* line 1717, ../scss/breakpoints/_base.scss */
   #content .pageContent .clinicPage:before {
     display: none;
   }
 }
-/* line 1289, ../scss/breakpoints/_base.scss */
+/* line 1735, ../scss/breakpoints/_base.scss */
 #content .pageContent .athletePage {
   background-color: whitesmoke;
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/athletePageBGColour.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/athletePageBGColour.jpg") no-repeat;
 }
-/* line 1294, ../scss/breakpoints/_base.scss */
+/* line 1740, ../scss/breakpoints/_base.scss */
 #content .pageContent .athletePage:before {
   position: absolute;
   display: inline-block;
@@ -3116,17 +3651,17 @@ POSTS & CONTENT STYLES
   font-family: 'Avenir LT W01_85 Heavy';
 }
 @media only screen and (max-width: 600px) {
-  /* line 1294, ../scss/breakpoints/_base.scss */
+  /* line 1740, ../scss/breakpoints/_base.scss */
   #content .pageContent .athletePage:before {
     display: none;
   }
 }
-/* line 1312, ../scss/breakpoints/_base.scss */
+/* line 1758, ../scss/breakpoints/_base.scss */
 #content .pageContent .tradePage {
   background-color: whitesmoke;
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/tradePageBGColour.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/tradePageBGColour.jpg") no-repeat;
 }
-/* line 1317, ../scss/breakpoints/_base.scss */
+/* line 1763, ../scss/breakpoints/_base.scss */
 #content .pageContent .tradePage:before {
   position: absolute;
   display: inline-block;
@@ -3141,17 +3676,17 @@ POSTS & CONTENT STYLES
   font-family: 'Avenir LT W01_85 Heavy';
 }
 @media only screen and (max-width: 600px) {
-  /* line 1317, ../scss/breakpoints/_base.scss */
+  /* line 1763, ../scss/breakpoints/_base.scss */
   #content .pageContent .tradePage:before {
     display: none;
   }
 }
-/* line 1336, ../scss/breakpoints/_base.scss */
+/* line 1782, ../scss/breakpoints/_base.scss */
 #content .pageContent .funfreePage {
   background-color: whitesmoke;
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/funfreePageBGColour.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/funfreePageBGColour.jpg") no-repeat;
 }
-/* line 1341, ../scss/breakpoints/_base.scss */
+/* line 1787, ../scss/breakpoints/_base.scss */
 #content .pageContent .funfreePage:before {
   position: absolute;
   display: inline-block;
@@ -3166,30 +3701,30 @@ POSTS & CONTENT STYLES
   font-family: 'Avenir LT W01_85 Heavy';
 }
 @media only screen and (max-width: 600px) {
-  /* line 1341, ../scss/breakpoints/_base.scss */
+  /* line 1787, ../scss/breakpoints/_base.scss */
   #content .pageContent .funfreePage:before {
     display: none;
   }
 }
-/* line 1359, ../scss/breakpoints/_base.scss */
+/* line 1805, ../scss/breakpoints/_base.scss */
 #content .pageContent .hivePage {
   background-color: whitesmoke;
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/hivePageBGColour.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/hivePageBGColour.jpg") no-repeat;
 }
-/* line 1364, ../scss/breakpoints/_base.scss */
+/* line 1810, ../scss/breakpoints/_base.scss */
 #content .pageContent .seminarPage {
   background-color: whitesmoke;
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/seminarPageBGColour.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/seminarPageBGColour.jpg") no-repeat;
 }
 @media only screen and (max-width: 600px) {
-  /* line 1368, ../scss/breakpoints/_base.scss */
+  /* line 1814, ../scss/breakpoints/_base.scss */
   #content .pageContent .seminarPage h1 {
     font-size: 36px;
     bottom: -26px;
     line-height: 26px;
   }
 }
-/* line 1377, ../scss/breakpoints/_base.scss */
+/* line 1823, ../scss/breakpoints/_base.scss */
 #content .pageContent .seminarPage:before {
   position: absolute;
   display: inline-block;
@@ -3204,17 +3739,17 @@ POSTS & CONTENT STYLES
   font-family: 'Avenir LT W01_85 Heavy';
 }
 @media only screen and (max-width: 600px) {
-  /* line 1377, ../scss/breakpoints/_base.scss */
+  /* line 1823, ../scss/breakpoints/_base.scss */
   #content .pageContent .seminarPage:before {
     display: none;
   }
 }
-/* line 1395, ../scss/breakpoints/_base.scss */
+/* line 1841, ../scss/breakpoints/_base.scss */
 #content .pageContent .sunsetPage {
   background-color: whitesmoke;
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sunsetPageBGColour1.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sunsetPageBGColour1.jpg") no-repeat;
 }
-/* line 1400, ../scss/breakpoints/_base.scss */
+/* line 1846, ../scss/breakpoints/_base.scss */
 #content .pageContent .sunsetPage:before {
   position: absolute;
   display: inline-block;
@@ -3229,20 +3764,20 @@ POSTS & CONTENT STYLES
   font-family: 'Avenir LT W01_85 Heavy';
 }
 @media only screen and (max-width: 600px) {
-  /* line 1400, ../scss/breakpoints/_base.scss */
+  /* line 1846, ../scss/breakpoints/_base.scss */
   #content .pageContent .sunsetPage:before {
     display: none;
   }
 }
-/* line 1418, ../scss/breakpoints/_base.scss */
+/* line 1864, ../scss/breakpoints/_base.scss */
 #content .pageContent .mapPage {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/venuemapPageBGColour.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/venuemapPageBGColour.jpg") no-repeat;
 }
-/* line 1423, ../scss/breakpoints/_base.scss */
+/* line 1869, ../scss/breakpoints/_base.scss */
 #content .pageContent .schedulePage {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/schedulePageBGColour.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/schedulePageBGColour.jpg") no-repeat;
 }
-/* line 1427, ../scss/breakpoints/_base.scss */
+/* line 1873, ../scss/breakpoints/_base.scss */
 #content .pageContent .schedulePage:before {
   position: absolute;
   display: inline-block;
@@ -3257,16 +3792,16 @@ POSTS & CONTENT STYLES
   font-family: 'Avenir LT W01_85 Heavy';
 }
 @media only screen and (max-width: 600px) {
-  /* line 1427, ../scss/breakpoints/_base.scss */
+  /* line 1873, ../scss/breakpoints/_base.scss */
   #content .pageContent .schedulePage:before {
     display: none;
   }
 }
-/* line 1445, ../scss/breakpoints/_base.scss */
+/* line 1891, ../scss/breakpoints/_base.scss */
 #content .pageContent .contactPage {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/contactPageBGColour.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/contactPageBGColour.jpg") no-repeat;
 }
-/* line 1449, ../scss/breakpoints/_base.scss */
+/* line 1895, ../scss/breakpoints/_base.scss */
 #content .pageContent .contactPage:before {
   position: absolute;
   display: inline-block;
@@ -3281,16 +3816,16 @@ POSTS & CONTENT STYLES
   font-family: 'Avenir LT W01_85 Heavy';
 }
 @media only screen and (max-width: 600px) {
-  /* line 1449, ../scss/breakpoints/_base.scss */
+  /* line 1895, ../scss/breakpoints/_base.scss */
   #content .pageContent .contactPage:before {
     display: none;
   }
 }
-/* line 1467, ../scss/breakpoints/_base.scss */
+/* line 1913, ../scss/breakpoints/_base.scss */
 #content .pageContent .gettingherePage {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/gettingherePageBGColour.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/gettingherePageBGColour.jpg") no-repeat;
 }
-/* line 1471, ../scss/breakpoints/_base.scss */
+/* line 1917, ../scss/breakpoints/_base.scss */
 #content .pageContent .gettingherePage:before {
   position: absolute;
   display: inline-block;
@@ -3305,16 +3840,16 @@ POSTS & CONTENT STYLES
   font-family: 'Avenir LT W01_85 Heavy';
 }
 @media only screen and (max-width: 600px) {
-  /* line 1471, ../scss/breakpoints/_base.scss */
+  /* line 1917, ../scss/breakpoints/_base.scss */
   #content .pageContent .gettingherePage:before {
     display: none;
   }
 }
-/* line 1489, ../scss/breakpoints/_base.scss */
+/* line 1935, ../scss/breakpoints/_base.scss */
 #content .pageContent .contestPage {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/gettingherePageBGColour.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/gettingherePageBGColour.jpg") no-repeat;
 }
-/* line 1493, ../scss/breakpoints/_base.scss */
+/* line 1939, ../scss/breakpoints/_base.scss */
 #content .pageContent .contestPage:before {
   position: absolute;
   display: inline-block;
@@ -3329,12 +3864,36 @@ POSTS & CONTENT STYLES
   font-family: 'Avenir LT W01_85 Heavy';
 }
 @media only screen and (max-width: 600px) {
-  /* line 1493, ../scss/breakpoints/_base.scss */
+  /* line 1939, ../scss/breakpoints/_base.scss */
   #content .pageContent .contestPage:before {
     display: none;
   }
 }
-/* line 1511, ../scss/breakpoints/_base.scss */
+/* line 1957, ../scss/breakpoints/_base.scss */
+#content .pageContent .communityPage {
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/05/communitypageBG2.jpg") no-repeat;
+}
+/* line 1961, ../scss/breakpoints/_base.scss */
+#content .pageContent .communityPage:before {
+  position: absolute;
+  display: inline-block;
+  content: '';
+  bottom: 15px;
+  right: 20px;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #fff;
+  text-shadow: 1px 1px 2px #212121;
+  font-weight: 900;
+  font-family: 'Avenir LT W01_85 Heavy';
+}
+@media only screen and (max-width: 600px) {
+  /* line 1961, ../scss/breakpoints/_base.scss */
+  #content .pageContent .communityPage:before {
+    display: none;
+  }
+}
+/* line 1979, ../scss/breakpoints/_base.scss */
 #content .pageContent h1 {
   font-family: 'Avenir LT W01_65 Medium';
   text-transform: uppercase;
@@ -3345,18 +3904,18 @@ POSTS & CONTENT STYLES
   font-weight: 900;
   margin-left: 30px;
 }
-/* line 1522, ../scss/breakpoints/_base.scss */
+/* line 1990, ../scss/breakpoints/_base.scss */
 #content .pageContent h3 {
   margin-left: 30px;
   font-weight: 900;
   font-size: 14px;
 }
-/* line 1528, ../scss/breakpoints/_base.scss */
+/* line 1996, ../scss/breakpoints/_base.scss */
 #content .pageContent ul {
   margin-left: 30px;
   width: 80%;
 }
-/* line 1532, ../scss/breakpoints/_base.scss */
+/* line 2000, ../scss/breakpoints/_base.scss */
 #content .pageContent ul li {
   margin-left: 30px;
   list-style: disc;
@@ -3364,7 +3923,7 @@ POSTS & CONTENT STYLES
   font-size: 13px;
   text-transform: uppercase;
 }
-/* line 1541, ../scss/breakpoints/_base.scss */
+/* line 2009, ../scss/breakpoints/_base.scss */
 #content .pageContent p {
   width: 60%;
   margin-left: 30px;
@@ -3374,22 +3933,22 @@ POSTS & CONTENT STYLES
   color: #333;
 }
 @media only screen and (max-width: 930px) {
-  /* line 1541, ../scss/breakpoints/_base.scss */
+  /* line 2009, ../scss/breakpoints/_base.scss */
   #content .pageContent p {
     width: 80%;
   }
 }
-/* line 1555, ../scss/breakpoints/_base.scss */
+/* line 2023, ../scss/breakpoints/_base.scss */
 #content .pageContent a {
   font-family: 'Avenir LT W01_65 Medium';
   font-size: 13px;
   font-weight: 900;
 }
-/* line 1562, ../scss/breakpoints/_base.scss */
+/* line 2030, ../scss/breakpoints/_base.scss */
 #content .pageContent .bolder {
   font-weight: 900;
 }
-/* line 1568, ../scss/breakpoints/_base.scss */
+/* line 2036, ../scss/breakpoints/_base.scss */
 #content .pageContent .ecommInfoWrap {
   width: 100%;
   float: left;
@@ -3397,22 +3956,22 @@ POSTS & CONTENT STYLES
   display: inline-block;
   margin-bottom: 30px;
 }
-/* line 1575, ../scss/breakpoints/_base.scss */
+/* line 2043, ../scss/breakpoints/_base.scss */
 #content .pageContent .ecommInfoWrap h1 {
   line-height: 24px;
   margin-bottom: -10px;
 }
-/* line 1580, ../scss/breakpoints/_base.scss */
+/* line 2048, ../scss/breakpoints/_base.scss */
 #content .pageContent .ecommInfoWrap p {
   width: 40%;
 }
 @media only screen and (max-width: 600px) {
-  /* line 1580, ../scss/breakpoints/_base.scss */
+  /* line 2048, ../scss/breakpoints/_base.scss */
   #content .pageContent .ecommInfoWrap p {
     width: 80%;
   }
 }
-/* line 1588, ../scss/breakpoints/_base.scss */
+/* line 2056, ../scss/breakpoints/_base.scss */
 #content .pageContent .ecommInfoWrap .canWestWrap {
   position: absolute;
   right: 60px;
@@ -3420,7 +3979,7 @@ POSTS & CONTENT STYLES
   width: 40%;
 }
 @media only screen and (max-width: 600px) {
-  /* line 1588, ../scss/breakpoints/_base.scss */
+  /* line 2056, ../scss/breakpoints/_base.scss */
   #content .pageContent .ecommInfoWrap .canWestWrap {
     width: 80%;
     position: relative;
@@ -3431,11 +3990,11 @@ POSTS & CONTENT STYLES
     padding-bottom: 45px;
   }
 }
-/* line 1604, ../scss/breakpoints/_base.scss */
+/* line 2072, ../scss/breakpoints/_base.scss */
 #content .pageContent .ecommInfoWrap .canWestWrap p {
   width: 100%;
 }
-/* line 1608, ../scss/breakpoints/_base.scss */
+/* line 2076, ../scss/breakpoints/_base.scss */
 #content .pageContent .ecommInfoWrap .canWestWrap img {
   display: inline-block;
   float: left;
@@ -3444,11 +4003,11 @@ POSTS & CONTENT STYLES
   padding-top: 10px;
   padding-left: 10px;
 }
-/* line 1617, ../scss/breakpoints/_base.scss */
+/* line 2085, ../scss/breakpoints/_base.scss */
 #content .pageContent .ecommInfoWrap .canWestWrap .button {
   margin-top: 20px;
 }
-/* line 1620, ../scss/breakpoints/_base.scss */
+/* line 2088, ../scss/breakpoints/_base.scss */
 #content .pageContent .ecommInfoWrap .canWestWrap .button p {
   text-align: center;
   width: 80%;
@@ -3464,7 +4023,7 @@ POSTS & CONTENT STYLES
   font-size: 15px;
   letter-spacing: -1px;
 }
-/* line 1635, ../scss/breakpoints/_base.scss */
+/* line 2103, ../scss/breakpoints/_base.scss */
 #content .pageContent .ecommInfoWrap .canWestWrap .button a {
   text-align: center;
   width: 90%;
@@ -3476,34 +4035,60 @@ POSTS & CONTENT STYLES
   text-decoration: none;
   margin-left: 30px;
 }
-/* line 1654, ../scss/breakpoints/_base.scss */
+/* line 2122, ../scss/breakpoints/_base.scss */
 #content .pageContent .disclaimerWrap {
   float: left;
   width: 92%;
   margin-left: 30px;
+  border: 1px solid #ed5b22 !important;
   margin-bottom: 30px;
   margin-top: 15px;
 }
 @media only screen and (max-width: 560px) {
-  /* line 1654, ../scss/breakpoints/_base.scss */
+  /* line 2122, ../scss/breakpoints/_base.scss */
   #content .pageContent .disclaimerWrap {
     margin-left: 5px;
   }
 }
-/* line 1666, ../scss/breakpoints/_base.scss */
+/* line 2135, ../scss/breakpoints/_base.scss */
 #content .pageContent .disclaimerWrap h3 {
   text-transform: uppercase;
   font-size: 18px;
   line-height: 18px;
   color: #ed5b22;
 }
-/* line 1672, ../scss/breakpoints/_base.scss */
+/* line 2141, ../scss/breakpoints/_base.scss */
+#content .pageContent .disclaimerWrap .bolder {
+  line-height: 18px;
+  color: black;
+  font-weight: 500;
+  margin-top: 15px;
+}
+/* line 2150, ../scss/breakpoints/_base.scss */
+#content .pageContent .disclaimerWrap ul {
+  margin-top: -10px;
+}
+/* line 2154, ../scss/breakpoints/_base.scss */
+#content .pageContent .disclaimerWrap ul li {
+  font-weight: 900;
+  font-size: 15px;
+  color: #ed5b22;
+  text-transform: none;
+  list-style: square;
+}
+/* line 2163, ../scss/breakpoints/_base.scss */
+#content .pageContent .disclaimerWrap span {
+  margin: 10px 0;
+  padding-left: 30px;
+  font-weight: 700;
+}
+/* line 2169, ../scss/breakpoints/_base.scss */
 #content .pageContent .disclaimerWrap p {
   width: 90%;
   margin-top: -10px;
-  font-family: 'Avenir LT W01_85 Heavy';
+  font-family: 'Avenir LT W01_65 Medium';
 }
-/* line 1680, ../scss/breakpoints/_base.scss */
+/* line 2177, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicCatWrap {
   width: 97%;
   position: relative;
@@ -3513,11 +4098,11 @@ POSTS & CONTENT STYLES
   display: inline-block;
   margin-top: 30px;
 }
-/* line 1689, ../scss/breakpoints/_base.scss */
+/* line 2186, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicCatWrap .marginGutter {
   margin-right: 25px;
 }
-/* line 1693, ../scss/breakpoints/_base.scss */
+/* line 2190, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicCatWrap .clinicCat {
   width: 47%;
   float: left;
@@ -3527,13 +4112,13 @@ POSTS & CONTENT STYLES
   text-align: center;
 }
 @media only screen and (max-width: 767px) {
-  /* line 1693, ../scss/breakpoints/_base.scss */
+  /* line 2190, ../scss/breakpoints/_base.scss */
   #content .pageContent .clinicCatWrap .clinicCat {
     width: 96%;
     margin-bottom: 30px;
   }
 }
-/* line 1706, ../scss/breakpoints/_base.scss */
+/* line 2203, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicCatWrap .clinicCat h1 {
   position: absolute;
   bottom: 0px;
@@ -3547,7 +4132,7 @@ POSTS & CONTENT STYLES
   text-align: left;
   letter-spacing: -3px;
 }
-/* line 1720, ../scss/breakpoints/_base.scss */
+/* line 2217, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicCatWrap .clinicCat .clinicCatBorder {
   width: 100%;
   min-height: 170px;
@@ -3558,7 +4143,7 @@ POSTS & CONTENT STYLES
   border-left: 1px solid #eee;
   padding-bottom: 20px;
 }
-/* line 1731, ../scss/breakpoints/_base.scss */
+/* line 2228, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicCatWrap .clinicCat .registerPlaceholder {
   font-family: 'Avenir LT W01_65 Medium';
   font-weight: 900;
@@ -3570,7 +4155,7 @@ POSTS & CONTENT STYLES
   padding: 5px 0 3px 0;
   display: none;
 }
-/* line 1744, ../scss/breakpoints/_base.scss */
+/* line 2241, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicCatWrap .clinicCat p {
   text-align: center;
   width: 85%;
@@ -3578,7 +4163,7 @@ POSTS & CONTENT STYLES
   padding-top: 15px;
   padding-bottom: 15px;
 }
-/* line 1752, ../scss/breakpoints/_base.scss */
+/* line 2249, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicCatWrap .clinicCat a {
   text-align: center;
   width: 90%;
@@ -3590,91 +4175,94 @@ POSTS & CONTENT STYLES
   text-decoration: none;
 }
 @media only screen and (max-width: 767px) {
-  /* line 1752, ../scss/breakpoints/_base.scss */
+  /* line 2249, ../scss/breakpoints/_base.scss */
   #content .pageContent .clinicCatWrap .clinicCat a {
     padding: 2px 5px 1px;
   }
 }
-/* line 1776, ../scss/breakpoints/_base.scss */
+/* line 2273, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicCatWrap .bluffs .catHead {
   width: 100%;
   height: 400px;
   position: relative;
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/clinicCatBluffs.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/clinicCatBluffs.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
-/* line 1791, ../scss/breakpoints/_base.scss */
+/* line 2288, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicCatWrap .seatosky .catHead {
   width: 100%;
   height: 400px;
   position: relative;
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/clinicCatSeatosky.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/clinicCatSeatosky.jpg") no-repeat;
   background-size: cover;
   background-position: center bottom;
 }
-/* line 1803, ../scss/breakpoints/_base.scss */
+/* line 2300, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicInfoWrap {
-  width: 65%;
+  width: 60%;
   float: left;
   position: relative;
   display: inline-block;
+  box-sizing: border-box;
 }
 @media only screen and (max-width: 600px) {
-  /* line 1803, ../scss/breakpoints/_base.scss */
+  /* line 2300, ../scss/breakpoints/_base.scss */
   #content .pageContent .clinicInfoWrap {
     width: 100%;
   }
 }
-/* line 1813, ../scss/breakpoints/_base.scss */
+/* line 2310, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicInfoWrap h1 {
   line-height: 24px;
   margin-bottom: -10px;
 }
-/* line 1818, ../scss/breakpoints/_base.scss */
+/* line 2315, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicInfoWrap p {
   width: 90%;
   text-align: left;
 }
-/* line 1822, ../scss/breakpoints/_base.scss */
+/* line 2319, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicInfoWrap a {
   margin: 0;
   padding: 0;
 }
-/* line 1829, ../scss/breakpoints/_base.scss */
+/* line 2326, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicInfoWrap ul li {
   float: left;
   list-style: disc;
 }
-/* line 1837, ../scss/breakpoints/_base.scss */
+/* line 2334, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicAthleteWrap {
   width: 30%;
   float: left;
   position: relative;
   display: inline-block;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 @media only screen and (max-width: 600px) {
-  /* line 1837, ../scss/breakpoints/_base.scss */
+  /* line 2334, ../scss/breakpoints/_base.scss */
   #content .pageContent .clinicAthleteWrap {
     width: 90%;
   }
 }
-/* line 1847, ../scss/breakpoints/_base.scss */
+/* line 2346, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicAthleteWrap h1 {
   margin-bottom: -10px;
   line-height: 24px;
 }
-/* line 1852, ../scss/breakpoints/_base.scss */
+/* line 2351, ../scss/breakpoints/_base.scss */
 #content .pageContent .clinicAthleteWrap p {
-  width: 100%;
+  width: 90%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 1859, ../scss/breakpoints/_base.scss */
+  /* line 2358, ../scss/breakpoints/_base.scss */
   #content .pageContent h3 {
     width: 80%;
   }
 }
-/* line 1867, ../scss/breakpoints/_base.scss */
+/* line 2366, ../scss/breakpoints/_base.scss */
 #content .pageContent .athleteWrap {
   position: relative;
   width: 870px;
@@ -3684,19 +4272,19 @@ POSTS & CONTENT STYLES
   margin-top: 60px;
 }
 @media only screen and (max-width: 929px) {
-  /* line 1867, ../scss/breakpoints/_base.scss */
+  /* line 2366, ../scss/breakpoints/_base.scss */
   #content .pageContent .athleteWrap {
     width: 96%;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 1867, ../scss/breakpoints/_base.scss */
+  /* line 2366, ../scss/breakpoints/_base.scss */
   #content .pageContent .athleteWrap {
     width: 96%;
     margin-left: 15px;
   }
 }
-/* line 1884, ../scss/breakpoints/_base.scss */
+/* line 2383, ../scss/breakpoints/_base.scss */
 #content .pageContent .athleteWrap .athleteImgWrap {
   width: 30%;
   height: 350px;
@@ -3705,43 +4293,43 @@ POSTS & CONTENT STYLES
   box-sizing: border-box;
 }
 @media only screen and (max-width: 929px) {
-  /* line 1884, ../scss/breakpoints/_base.scss */
+  /* line 2383, ../scss/breakpoints/_base.scss */
   #content .pageContent .athleteWrap .athleteImgWrap {
     width: 30%;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 1884, ../scss/breakpoints/_base.scss */
+  /* line 2383, ../scss/breakpoints/_base.scss */
   #content .pageContent .athleteWrap .athleteImgWrap {
     width: 100%;
   }
 }
-/* line 1900, ../scss/breakpoints/_base.scss */
+/* line 2399, ../scss/breakpoints/_base.scss */
 #content .pageContent .athleteWrap .athleteBioWrap {
   width: 40%;
   float: left;
   box-sizing: border-box;
 }
 @media only screen and (max-width: 929px) {
-  /* line 1900, ../scss/breakpoints/_base.scss */
+  /* line 2399, ../scss/breakpoints/_base.scss */
   #content .pageContent .athleteWrap .athleteBioWrap {
     width: 40%;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 1900, ../scss/breakpoints/_base.scss */
+  /* line 2399, ../scss/breakpoints/_base.scss */
   #content .pageContent .athleteWrap .athleteBioWrap {
     width: 60%;
     margin-top: 20px;
   }
 }
 @media only screen and (max-width: 400px) {
-  /* line 1900, ../scss/breakpoints/_base.scss */
+  /* line 2399, ../scss/breakpoints/_base.scss */
   #content .pageContent .athleteWrap .athleteBioWrap {
     width: 96%;
   }
 }
-/* line 1918, ../scss/breakpoints/_base.scss */
+/* line 2417, ../scss/breakpoints/_base.scss */
 #content .pageContent .athleteWrap .athleteBioWrap h3 {
   margin-top: 0;
   font-size: 24px;
@@ -3754,54 +4342,54 @@ POSTS & CONTENT STYLES
   line-height: 20px;
 }
 @media only screen and (max-width: 400px) {
-  /* line 1918, ../scss/breakpoints/_base.scss */
+  /* line 2417, ../scss/breakpoints/_base.scss */
   #content .pageContent .athleteWrap .athleteBioWrap h3 {
     margin-left: 15px;
   }
 }
-/* line 1933, ../scss/breakpoints/_base.scss */
+/* line 2432, ../scss/breakpoints/_base.scss */
 #content .pageContent .athleteWrap .athleteBioWrap p {
   width: 90% !important;
   font-size: 11px;
   color: #333;
 }
 @media only screen and (max-width: 400px) {
-  /* line 1933, ../scss/breakpoints/_base.scss */
+  /* line 2432, ../scss/breakpoints/_base.scss */
   #content .pageContent .athleteWrap .athleteBioWrap p {
     margin-left: 15px;
   }
 }
-/* line 1941, ../scss/breakpoints/_base.scss */
+/* line 2440, ../scss/breakpoints/_base.scss */
 #content .pageContent .athleteWrap .athleteBioWrap a {
   float: left;
   margin-left: 30px;
   font-size: 13px;
 }
 @media only screen and (max-width: 400px) {
-  /* line 1941, ../scss/breakpoints/_base.scss */
+  /* line 2440, ../scss/breakpoints/_base.scss */
   #content .pageContent .athleteWrap .athleteBioWrap a {
     margin-left: 15px;
   }
 }
-/* line 1951, ../scss/breakpoints/_base.scss */
+/* line 2450, ../scss/breakpoints/_base.scss */
 #content .pageContent .athleteWrap .athleteScheduleWrap {
   width: 30%;
   float: left;
   box-sizing: border-box;
 }
 @media only screen and (max-width: 929px) {
-  /* line 1951, ../scss/breakpoints/_base.scss */
+  /* line 2450, ../scss/breakpoints/_base.scss */
   #content .pageContent .athleteWrap .athleteScheduleWrap {
     width: 25%;
   }
 }
 @media only screen and (max-width: 500px) {
-  /* line 1951, ../scss/breakpoints/_base.scss */
+  /* line 2450, ../scss/breakpoints/_base.scss */
   #content .pageContent .athleteWrap .athleteScheduleWrap {
     width: 96%;
   }
 }
-/* line 1965, ../scss/breakpoints/_base.scss */
+/* line 2464, ../scss/breakpoints/_base.scss */
 #content .pageContent .athleteWrap .athleteScheduleWrap h1 {
   font-size: 15px;
   color: #666;
@@ -3812,12 +4400,12 @@ POSTS & CONTENT STYLES
   font-weight: 300;
 }
 @media only screen and (max-width: 400px) {
-  /* line 1965, ../scss/breakpoints/_base.scss */
+  /* line 2464, ../scss/breakpoints/_base.scss */
   #content .pageContent .athleteWrap .athleteScheduleWrap h1 {
     margin-left: 15px;
   }
 }
-/* line 1978, ../scss/breakpoints/_base.scss */
+/* line 2477, ../scss/breakpoints/_base.scss */
 #content .pageContent .athleteWrap .athleteScheduleWrap h3 {
   font-size: 15px;
   text-transform: uppercase;
@@ -3828,12 +4416,12 @@ POSTS & CONTENT STYLES
   font-weight: 900;
 }
 @media only screen and (max-width: 400px) {
-  /* line 1978, ../scss/breakpoints/_base.scss */
+  /* line 2477, ../scss/breakpoints/_base.scss */
   #content .pageContent .athleteWrap .athleteScheduleWrap h3 {
     margin-left: 15px;
   }
 }
-/* line 1991, ../scss/breakpoints/_base.scss */
+/* line 2490, ../scss/breakpoints/_base.scss */
 #content .pageContent .athleteWrap .athleteScheduleWrap p {
   font-size: 12px;
   line-height: 15px;
@@ -3844,12 +4432,12 @@ POSTS & CONTENT STYLES
   color: #000;
 }
 @media only screen and (max-width: 400px) {
-  /* line 1991, ../scss/breakpoints/_base.scss */
+  /* line 2490, ../scss/breakpoints/_base.scss */
   #content .pageContent .athleteWrap .athleteScheduleWrap p {
     margin-left: 15px;
   }
 }
-/* line 2004, ../scss/breakpoints/_base.scss */
+/* line 2503, ../scss/breakpoints/_base.scss */
 #content .pageContent .athleteWrap .athleteScheduleWrap a {
   margin-left: 30px;
   padding: 3px 10px;
@@ -3862,125 +4450,125 @@ POSTS & CONTENT STYLES
   display: inline-block;
 }
 @media only screen and (max-width: 400px) {
-  /* line 2004, ../scss/breakpoints/_base.scss */
+  /* line 2503, ../scss/breakpoints/_base.scss */
   #content .pageContent .athleteWrap .athleteScheduleWrap a {
     margin-left: 15px;
   }
 }
-/* line 2022, ../scss/breakpoints/_base.scss */
+/* line 2521, ../scss/breakpoints/_base.scss */
 #content .pageContent .willGadd .athleteImgWrap {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/willGadd.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/willGadd.jpg") no-repeat;
   background-size: cover;
   background-position: right bottom;
 }
-/* line 2031, ../scss/breakpoints/_base.scss */
+/* line 2530, ../scss/breakpoints/_base.scss */
 #content .pageContent .bretteHarrington .athleteImgWrap {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/bretteHarrington.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/bretteHarrington.jpg") no-repeat;
   background-size: cover;
   background-position: right top;
 }
-/* line 2039, ../scss/breakpoints/_base.scss */
+/* line 2538, ../scss/breakpoints/_base.scss */
 #content .pageContent .craigDeMartino .athleteImgWrap {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/craigDeMartino.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/craigDeMartino.jpg") no-repeat;
   background-size: cover;
   background-position: right bottom;
 }
 @media only screen and (max-width: 767px) {
-  /* line 2039, ../scss/breakpoints/_base.scss */
+  /* line 2538, ../scss/breakpoints/_base.scss */
   #content .pageContent .craigDeMartino .athleteImgWrap {
     background-position: right -170px;
   }
 }
 @media only screen and (max-width: 400px) {
-  /* line 2039, ../scss/breakpoints/_base.scss */
+  /* line 2538, ../scss/breakpoints/_base.scss */
   #content .pageContent .craigDeMartino .athleteImgWrap {
     background-position: right 0;
   }
 }
-/* line 2056, ../scss/breakpoints/_base.scss */
+/* line 2555, ../scss/breakpoints/_base.scss */
 #content .pageContent .jonathanSiegrist .athleteImgWrap {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/jonathanSiegrist.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/jonathanSiegrist.jpg") no-repeat;
   background-size: cover;
   background-position: right top;
 }
-/* line 2066, ../scss/breakpoints/_base.scss */
+/* line 2565, ../scss/breakpoints/_base.scss */
 #content .pageContent .marcandreLeclerc .athleteImgWrap {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/marcandreLeclerc.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/marcandreLeclerc.jpg") no-repeat;
   background-size: cover;
   background-position: right top;
 }
 @media only screen and (max-width: 767px) {
-  /* line 2066, ../scss/breakpoints/_base.scss */
+  /* line 2565, ../scss/breakpoints/_base.scss */
   #content .pageContent .marcandreLeclerc .athleteImgWrap {
     background-position: right -400px;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 2066, ../scss/breakpoints/_base.scss */
+  /* line 2565, ../scss/breakpoints/_base.scss */
   #content .pageContent .marcandreLeclerc .athleteImgWrap {
     background-position: right -250px;
   }
 }
-/* line 2084, ../scss/breakpoints/_base.scss */
+/* line 2583, ../scss/breakpoints/_base.scss */
 #content .pageContent .paulMcSorley .athleteImgWrap {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/paulMcSorley.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/paulMcSorley.jpg") no-repeat;
   background-size: cover;
   background-position: right top;
 }
-/* line 2093, ../scss/breakpoints/_base.scss */
+/* line 2592, ../scss/breakpoints/_base.scss */
 #content .pageContent .robPizem .athleteImgWrap {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/robPizem.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/robPizem.jpg") no-repeat;
   background-size: cover;
   background-position: center top;
 }
-/* line 2103, ../scss/breakpoints/_base.scss */
+/* line 2602, ../scss/breakpoints/_base.scss */
 #content .pageContent .vikkiWeldon .athleteImgWrap {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/vikkiWeldon.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/vikkiWeldon.jpg") no-repeat;
   background-size: cover;
   background-position: center top;
 }
-/* line 2113, ../scss/breakpoints/_base.scss */
+/* line 2612, ../scss/breakpoints/_base.scss */
 #content .pageContent .jasonKruk .athleteImgWrap {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/jasonKruk.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/jasonKruk.jpg") no-repeat;
   background-size: cover;
   background-position: center top;
 }
-/* line 2122, ../scss/breakpoints/_base.scss */
+/* line 2621, ../scss/breakpoints/_base.scss */
 #content .pageContent .jesseHuey .athleteImgWrap {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/jesseHuey.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/jesseHuey.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
-/* line 2131, ../scss/breakpoints/_base.scss */
+/* line 2630, ../scss/breakpoints/_base.scss */
 #content .pageContent .jonWalsh .athleteImgWrap {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/jonWalsh.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/jonWalsh.jpg") no-repeat;
   background-size: cover;
   background-position: center top;
 }
-/* line 2140, ../scss/breakpoints/_base.scss */
+/* line 2639, ../scss/breakpoints/_base.scss */
 #content .pageContent .katieBono .athleteImgWrap {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/katieBono.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/katieBono.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 2149, ../scss/breakpoints/_base.scss */
+/* line 2648, ../scss/breakpoints/_base.scss */
 #content .pageContent .raphaelSlawinski .athleteImgWrap {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/raphaelSlawinski.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/raphaelSlawinski.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
-/* line 2159, ../scss/breakpoints/_base.scss */
+/* line 2658, ../scss/breakpoints/_base.scss */
 #content .pageContent .funEventWrap {
   margin-left: 60px;
   margin-top: 30px;
 }
 @media only screen and (max-width: 600px) {
-  /* line 2159, ../scss/breakpoints/_base.scss */
+  /* line 2658, ../scss/breakpoints/_base.scss */
   #content .pageContent .funEventWrap {
     margin-left: 15px;
   }
 }
-/* line 2167, ../scss/breakpoints/_base.scss */
+/* line 2666, ../scss/breakpoints/_base.scss */
 #content .pageContent .funEventWrap h1 {
   font-family: 'Avenir LT W01_55 Roman';
   font-size: 15px;
@@ -3992,7 +4580,7 @@ POSTS & CONTENT STYLES
   line-height: 16px;
   width: 60%;
 }
-/* line 2178, ../scss/breakpoints/_base.scss */
+/* line 2677, ../scss/breakpoints/_base.scss */
 #content .pageContent .funEventWrap p {
   padding-top: 0;
   margin-top: 0;
@@ -4000,23 +4588,23 @@ POSTS & CONTENT STYLES
   width: 50%;
 }
 @media only screen and (max-width: 600px) {
-  /* line 2178, ../scss/breakpoints/_base.scss */
+  /* line 2677, ../scss/breakpoints/_base.scss */
   #content .pageContent .funEventWrap p {
     width: 80%;
   }
 }
-/* line 2199, ../scss/breakpoints/_base.scss */
+/* line 2698, ../scss/breakpoints/_base.scss */
 #content .pageContent .seminarWrap {
   margin-top: 30px;
   margin-left: 30px;
 }
 @media only screen and (max-width: 600px) {
-  /* line 2199, ../scss/breakpoints/_base.scss */
+  /* line 2698, ../scss/breakpoints/_base.scss */
   #content .pageContent .seminarWrap {
     margin-left: 15px;
   }
 }
-/* line 2206, ../scss/breakpoints/_base.scss */
+/* line 2705, ../scss/breakpoints/_base.scss */
 #content .pageContent .seminarWrap h1 {
   font-family: 'Avenir LT W01_55 Roman';
   font-size: 15px;
@@ -4029,23 +4617,23 @@ POSTS & CONTENT STYLES
   width: 60%;
 }
 @media only screen and (max-width: 600px) {
-  /* line 2206, ../scss/breakpoints/_base.scss */
+  /* line 2705, ../scss/breakpoints/_base.scss */
   #content .pageContent .seminarWrap h1 {
     width: 80%;
   }
 }
-/* line 2221, ../scss/breakpoints/_base.scss */
+/* line 2720, ../scss/breakpoints/_base.scss */
 #content .pageContent .seminarWrap p {
   margin-top: 0;
 }
-/* line 2225, ../scss/breakpoints/_base.scss */
+/* line 2724, ../scss/breakpoints/_base.scss */
 #content .pageContent .seminarWrap .seminarDetails {
   font-weight: 900;
   margin-top: -13px;
   text-transform: uppercase;
   color: #ed5b22;
 }
-/* line 2232, ../scss/breakpoints/_base.scss */
+/* line 2731, ../scss/breakpoints/_base.scss */
 #content .pageContent .seminarWrap a {
   margin-left: 30px;
   margin-top: -10px;
@@ -4056,43 +4644,59 @@ POSTS & CONTENT STYLES
   max-width: 20%;
 }
 @media only screen and (max-width: 600px) {
-  /* line 2232, ../scss/breakpoints/_base.scss */
+  /* line 2731, ../scss/breakpoints/_base.scss */
   #content .pageContent .seminarWrap a {
     max-width: 80%;
   }
 }
-/* line 2249, ../scss/breakpoints/_base.scss */
-#content .pageContent .introComingSoon {
-  display: none;
-}
-/* line 2251, ../scss/breakpoints/_base.scss */
+/* line 2750, ../scss/breakpoints/_base.scss */
 #content .pageContent .introComingSoon p {
   font-weight: 900;
   font-size: 18px;
   text-transform: uppercase;
 }
-/* line 2258, ../scss/breakpoints/_base.scss */
+/* line 2757, ../scss/breakpoints/_base.scss */
 #content .pageContent .hiveDetailWrap {
   width: 45%;
   float: left;
   display: inline-block;
   position: relative;
   border: 1px solid #aaa;
+  margin-top: 30px;
 }
-/* line 2266, ../scss/breakpoints/_base.scss */
+/* line 2766, ../scss/breakpoints/_base.scss */
 #content .pageContent .hiveDetailWrap h1 {
   font-size: 24px;
   line-height: 24px;
 }
-/* line 2271, ../scss/breakpoints/_base.scss */
+/* line 2771, ../scss/breakpoints/_base.scss */
+#content .pageContent .hiveDetailWrap h3 {
+  text-transform: uppercase;
+  width: 70%;
+  line-height: 15px;
+  color: #ed5b22;
+}
+/* line 2778, ../scss/breakpoints/_base.scss */
+#content .pageContent .hiveDetailWrap p {
+  width: 90%;
+}
+/* line 2782, ../scss/breakpoints/_base.scss */
+#content .pageContent .hiveDetailWrap ul {
+  margin-bottom: 30px;
+}
+/* line 2785, ../scss/breakpoints/_base.scss */
+#content .pageContent .hiveDetailWrap ul li {
+  font-family: "Avenir LT W01_85 Heavy";
+}
+/* line 2790, ../scss/breakpoints/_base.scss */
 #content .pageContent .marginRight {
   margin-right: 30px;
 }
-/* line 2275, ../scss/breakpoints/_base.scss */
+/* line 2794, ../scss/breakpoints/_base.scss */
 #content .pageContent .marginLeft {
   margin-left: 30px;
 }
-/* line 2281, ../scss/breakpoints/_base.scss */
+/* line 2800, ../scss/breakpoints/_base.scss */
 #content .pageContent .speakersWrap {
   width: 40%;
   position: relative;
@@ -4102,13 +4706,13 @@ POSTS & CONTENT STYLES
   margin-top: 30px;
 }
 @media only screen and (max-width: 600px) {
-  /* line 2281, ../scss/breakpoints/_base.scss */
+  /* line 2800, ../scss/breakpoints/_base.scss */
   #content .pageContent .speakersWrap {
     width: 90%;
     margin-left: 0px;
   }
 }
-/* line 2294, ../scss/breakpoints/_base.scss */
+/* line 2813, ../scss/breakpoints/_base.scss */
 #content .pageContent .speakersWrap h1 {
   font-weight: 900;
   font-size: 24px;
@@ -4116,7 +4720,7 @@ POSTS & CONTENT STYLES
   margin-left: 30px;
   line-height: 18px;
 }
-/* line 2301, ../scss/breakpoints/_base.scss */
+/* line 2820, ../scss/breakpoints/_base.scss */
 #content .pageContent .speakersWrap h2 {
   font-size: 18px;
   font-weight: 900;
@@ -4125,37 +4729,50 @@ POSTS & CONTENT STYLES
   margin-top: 30px;
   line-height: 20px;
 }
-/* line 2310, ../scss/breakpoints/_base.scss */
+/* line 2829, ../scss/breakpoints/_base.scss */
 #content .pageContent .speakersWrap h3 {
   text-transform: uppercase;
 }
-/* line 2314, ../scss/breakpoints/_base.scss */
+/* line 2833, ../scss/breakpoints/_base.scss */
+#content .pageContent .speakersWrap h4 {
+  font-weight: 900;
+  font-size: 16px;
+  color: #000;
+  margin-left: 30px;
+  line-height: 16px;
+}
+/* line 2841, ../scss/breakpoints/_base.scss */
 #content .pageContent .speakersWrap p {
   width: 80%;
 }
 @media only screen and (max-width: 600px) {
-  /* line 2314, ../scss/breakpoints/_base.scss */
+  /* line 2841, ../scss/breakpoints/_base.scss */
   #content .pageContent .speakersWrap p {
     width: 90%;
   }
 }
-/* line 2321, ../scss/breakpoints/_base.scss */
+/* line 2848, ../scss/breakpoints/_base.scss */
 #content .pageContent .speakersWrap img {
   position: relative;
   display: inline-block;
   margin-left: 30px;
   width: 90%;
 }
-/* line 2330, ../scss/breakpoints/_base.scss */
+/* line 2855, ../scss/breakpoints/_base.scss */
+#content .pageContent .speakersWrap .tighter {
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+/* line 2862, ../scss/breakpoints/_base.scss */
 #content .pageContent .speakersWrap .hashtag a {
   font-size: 15px;
   margin-top: -5px;
 }
-/* line 2336, ../scss/breakpoints/_base.scss */
+/* line 2868, ../scss/breakpoints/_base.scss */
 #content .pageContent .speakersWrap img {
   margin-top: 30px;
 }
-/* line 2340, ../scss/breakpoints/_base.scss */
+/* line 2872, ../scss/breakpoints/_base.scss */
 #content .pageContent .speakersWrap .speakerAthleteWrap {
   width: 42%;
   box-sizing: border-box;
@@ -4165,7 +4782,7 @@ POSTS & CONTENT STYLES
   display: inline-block;
   margin-bottom: 30px;
 }
-/* line 2349, ../scss/breakpoints/_base.scss */
+/* line 2881, ../scss/breakpoints/_base.scss */
 #content .pageContent .speakersWrap .speakerAthleteWrap h3 {
   position: absolute;
   bottom: 0;
@@ -4181,15 +4798,15 @@ POSTS & CONTENT STYLES
   text-shadow: 1px 1px 10px #000;
 }
 @media only screen and (max-width: 768px) {
-  /* line 2349, ../scss/breakpoints/_base.scss */
+  /* line 2881, ../scss/breakpoints/_base.scss */
   #content .pageContent .speakersWrap .speakerAthleteWrap h3 {
     margin-left: 5px;
     font-size: 13px;
   }
 }
-/* line 2370, ../scss/breakpoints/_base.scss */
+/* line 2902, ../scss/breakpoints/_base.scss */
 #content .pageContent .speakersWrap .bretteHarrington {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/bretteHarrington.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/bretteHarrington.jpg") no-repeat;
   margin-left: 30px;
   background-size: cover;
   filter: grayscale(100%);
@@ -4207,9 +4824,9 @@ POSTS & CONTENT STYLES
   -webkit-filter: grayscale(1);
   /* Old WebKit */
 }
-/* line 2384, ../scss/breakpoints/_base.scss */
+/* line 2916, ../scss/breakpoints/_base.scss */
 #content .pageContent .speakersWrap .vikkiWeldon {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/vikkiWeldon.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/vikkiWeldon.jpg") no-repeat;
   margin-left: 15px;
   background-size: cover;
   filter: grayscale(100%);
@@ -4225,9 +4842,9 @@ POSTS & CONTENT STYLES
   -webkit-filter: grayscale(1);
   /* Old WebKit */
 }
-/* line 2397, ../scss/breakpoints/_base.scss */
+/* line 2929, ../scss/breakpoints/_base.scss */
 #content .pageContent .speakersWrap .raphaelSlawinski {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/raphaelSlawinski.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/raphaelSlawinski.jpg") no-repeat;
   margin-right: 15px;
   margin-left: 30px;
   background-size: cover;
@@ -4246,9 +4863,9 @@ POSTS & CONTENT STYLES
   -webkit-filter: grayscale(1);
   /* Old WebKit */
 }
-/* line 2412, ../scss/breakpoints/_base.scss */
+/* line 2944, ../scss/breakpoints/_base.scss */
 #content .pageContent .speakersWrap .marcandreLeclerc {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/marcandreLeclerc.jpg") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/marcandreLeclerc.jpg") no-repeat;
   background-size: cover;
   background-position: center -50px;
   filter: grayscale(100%);
@@ -4267,12 +4884,12 @@ POSTS & CONTENT STYLES
   /* Old WebKit */
 }
 @media only screen and (max-width: 768px) {
-  /* line 2412, ../scss/breakpoints/_base.scss */
+  /* line 2944, ../scss/breakpoints/_base.scss */
   #content .pageContent .speakersWrap .marcandreLeclerc {
     background-position: center center !important;
   }
 }
-/* line 2433, ../scss/breakpoints/_base.scss */
+/* line 2965, ../scss/breakpoints/_base.scss */
 #content .pageContent .contestWrap {
   width: 100%;
   box-sizing: border-box;
@@ -4281,39 +4898,39 @@ POSTS & CONTENT STYLES
   position: relative;
 }
 @media only screen and (max-width: 599px) {
-  /* line 2433, ../scss/breakpoints/_base.scss */
+  /* line 2965, ../scss/breakpoints/_base.scss */
   #content .pageContent .contestWrap {
     width: 100%;
     height: 950px;
   }
 }
 @media only screen and (max-width: 400px) {
-  /* line 2433, ../scss/breakpoints/_base.scss */
+  /* line 2965, ../scss/breakpoints/_base.scss */
   #content .pageContent .contestWrap {
     width: 100%;
     height: 1200px;
   }
 }
-/* line 2450, ../scss/breakpoints/_base.scss */
+/* line 2982, ../scss/breakpoints/_base.scss */
 #content .pageContent .contestWrap iframe {
   width: 100%;
   height: 800px;
   border: none;
 }
 @media only screen and (max-width: 599px) {
-  /* line 2450, ../scss/breakpoints/_base.scss */
+  /* line 2982, ../scss/breakpoints/_base.scss */
   #content .pageContent .contestWrap iframe {
     height: 950px;
   }
 }
 @media only screen and (max-width: 400px) {
-  /* line 2450, ../scss/breakpoints/_base.scss */
+  /* line 2982, ../scss/breakpoints/_base.scss */
   #content .pageContent .contestWrap iframe {
     width: 100%;
     height: 1200px;
   }
 }
-/* line 2469, ../scss/breakpoints/_base.scss */
+/* line 3001, ../scss/breakpoints/_base.scss */
 #content .pageContent .contactWrap {
   width: 50%;
   box-sizing: border-box;
@@ -4321,12 +4938,12 @@ POSTS & CONTENT STYLES
   display: inline-block;
 }
 @media only screen and (max-width: 599px) {
-  /* line 2469, ../scss/breakpoints/_base.scss */
+  /* line 3001, ../scss/breakpoints/_base.scss */
   #content .pageContent .contactWrap {
     width: 100%;
   }
 }
-/* line 2478, ../scss/breakpoints/_base.scss */
+/* line 3010, ../scss/breakpoints/_base.scss */
 #content .pageContent .contactWrap h1 {
   font-family: 'Avenir LT W01_55 Roman';
   font-size: 18px;
@@ -4336,29 +4953,29 @@ POSTS & CONTENT STYLES
   line-height: 30px;
   margin-bottom: -10px;
 }
-/* line 2488, ../scss/breakpoints/_base.scss */
+/* line 3020, ../scss/breakpoints/_base.scss */
 #content .pageContent .contactWrap h3 {
   margin-left: 30px;
   padding: 0;
   margin-bottom: 0px;
   margin-top: 10px;
 }
-/* line 2495, ../scss/breakpoints/_base.scss */
+/* line 3027, ../scss/breakpoints/_base.scss */
 #content .pageContent .contactWrap p {
   margin-left: 30px;
   margin-top: 0;
   margin-bottom: -4px;
 }
-/* line 2501, ../scss/breakpoints/_base.scss */
+/* line 3033, ../scss/breakpoints/_base.scss */
 #content .pageContent .contactWrap a {
   font-weight: 900;
   margin-bottom: 15px;
 }
-/* line 2506, ../scss/breakpoints/_base.scss */
+/* line 3038, ../scss/breakpoints/_base.scss */
 #content .pageContent .contactWrap .moreGap {
   margin-top: 30px;
 }
-/* line 2511, ../scss/breakpoints/_base.scss */
+/* line 3043, ../scss/breakpoints/_base.scss */
 #content .pageContent .accommWrap {
   width: 50%;
   box-sizing: border-box;
@@ -4366,12 +4983,60 @@ POSTS & CONTENT STYLES
   display: inline-block;
 }
 @media only screen and (max-width: 599px) {
-  /* line 2511, ../scss/breakpoints/_base.scss */
+  /* line 3043, ../scss/breakpoints/_base.scss */
   #content .pageContent .accommWrap {
     width: 100%;
   }
 }
-/* line 2521, ../scss/breakpoints/_base.scss */
+/* line 3053, ../scss/breakpoints/_base.scss */
+#content .pageContent .accommWrap .hotelFeatureWrap {
+  width: 80%;
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+/* line 3062, ../scss/breakpoints/_base.scss */
+#content .pageContent .accommWrap .hotelFeatureWrap .hotelTop {
+  width: 100%;
+  height: 200px;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/05/executiveSuites.jpg") no-repeat;
+  background-position: -338px -50px;
+  position: relative;
+  margin-top: -12px;
+}
+/* line 3070, ../scss/breakpoints/_base.scss */
+#content .pageContent .accommWrap .hotelFeatureWrap .hotelTop img {
+  position: absolute;
+  width: 120px;
+  top: 30px;
+  left: 15px;
+}
+/* line 3077, ../scss/breakpoints/_base.scss */
+#content .pageContent .accommWrap .hotelFeatureWrap .hotelTop h1 {
+  font-family: 'Avenir LT W01_85 Heavy';
+  font-size: 22px;
+  color: white;
+  position: absolute;
+  bottom: -15px;
+  line-height: 17px;
+}
+/* line 3087, ../scss/breakpoints/_base.scss */
+#content .pageContent .accommWrap .hotelFeatureWrap .hotelBottom {
+  width: 100%;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #eee;
+  box-sizing: border-box;
+  padding-top: 15px;
+}
+/* line 3095, ../scss/breakpoints/_base.scss */
+#content .pageContent .accommWrap .hotelFeatureWrap .hotelBottom p {
+  width: 90%;
+  word-break: keep-all;
+}
+/* line 3103, ../scss/breakpoints/_base.scss */
 #content .pageContent .accommWrap h1 {
   font-family: 'Avenir LT W01_55 Roman';
   font-size: 18px;
@@ -4381,41 +5046,42 @@ POSTS & CONTENT STYLES
   line-height: 30px;
 }
 @media only screen and (max-width: 599px) {
-  /* line 2521, ../scss/breakpoints/_base.scss */
+  /* line 3103, ../scss/breakpoints/_base.scss */
   #content .pageContent .accommWrap h1 {
     margin-top: 30px;
   }
 }
-/* line 2534, ../scss/breakpoints/_base.scss */
+/* line 3116, ../scss/breakpoints/_base.scss */
 #content .pageContent .accommWrap h3 {
   margin-left: 30px;
   padding: 0;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-/* line 2541, ../scss/breakpoints/_base.scss */
+/* line 3123, ../scss/breakpoints/_base.scss */
 #content .pageContent .accommWrap p {
   margin-left: 30px;
   margin-top: 0;
   margin-bottom: 10px;
 }
-/* line 2547, ../scss/breakpoints/_base.scss */
+/* line 3129, ../scss/breakpoints/_base.scss */
 #content .pageContent .accommWrap a {
   font-weight: 900;
 }
-/* line 2553, ../scss/breakpoints/_base.scss */
+/* line 3135, ../scss/breakpoints/_base.scss */
 #content .pageContent .accommWrap ul li p {
   margin-left: 0;
   text-transform: none;
 }
-/* line 2561, ../scss/breakpoints/_base.scss */
+/* line 3143, ../scss/breakpoints/_base.scss */
 #content .pageContent .termsWrap {
   width: 80%;
   box-sizing: border-box;
   float: left;
   display: inline-block;
+  margin-top: 60px;
 }
-/* line 2567, ../scss/breakpoints/_base.scss */
+/* line 3150, ../scss/breakpoints/_base.scss */
 #content .pageContent .termsWrap h1 {
   font-family: 'Avenir LT W01_55 Roman';
   font-size: 18px;
@@ -4423,32 +5089,34 @@ POSTS & CONTENT STYLES
   font-weight: bold;
   margin-left: 30px;
   line-height: 30px;
+  margin-bottom: 10px;
 }
-/* line 2577, ../scss/breakpoints/_base.scss */
+/* line 3161, ../scss/breakpoints/_base.scss */
 #content .pageContent .termsWrap h3 {
   margin-left: 30px;
   padding: 0;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-/* line 2584, ../scss/breakpoints/_base.scss */
+/* line 3168, ../scss/breakpoints/_base.scss */
 #content .pageContent .termsWrap p {
   margin-left: 30px;
   margin-top: 0;
   margin-bottom: 10px;
+  width: 100%;
 }
-/* line 2594, ../scss/breakpoints/_base.scss */
+/* line 3179, ../scss/breakpoints/_base.scss */
 #content .pageContent .s2slogoinline {
   position: relative;
   display: inline-block;
   width: 170px;
   height: 60px;
   float: left;
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/seatoskylogo.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/seatoskylogo.png") no-repeat;
   background-size: 140px;
   background-position: left 8px;
 }
-/* line 2605, ../scss/breakpoints/_base.scss */
+/* line 3190, ../scss/breakpoints/_base.scss */
 #content .pageContent .musicWrap {
   width: 50%;
   position: relative;
@@ -4458,13 +5126,13 @@ POSTS & CONTENT STYLES
   margin-top: 30px;
 }
 @media only screen and (max-width: 600px) {
-  /* line 2605, ../scss/breakpoints/_base.scss */
+  /* line 3190, ../scss/breakpoints/_base.scss */
   #content .pageContent .musicWrap {
     width: 90%;
     margin-left: 0;
   }
 }
-/* line 2618, ../scss/breakpoints/_base.scss */
+/* line 3203, ../scss/breakpoints/_base.scss */
 #content .pageContent .musicWrap h1 {
   font-weight: 900;
   font-size: 24px;
@@ -4472,7 +5140,7 @@ POSTS & CONTENT STYLES
   margin-left: 30px;
   line-height: 18px;
 }
-/* line 2626, ../scss/breakpoints/_base.scss */
+/* line 3211, ../scss/breakpoints/_base.scss */
 #content .pageContent .musicWrap h2 {
   font-size: 18px;
   font-weight: 900;
@@ -4480,24 +5148,139 @@ POSTS & CONTENT STYLES
   text-transform: uppercase;
   margin-top: 30px;
 }
-/* line 2635, ../scss/breakpoints/_base.scss */
+/* line 3220, ../scss/breakpoints/_base.scss */
 #content .pageContent .musicWrap p {
   width: 80%;
 }
 @media only screen and (max-width: 600px) {
-  /* line 2635, ../scss/breakpoints/_base.scss */
+  /* line 3220, ../scss/breakpoints/_base.scss */
   #content .pageContent .musicWrap p {
     width: 90%;
   }
 }
-/* line 2643, ../scss/breakpoints/_base.scss */
+/* line 3228, ../scss/breakpoints/_base.scss */
 #content .pageContent .musicWrap img {
   position: relative;
   display: inline-block;
   margin-left: 30px;
   width: 80%;
 }
-/* line 2653, ../scss/breakpoints/_base.scss */
+/* line 3239, ../scss/breakpoints/_base.scss */
+#content .pageContent .communityEventsWrap {
+  width: 45%;
+  float: left;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 600px) {
+  /* line 3239, ../scss/breakpoints/_base.scss */
+  #content .pageContent .communityEventsWrap {
+    width: 90%;
+  }
+}
+/* line 3249, ../scss/breakpoints/_base.scss */
+#content .pageContent .communityEventsWrap .communityEvent {
+  margin-bottom: 60px;
+}
+/* line 3253, ../scss/breakpoints/_base.scss */
+#content .pageContent .communityEventsWrap h1 {
+  line-height: 22px;
+  margin-top: 15px;
+}
+/* line 3258, ../scss/breakpoints/_base.scss */
+#content .pageContent .communityEventsWrap h2 {
+  font-family: 'Avenir LT W01_65 Medium';
+  margin-left: 30px;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  margin-top: -10px;
+  width: 60%;
+}
+/* line 3267, ../scss/breakpoints/_base.scss */
+#content .pageContent .communityEventsWrap p {
+  width: 90%;
+}
+/* line 3272, ../scss/breakpoints/_base.scss */
+#content .pageContent .communityBeneficiaryWrap {
+  width: 45%;
+  margin-left: 3%;
+  box-sizing: border-box;
+  float: left;
+}
+@media only screen and (max-width: 600px) {
+  /* line 3272, ../scss/breakpoints/_base.scss */
+  #content .pageContent .communityBeneficiaryWrap {
+    width: 90%;
+  }
+}
+/* line 3282, ../scss/breakpoints/_base.scss */
+#content .pageContent .communityBeneficiaryWrap .communityBeneficiary {
+  margin-bottom: 60px;
+}
+/* line 3285, ../scss/breakpoints/_base.scss */
+#content .pageContent .communityBeneficiaryWrap .communityBeneficiary img {
+  float: left;
+  width: 80px;
+  margin-right: 15px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 3285, ../scss/breakpoints/_base.scss */
+  #content .pageContent .communityBeneficiaryWrap .communityBeneficiary img {
+    margin-left: 15px;
+  }
+}
+/* line 3297, ../scss/breakpoints/_base.scss */
+#content .pageContent .communityBeneficiaryWrap .communityBeneficiary .climbersAccess {
+  width: 160px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+/* line 3309, ../scss/breakpoints/_base.scss */
+#content .pageContent .communityBeneficiaryWrap h1 {
+  margin-bottom: -10px;
+  line-height: 22px;
+  width: 80%;
+}
+@media only screen and (max-width: 600px) {
+  /* line 3309, ../scss/breakpoints/_base.scss */
+  #content .pageContent .communityBeneficiaryWrap h1 {
+    margin-left: 15px;
+  }
+}
+/* line 3319, ../scss/breakpoints/_base.scss */
+#content .pageContent .communityBeneficiaryWrap p {
+  width: 90%;
+}
+@media only screen and (max-width: 600px) {
+  /* line 3319, ../scss/breakpoints/_base.scss */
+  #content .pageContent .communityBeneficiaryWrap p {
+    margin-left: 15px;
+  }
+}
+/* line 3327, ../scss/breakpoints/_base.scss */
+#content .pageContent .communityBeneficiaryWrap ul li {
+  text-transform: none;
+}
+/* line 3335, ../scss/breakpoints/_base.scss */
+#content .pageContent .venueMapMobile {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: none;
+}
+/* line 3341, ../scss/breakpoints/_base.scss */
+#content .pageContent .venueMapMobile img {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  /* line 3335, ../scss/breakpoints/_base.scss */
+  #content .pageContent .venueMapMobile {
+    display: inline-block;
+  }
+}
+/* line 3350, ../scss/breakpoints/_base.scss */
 #content .pageContent .venuemapWrap {
   width: 100%;
   max-width: 930px;
@@ -4506,7 +5289,13 @@ POSTS & CONTENT STYLES
   background-size: contain;
   position: relative;
 }
-/* line 2661, ../scss/breakpoints/_base.scss */
+@media only screen and (max-width: 768px) {
+  /* line 3350, ../scss/breakpoints/_base.scss */
+  #content .pageContent .venuemapWrap {
+    display: none;
+  }
+}
+/* line 3362, ../scss/breakpoints/_base.scss */
 #content .pageContent .venuemapWrap h1 {
   position: absolute;
   top: -10px;
@@ -4519,16 +5308,16 @@ POSTS & CONTENT STYLES
   letter-spacing: -2px;
   text-shadow: 1px 1px 3px #aaa;
 }
-/* line 2675, ../scss/breakpoints/_base.scss */
+/* line 3378, ../scss/breakpoints/_base.scss */
 #content .pageContent .venuemapWrap .mapImage {
   position: relative;
   z-index: 10;
 }
-/* line 2678, ../scss/breakpoints/_base.scss */
+/* line 3381, ../scss/breakpoints/_base.scss */
 #content .pageContent .venuemapWrap .mapImage img {
   width: 100%;
 }
-/* line 2682, ../scss/breakpoints/_base.scss */
+/* line 3385, ../scss/breakpoints/_base.scss */
 #content .pageContent .venuemapWrap .mapImage .mapMarker {
   z-index: 20;
   position: absolute;
@@ -4541,7 +5330,7 @@ POSTS & CONTENT STYLES
   font-weight: 900;
   box-shadow: 1px 1px 5px #000;
 }
-/* line 2695, ../scss/breakpoints/_base.scss */
+/* line 3398, ../scss/breakpoints/_base.scss */
 #content .pageContent .venuemapWrap .mapImage .mapMarker:before {
   width: 20px;
   height: 20px;
@@ -4553,7 +5342,7 @@ POSTS & CONTENT STYLES
   margin-top: -9px;
   border: 5px solid white;
 }
-/* line 2707, ../scss/breakpoints/_base.scss */
+/* line 3410, ../scss/breakpoints/_base.scss */
 #content .pageContent .venuemapWrap .mapImage .mapCircle {
   z-index: 20;
   width: 25px;
@@ -4570,7 +5359,7 @@ POSTS & CONTENT STYLES
   box-shadow: 1px 1px 5px #000;
   text-align: center;
 }
-/* line 2724, ../scss/breakpoints/_base.scss */
+/* line 3427, ../scss/breakpoints/_base.scss */
 #content .pageContent .venuemapWrap .mapImage .mapArrow {
   z-index: 20;
   position: absolute;
@@ -4585,108 +5374,395 @@ POSTS & CONTENT STYLES
   box-shadow: 1px 1px 5px #000;
   text-align: left;
 }
-/* line 2739, ../scss/breakpoints/_base.scss */
+/* line 3442, ../scss/breakpoints/_base.scss */
 #content .pageContent .venuemapWrap .mapImage .mapArrow:before {
   width: 12px;
   height: 12px;
   transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
   background: white;
   position: absolute;
   content: '';
   margin-left: -18px;
   margin-top: 15px;
 }
-/* line 2750, ../scss/breakpoints/_base.scss */
-#content .pageContent .venuemapWrap .mapImage .mapGondolaBase {
-  top: 80%;
-  left: 58%;
+/* line 3454, ../scss/breakpoints/_base.scss */
+#content .pageContent .venuemapWrap .mapImage .mapArrowRight {
+  z-index: 20;
+  position: absolute;
+  display: block;
+  padding: 6px 10px 5px 12px;
+  background: white;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  box-shadow: 1px 1px 5px #000;
+  text-align: left;
 }
-/* line 2754, ../scss/breakpoints/_base.scss */
+/* line 3469, ../scss/breakpoints/_base.scss */
+#content .pageContent .venuemapWrap .mapImage .mapArrowRight:before {
+  width: 12px;
+  height: 12px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  background: white;
+  position: absolute;
+  content: '';
+  right: -6px;
+  margin-top: 15px;
+}
+/* line 3481, ../scss/breakpoints/_base.scss */
+#content .pageContent .venuemapWrap .mapImage .mapArrowTop {
+  z-index: 20;
+  position: absolute;
+  display: block;
+  padding: 6px 10px 5px 12px;
+  background: white;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  box-shadow: 1px 1px 5px #000;
+  text-align: left;
+}
+/* line 3496, ../scss/breakpoints/_base.scss */
+#content .pageContent .venuemapWrap .mapImage .mapArrowTop:before {
+  width: 12px;
+  height: 12px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  background: white;
+  position: absolute;
+  content: '';
+  top: -6px;
+}
+/* line 3508, ../scss/breakpoints/_base.scss */
+#content .pageContent .venuemapWrap .mapImage .mapArrowBottom {
+  z-index: 20;
+  position: absolute;
+  display: block;
+  padding: 6px 10px 5px 12px;
+  background: white;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 300;
+  line-height: 12px;
+  box-shadow: 1px 1px 5px #000;
+  text-align: left;
+}
+/* line 3523, ../scss/breakpoints/_base.scss */
+#content .pageContent .venuemapWrap .mapImage .mapArrowBottom:before {
+  width: 12px;
+  height: 12px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  background: white;
+  position: absolute;
+  content: '';
+  bottom: -6px;
+  right: 20px;
+}
+/* line 3536, ../scss/breakpoints/_base.scss */
+#content .pageContent .venuemapWrap .mapImage .mapGondolaBase {
+  bottom: 7%;
+  left: 56%;
+  z-index: 25 !important;
+}
+/* line 3541, ../scss/breakpoints/_base.scss */
 #content .pageContent .venuemapWrap .mapImage .mapGondolaSummit {
   top: 43%;
   left: 45%;
 }
-/* line 2758, ../scss/breakpoints/_base.scss */
+/* line 3545, ../scss/breakpoints/_base.scss */
 #content .pageContent .venuemapWrap .mapImage .mapTradeFair {
-  top: 82%;
-  left: 45%;
+  top: 72%;
+  left: 38%;
 }
-/* line 2762, ../scss/breakpoints/_base.scss */
+/* line 3549, ../scss/breakpoints/_base.scss */
 #content .pageContent .venuemapWrap .mapImage .mapMtHabrich {
   top: 19%;
   left: 37%;
 }
-/* line 2766, ../scss/breakpoints/_base.scss */
+/* line 3553, ../scss/breakpoints/_base.scss */
 #content .pageContent .venuemapWrap .mapImage .mapAlpineBivy {
   top: 16%;
   left: 61%;
 }
-/* line 2770, ../scss/breakpoints/_base.scss */
+/* line 3557, ../scss/breakpoints/_base.scss */
 #content .pageContent .venuemapWrap .mapImage .mapParkingOne {
   top: 81%;
   left: 74%;
 }
-/* line 2774, ../scss/breakpoints/_base.scss */
+/* line 3561, ../scss/breakpoints/_base.scss */
 #content .pageContent .venuemapWrap .mapImage .mapParkingTwo {
   top: 78%;
   left: 68%;
   z-index: 11;
 }
-/* line 2779, ../scss/breakpoints/_base.scss */
+/* line 3566, ../scss/breakpoints/_base.scss */
 #content .pageContent .venuemapWrap .mapImage .mapSquamish {
   bottom: 25%;
   left: 3%;
 }
-/* line 2790, ../scss/breakpoints/_base.scss */
-#content .pageContent .googleMapWrap {
-  width: 640px;
-  float: right;
-  margin-right: 30px;
+/* line 3570, ../scss/breakpoints/_base.scss */
+#content .pageContent .venuemapWrap .mapImage .mapVancouver {
+  bottom: 25%;
+  right: 2%;
+}
+/* line 3581, ../scss/breakpoints/_base.scss */
+#content .pageContent .venueMapIntro h1 {
+  line-height: 18px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* line 3588, ../scss/breakpoints/_base.scss */
+#content .pageContent .venueMapListing {
+  width: 100%;
   position: relative;
+  float: left;
+  box-sizing: border-box;
+  margin-top: 30px;
 }
-/* line 2797, ../scss/breakpoints/_base.scss */
-#content .pageContent .lmm-listmarkers {
-  font-family: Avenir !important;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 35% !important;
+/* line 3595, ../scss/breakpoints/_base.scss */
+#content .pageContent .venueMapListing .sideMargins {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+/* line 3600, ../scss/breakpoints/_base.scss */
+#content .pageContent .venueMapListing .venueListingCol {
+  width: 33%;
+  float: left;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 599px) {
+  /* line 3600, ../scss/breakpoints/_base.scss */
+  #content .pageContent .venueMapListing .venueListingCol {
+    width: 95%;
+  }
+}
+/* line 3612, ../scss/breakpoints/_base.scss */
+#content .pageContent .venueMapListing .venueItem {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 15px 0;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #efefef;
+}
+/* line 3623, ../scss/breakpoints/_base.scss */
+#content .pageContent .venueMapListing .venueItemTop {
+  width: 100%;
+  height: 150px;
+  background: #333;
+  border-top: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #ddd;
+}
+@media only screen and (max-width: 599px) {
+  /* line 3623, ../scss/breakpoints/_base.scss */
+  #content .pageContent .venueMapListing .venueItemTop {
+    height: 225px;
+  }
+}
+/* line 3637, ../scss/breakpoints/_base.scss */
+#content .pageContent .venueMapListing .executivesuitesTop {
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/05/executiveSuites.jpg") no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+/* line 3643, ../scss/breakpoints/_base.scss */
+#content .pageContent .venueMapListing .seatoskybaseTop {
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/05/gondolabaseTop.jpg") no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+/* line 3650, ../scss/breakpoints/_base.scss */
+#content .pageContent .venueMapListing .seatoskysummitTop {
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/05/seatoskybaseTop.jpg") no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+/* line 3656, ../scss/breakpoints/_base.scss */
+#content .pageContent .venueMapListing .tradefairTop {
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/05/tradefairTop.jpg") no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+/* line 3662, ../scss/breakpoints/_base.scss */
+#content .pageContent .venueMapListing .adventurecentreTop {
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/05/adventurecentreTop.jpg") no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+/* line 3668, ../scss/breakpoints/_base.scss */
+#content .pageContent .venueMapListing h1 {
+  font-size: 15px;
+  line-height: 14px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: center;
+  color: #444;
+  height: 35px;
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 3680, ../scss/breakpoints/_base.scss */
+#content .pageContent .venueMapListing h3 {
+  width: 90%;
+  font-size: 15px;
+  line-height: 14px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-family: 'Avenir LT W01_55 Roman';
+}
+/* line 3692, ../scss/breakpoints/_base.scss */
+#content .pageContent .venueMapListing p {
+  width: 95%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0;
+  line-height: 15px;
+  margin-left: 10px;
+}
+/* line 3706, ../scss/breakpoints/_base.scss */
+#content .pageContent .gettingHereCol {
+  width: 33%;
+  box-sizing: border-box;
+  float: left;
+  margin-bottom: 60px;
+}
+@media only screen and (max-width: 599px) {
+  /* line 3706, ../scss/breakpoints/_base.scss */
+  #content .pageContent .gettingHereCol {
+    width: 95%;
+  }
+}
+/* line 3718, ../scss/breakpoints/_base.scss */
+#content .pageContent .gettingHereCol h1, #content .pageContent .gettingHereCol h3, #content .pageContent .gettingHereCol p {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 3725, ../scss/breakpoints/_base.scss */
+#content .pageContent .gettingHereCol h1 {
+  font-size: 18px;
+  line-height: 16px;
+}
+/* line 3731, ../scss/breakpoints/_base.scss */
+#content .pageContent .gettingHereCol h3 {
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: #ed5b22;
+}
+/* line 3737, ../scss/breakpoints/_base.scss */
+#content .pageContent .gettingHereCol p {
+  line-height: 14px;
+  width: 85%;
+}
+/* line 3743, ../scss/breakpoints/_base.scss */
+#content .pageContent .googleMapWrap {
+  width: 100%;
+  float: left;
+  box-sizing: border-box;
+  padding-right: 30px;
+  padding-left: 30px;
+  position: relative;
   display: inline-block;
-  margin-left: -250px;
-  font-size: 12px;
-  font-weight: 900;
 }
-/* line 2810, ../scss/breakpoints/_base.scss */
+/* line 3757, ../scss/breakpoints/_base.scss */
+#content .pageContent .googleMapWrap h1 {
+  margin-left: 0;
+}
+/* line 3761, ../scss/breakpoints/_base.scss */
+#content .pageContent .googleMapWrap p {
+  margin-left: 0px;
+  margin-top: -15px;
+  width: 90%;
+}
+/* line 3793, ../scss/breakpoints/_base.scss */
+#content .pageContent .lmm-listmarkers-markername {
+  font-size: 14px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  color: #333;
+}
+/* line 3800, ../scss/breakpoints/_base.scss */
+#content .pageContent .lmm-listmarkers-popuptext {
+  font-size: 0px;
+  position: relative;
+  width: 90%;
+}
+/* line 3805, ../scss/breakpoints/_base.scss */
+#content .pageContent .lmm-listmarkers-popuptext .lmm-listmarkers-panel-icons {
+  position: absolute;
+  right: -15px;
+}
+/* line 3809, ../scss/breakpoints/_base.scss */
+#content .pageContent .lmm-listmarkers-popuptext .lmm-listmarkers-panel-icons a {
+  margin: 0 5px;
+}
+/* line 3812, ../scss/breakpoints/_base.scss */
+#content .pageContent .lmm-listmarkers-popuptext .lmm-listmarkers-panel-icons a img:before {
+  content: 'testing';
+}
+/* line 3820, ../scss/breakpoints/_base.scss */
 #content .pageContent .lmm-listmarkers table {
-  width: 240px !important;
+  margin-top: 15px;
   border-left: none !important;
   border-right: none !important;
 }
-/* line 2817, ../scss/breakpoints/_base.scss */
-#content .pageContent .lmm-listmarkers-markername {
-  font-size: 14px;
+/* line 3824, ../scss/breakpoints/_base.scss */
+#content .pageContent .lmm-listmarkers table tr {
+  background: #eee;
+  margin: 5px 10px;
+  display: inline-block;
+  width: 47%;
+  float: left;
+  box-sizing: border-box;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }
-/* line 2827, ../scss/breakpoints/_base.scss */
+@media screen and (max-width: 860px) {
+  /* line 3824, ../scss/breakpoints/_base.scss */
+  #content .pageContent .lmm-listmarkers table tr {
+    width: 90%;
+  }
+}
+/* line 3847, ../scss/breakpoints/_base.scss */
 #content .pageContent .introWrap {
   width: 80%;
   min-height: 150px;
 }
-/* line 2832, ../scss/breakpoints/_base.scss */
+/* line 3852, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleLegend {
   margin-left: 55px;
 }
 @media only screen and (max-width: 929px) {
-  /* line 2832, ../scss/breakpoints/_base.scss */
+  /* line 3852, ../scss/breakpoints/_base.scss */
   #content .pageContent .scheduleLegend {
     margin-left: 15px;
   }
 }
-/* line 2839, ../scss/breakpoints/_base.scss */
+/* line 3859, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleLegend h3 {
   margin-left: 0px;
   margin-bottom: 0px;
+  text-transform: uppercase;
 }
-/* line 2844, ../scss/breakpoints/_base.scss */
+/* line 3865, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleLegend .scheduleLegendItem {
   position: relative;
   padding: 0;
@@ -4694,7 +5770,7 @@ POSTS & CONTENT STYLES
   margin-bottom: 5px;
   width: 300px;
 }
-/* line 2851, ../scss/breakpoints/_base.scss */
+/* line 3872, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleLegend .scheduleLegendItem p {
   margin: 0;
   padding: 7px 0px 4px 20px;
@@ -4704,23 +5780,27 @@ POSTS & CONTENT STYLES
   line-height: 13px;
   width: 96%;
 }
-/* line 2863, ../scss/breakpoints/_base.scss */
+/* line 3884, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleLegend .clinics {
   background-color: #469b86;
 }
-/* line 2867, ../scss/breakpoints/_base.scss */
+/* line 3888, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleLegend .sunset {
   background-color: #9a3a3f;
 }
-/* line 2871, ../scss/breakpoints/_base.scss */
+/* line 3892, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleLegend .funfree {
   background-color: #037c9a;
 }
-/* line 2875, ../scss/breakpoints/_base.scss */
+/* line 3896, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleLegend .seminars {
   background-color: #6a5c7c;
 }
-/* line 2882, ../scss/breakpoints/_base.scss */
+/* line 3900, ../scss/breakpoints/_base.scss */
+#content .pageContent .scheduleLegend .community {
+  background-color: #49b349;
+}
+/* line 3907, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap {
   width: 100%;
   position: relative;
@@ -4730,25 +5810,25 @@ POSTS & CONTENT STYLES
   padding-bottom: 30px;
 }
 @media only screen and (max-width: 929px) {
-  /* line 2882, ../scss/breakpoints/_base.scss */
+  /* line 3907, ../scss/breakpoints/_base.scss */
   #content .pageContent .scheduleWrap {
     margin-left: 15px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 2882, ../scss/breakpoints/_base.scss */
+  /* line 3907, ../scss/breakpoints/_base.scss */
   #content .pageContent .scheduleWrap {
     margin-left: 15px;
   }
 }
-/* line 2898, ../scss/breakpoints/_base.scss */
+/* line 3923, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap {
   overflow: hidden;
   height: 100%;
   float: left;
   box-sizing: border-box;
 }
-/* line 2904, ../scss/breakpoints/_base.scss */
+/* line 3929, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap h1 {
   font-size: 18px;
   color: #000;
@@ -4764,13 +5844,13 @@ POSTS & CONTENT STYLES
   margin-left: 0;
 }
 @media only screen and (max-width: 929px) {
-  /* line 2904, ../scss/breakpoints/_base.scss */
+  /* line 3929, ../scss/breakpoints/_base.scss */
   #content .pageContent .scheduleWrap .dayWrap h1 {
     max-width: 295px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 2904, ../scss/breakpoints/_base.scss */
+  /* line 3929, ../scss/breakpoints/_base.scss */
   #content .pageContent .scheduleWrap .dayWrap h1 {
     width: 100%;
     max-width: 100%;
@@ -4780,31 +5860,31 @@ POSTS & CONTENT STYLES
     margin-bottom: 0px;
   }
 }
-/* line 2932, ../scss/breakpoints/_base.scss */
+/* line 3957, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap .dateText {
   font-size: 12px;
   font-weight: 100;
 }
-/* line 2938, ../scss/breakpoints/_base.scss */
+/* line 3963, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap .gondolaWrap {
   width: 155px;
   box-sizing: border-box;
   float: left;
 }
 @media only screen and (max-width: 929px) {
-  /* line 2938, ../scss/breakpoints/_base.scss */
+  /* line 3963, ../scss/breakpoints/_base.scss */
   #content .pageContent .scheduleWrap .dayWrap .gondolaWrap {
     width: 145px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 2938, ../scss/breakpoints/_base.scss */
+  /* line 3963, ../scss/breakpoints/_base.scss */
   #content .pageContent .scheduleWrap .dayWrap .gondolaWrap {
     width: 45%;
     max-width: 250px;
   }
 }
-/* line 2952, ../scss/breakpoints/_base.scss */
+/* line 3977, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap .gondolaWrap h1 {
   font-size: 12px;
   background: #333;
@@ -4815,13 +5895,13 @@ POSTS & CONTENT STYLES
   margin-bottom: -10px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 2952, ../scss/breakpoints/_base.scss */
+  /* line 3977, ../scss/breakpoints/_base.scss */
   #content .pageContent .scheduleWrap .dayWrap .gondolaWrap h1 {
     background: #333;
     color: #fff;
   }
 }
-/* line 2969, ../scss/breakpoints/_base.scss */
+/* line 3994, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap .valleyWrap {
   width: 155px;
   box-sizing: border-box;
@@ -4829,19 +5909,19 @@ POSTS & CONTENT STYLES
   margin-right: 5px;
 }
 @media only screen and (max-width: 929px) {
-  /* line 2969, ../scss/breakpoints/_base.scss */
+  /* line 3994, ../scss/breakpoints/_base.scss */
   #content .pageContent .scheduleWrap .dayWrap .valleyWrap {
     width: 145px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 2969, ../scss/breakpoints/_base.scss */
+  /* line 3994, ../scss/breakpoints/_base.scss */
   #content .pageContent .scheduleWrap .dayWrap .valleyWrap {
     width: 45%;
     max-width: 250px;
   }
 }
-/* line 2984, ../scss/breakpoints/_base.scss */
+/* line 4009, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap .valleyWrap h1 {
   font-size: 12px;
   background: #333;
@@ -4851,24 +5931,28 @@ POSTS & CONTENT STYLES
   letter-spacing: -1px;
   margin-bottom: -10px;
 }
-/* line 2998, ../scss/breakpoints/_base.scss */
+/* line 4023, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap .clinics {
   height: 190px !important;
   background-color: #469b86 !important;
 }
-/* line 3005, ../scss/breakpoints/_base.scss */
+/* line 4030, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap .sunset {
   background-color: #9a3a3f !important;
 }
-/* line 3012, ../scss/breakpoints/_base.scss */
+/* line 4037, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap .seminars {
   background-color: #6a5c7c !important;
 }
-/* line 3020, ../scss/breakpoints/_base.scss */
+/* line 4043, ../scss/breakpoints/_base.scss */
+#content .pageContent .scheduleWrap .dayWrap .community {
+  background-color: #49b349 !important;
+}
+/* line 4050, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap a {
   text-decoration: none !important;
 }
-/* line 3024, ../scss/breakpoints/_base.scss */
+/* line 4054, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap .eventWrap {
   text-align: left;
   background: #037c9a;
@@ -4877,7 +5961,7 @@ POSTS & CONTENT STYLES
   margin-bottom: -10px;
   display: block;
 }
-/* line 3031, ../scss/breakpoints/_base.scss */
+/* line 4061, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap .eventWrap h3 {
   font-family: 'Avenir LT W01_55 Roman';
   text-transform: uppercase;
@@ -4891,7 +5975,7 @@ POSTS & CONTENT STYLES
   color: #fff;
   margin-top: 5px;
 }
-/* line 3045, ../scss/breakpoints/_base.scss */
+/* line 4075, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap .eventWrap h1 {
   font-size: 16px;
   text-align: left;
@@ -4907,7 +5991,7 @@ POSTS & CONTENT STYLES
   margin-bottom: 4px;
   padding-bottom: 0px;
 }
-/* line 3061, ../scss/breakpoints/_base.scss */
+/* line 4091, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap .eventWrap .time {
   text-align: left;
   margin-left: 5px;
@@ -4920,7 +6004,7 @@ POSTS & CONTENT STYLES
   padding-bottom: 0;
   line-height: 11px;
 }
-/* line 3074, ../scss/breakpoints/_base.scss */
+/* line 4104, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap .eventWrap p {
   text-align: left;
   margin-left: 5px;
@@ -4933,7 +6017,7 @@ POSTS & CONTENT STYLES
   padding-bottom: 0;
   line-height: 11px;
 }
-/* line 3087, ../scss/breakpoints/_base.scss */
+/* line 4117, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .dayWrap .eventWrap a {
   color: #fff;
   width: 100%;
@@ -4948,82 +6032,82 @@ POSTS & CONTENT STYLES
   text-decoration: none;
   display: none;
 }
-/* line 3104, ../scss/breakpoints/_base.scss */
+/* line 4134, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .friday {
   width: 155px;
   margin-right: 5px;
 }
 @media only screen and (max-width: 929px) {
-  /* line 3104, ../scss/breakpoints/_base.scss */
+  /* line 4134, ../scss/breakpoints/_base.scss */
   #content .pageContent .scheduleWrap .friday {
     width: 140px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 3104, ../scss/breakpoints/_base.scss */
+  /* line 4134, ../scss/breakpoints/_base.scss */
   #content .pageContent .scheduleWrap .friday {
     width: 100%;
   }
 }
-/* line 3116, ../scss/breakpoints/_base.scss */
+/* line 4146, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .Saturday {
   width: 320px;
   margin-right: 0;
 }
 @media only screen and (max-width: 929px) {
-  /* line 3116, ../scss/breakpoints/_base.scss */
+  /* line 4146, ../scss/breakpoints/_base.scss */
   #content .pageContent .scheduleWrap .Saturday {
     width: 300px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 3116, ../scss/breakpoints/_base.scss */
+  /* line 4146, ../scss/breakpoints/_base.scss */
   #content .pageContent .scheduleWrap .Saturday {
     width: 100%;
     margin-left: 5px;
   }
 }
-/* line 3130, ../scss/breakpoints/_base.scss */
+/* line 4160, ../scss/breakpoints/_base.scss */
 #content .pageContent .scheduleWrap .sunday {
   width: 320px;
 }
 @media only screen and (max-width: 929px) {
-  /* line 3130, ../scss/breakpoints/_base.scss */
+  /* line 4160, ../scss/breakpoints/_base.scss */
   #content .pageContent .scheduleWrap .sunday {
     width: 300px;
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 3130, ../scss/breakpoints/_base.scss */
+  /* line 4160, ../scss/breakpoints/_base.scss */
   #content .pageContent .scheduleWrap .sunday {
     width: 100%;
     margin-left: 5px;
   }
 }
 
-/* line 3147, ../scss/breakpoints/_base.scss */
+/* line 4177, ../scss/breakpoints/_base.scss */
 .hentry {
   background-color: white;
   border-radius: 3px;
   margin-bottom: 1.5em;
 }
-/* line 3152, ../scss/breakpoints/_base.scss */
+/* line 4182, ../scss/breakpoints/_base.scss */
 .hentry header {
   border-bottom: 1px solid #f8f9fa;
   padding: 1.5em;
 }
-/* line 3157, ../scss/breakpoints/_base.scss */
+/* line 4187, ../scss/breakpoints/_base.scss */
 .hentry footer {
   padding: 1.5em;
   border-top: 1px solid #f8f9fa;
 }
-/* line 3161, ../scss/breakpoints/_base.scss */
+/* line 4191, ../scss/breakpoints/_base.scss */
 .hentry footer p {
   margin: 0;
 }
 
 /* end .hentry */
-/* line 3170, ../scss/breakpoints/_base.scss */
+/* line 4200, ../scss/breakpoints/_base.scss */
 .single-title,
 .page-title,
 .entry-title {
@@ -5040,7 +6124,7 @@ POSTS & CONTENT STYLES
 /* style by category (i.e. category-videos) */
 /* style by tag (i.e. tag-news) */
 /* post meta */
-/* line 3193, ../scss/breakpoints/_base.scss */
+/* line 4223, ../scss/breakpoints/_base.scss */
 .byline {
   color: #9fa6b4;
   font-style: italic;
@@ -5048,7 +6132,7 @@ POSTS & CONTENT STYLES
 }
 
 /* entry content */
-/* line 3202, ../scss/breakpoints/_base.scss */
+/* line 4232, ../scss/breakpoints/_base.scss */
 .entry-content {
   padding: 1.5em 1.5em 0;
   /*
@@ -5058,17 +6142,17 @@ POSTS & CONTENT STYLES
   but it's up to you. Feel free to change it up.
   */
 }
-/* line 3205, ../scss/breakpoints/_base.scss */
+/* line 4235, ../scss/breakpoints/_base.scss */
 .entry-content p {
   margin: 0 0 1.5em;
 }
-/* line 3230, ../scss/breakpoints/_base.scss */
+/* line 4260, ../scss/breakpoints/_base.scss */
 .entry-content table {
   width: 100%;
   border: 1px solid #eaedf2;
   margin-bottom: 1.5em;
 }
-/* line 3235, ../scss/breakpoints/_base.scss */
+/* line 4265, ../scss/breakpoints/_base.scss */
 .entry-content table caption {
   margin: 0 0 7px;
   font-size: 0.75em;
@@ -5076,34 +6160,34 @@ POSTS & CONTENT STYLES
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-/* line 3244, ../scss/breakpoints/_base.scss */
+/* line 4274, ../scss/breakpoints/_base.scss */
 .entry-content tr {
   border-bottom: 1px solid #eaedf2;
 }
-/* line 3247, ../scss/breakpoints/_base.scss */
+/* line 4277, ../scss/breakpoints/_base.scss */
 .entry-content tr:nth-child(even) {
   background-color: #f8f9fa;
 }
-/* line 3252, ../scss/breakpoints/_base.scss */
+/* line 4282, ../scss/breakpoints/_base.scss */
 .entry-content td {
   padding: 7px;
   border-right: 1px solid #eaedf2;
 }
-/* line 3256, ../scss/breakpoints/_base.scss */
+/* line 4286, ../scss/breakpoints/_base.scss */
 .entry-content td:last-child {
   border-right: 0;
 }
-/* line 3261, ../scss/breakpoints/_base.scss */
+/* line 4291, ../scss/breakpoints/_base.scss */
 .entry-content th {
   background-color: #f8f9fa;
   border-bottom: 1px solid #eaedf2;
   border-right: 1px solid #eaedf2;
 }
-/* line 3266, ../scss/breakpoints/_base.scss */
+/* line 4296, ../scss/breakpoints/_base.scss */
 .entry-content th:last-child {
   border-right: 0;
 }
-/* line 3271, ../scss/breakpoints/_base.scss */
+/* line 4301, ../scss/breakpoints/_base.scss */
 .entry-content blockquote {
   margin: 0 0 1.5em 0.75em;
   padding: 0 0 0 0.75em;
@@ -5111,20 +6195,20 @@ POSTS & CONTENT STYLES
   font-style: italic;
   color: #9fa6b4;
 }
-/* line 3286, ../scss/breakpoints/_base.scss */
+/* line 4316, ../scss/breakpoints/_base.scss */
 .entry-content dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em;
 }
-/* line 3293, ../scss/breakpoints/_base.scss */
+/* line 4323, ../scss/breakpoints/_base.scss */
 .entry-content img {
   margin: 0 0 1.5em 0;
   max-width: 100%;
   height: auto;
 }
-/* line 3313, ../scss/breakpoints/_base.scss */
+/* line 4343, ../scss/breakpoints/_base.scss */
 .entry-content .size-auto,
 .entry-content .size-full,
 .entry-content .size-large,
@@ -5133,7 +6217,7 @@ POSTS & CONTENT STYLES
   max-width: 100%;
   height: auto;
 }
-/* line 3318, ../scss/breakpoints/_base.scss */
+/* line 4348, ../scss/breakpoints/_base.scss */
 .entry-content pre {
   background: black;
   color: #f8f9fa;
@@ -5144,20 +6228,20 @@ POSTS & CONTENT STYLES
 }
 
 /* end .entry-content */
-/* line 3329, ../scss/breakpoints/_base.scss */
+/* line 4359, ../scss/breakpoints/_base.scss */
 .wp-caption {
   max-width: 100%;
   background: #eee;
   padding: 5px;
   /* images inside wp-caption */
 }
-/* line 3335, ../scss/breakpoints/_base.scss */
+/* line 4365, ../scss/breakpoints/_base.scss */
 .wp-caption img {
   max-width: 100%;
   margin-bottom: 0;
   width: 100%;
 }
-/* line 3341, ../scss/breakpoints/_base.scss */
+/* line 4371, ../scss/breakpoints/_base.scss */
 .wp-caption p.wp-caption-text {
   font-size: 0.85em;
   margin: 4px 0 7px;
@@ -5168,7 +6252,7 @@ POSTS & CONTENT STYLES
 /* image gallery styles */
 /* end .gallery */
 /* gallery caption styles */
-/* line 3375, ../scss/breakpoints/_base.scss */
+/* line 4405, ../scss/breakpoints/_base.scss */
 .tags {
   margin: 0;
 }
@@ -5176,17 +6260,17 @@ POSTS & CONTENT STYLES
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
-/* line 3384, ../scss/breakpoints/_base.scss */
+/* line 4414, ../scss/breakpoints/_base.scss */
 .pagination,
 .wp-prev-next {
   margin: 1.5em 0;
 }
 
-/* line 3387, ../scss/breakpoints/_base.scss */
+/* line 4417, ../scss/breakpoints/_base.scss */
 .pagination {
   text-align: center;
 }
-/* line 3390, ../scss/breakpoints/_base.scss */
+/* line 4420, ../scss/breakpoints/_base.scss */
 .pagination ul {
   display: inline-block;
   background-color: white;
@@ -5195,7 +6279,7 @@ PAGE NAVI STYLES
   clear: both;
   border-radius: 3px;
 }
-/* line 3399, ../scss/breakpoints/_base.scss */
+/* line 4429, ../scss/breakpoints/_base.scss */
 .pagination li {
   padding: 0;
   margin: 0;
@@ -5204,7 +6288,7 @@ PAGE NAVI STYLES
   overflow: hidden;
   border-right: 1px solid #eaedf2;
 }
-/* line 3408, ../scss/breakpoints/_base.scss */
+/* line 4438, ../scss/breakpoints/_base.scss */
 .pagination a, .pagination span {
   margin: 0;
   text-decoration: none;
@@ -5217,17 +6301,17 @@ PAGE NAVI STYLES
   display: block;
   color: #2980b9;
 }
-/* line 3420, ../scss/breakpoints/_base.scss */
+/* line 4450, ../scss/breakpoints/_base.scss */
 .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus {
   background-color: #2980b9;
   color: white;
 }
-/* line 3426, ../scss/breakpoints/_base.scss */
+/* line 4456, ../scss/breakpoints/_base.scss */
 .pagination .current {
   cursor: default;
   color: #5c6b80;
 }
-/* line 3430, ../scss/breakpoints/_base.scss */
+/* line 4460, ../scss/breakpoints/_base.scss */
 .pagination .current:hover, .pagination .current:focus {
   background-color: white;
   color: #5c6b80;
@@ -5235,11 +6319,11 @@ PAGE NAVI STYLES
 
 /* end .bones_page_navi */
 /* fallback previous & next links */
-/* line 3443, ../scss/breakpoints/_base.scss */
+/* line 4473, ../scss/breakpoints/_base.scss */
 .wp-prev-next .prev-link {
   float: left;
 }
-/* line 3447, ../scss/breakpoints/_base.scss */
+/* line 4477, ../scss/breakpoints/_base.scss */
 .wp-prev-next .next-link {
   float: right;
 }
@@ -5248,12 +6332,12 @@ PAGE NAVI STYLES
 /*********************
 SIDEBARS & ASIDES
 *********************/
-/* line 3467, ../scss/breakpoints/_base.scss */
+/* line 4497, ../scss/breakpoints/_base.scss */
 .widget ul li {
   /* deep nesting */
 }
 
-/* line 3484, ../scss/breakpoints/_base.scss */
+/* line 4514, ../scss/breakpoints/_base.scss */
 .no-widgets {
   background-color: white;
   padding: 1.5em;
@@ -5263,7 +6347,7 @@ SIDEBARS & ASIDES
   margin-bottom: 1.5em;
 }
 
-/* line 3495, ../scss/breakpoints/_base.scss */
+/* line 4525, ../scss/breakpoints/_base.scss */
 .sponsorWrap {
   width: 930px;
   background: #212121;
@@ -5276,24 +6360,24 @@ SIDEBARS & ASIDES
   padding-left: 30px;
 }
 @media only screen and (max-width: 929px) {
-  /* line 3495, ../scss/breakpoints/_base.scss */
+  /* line 4525, ../scss/breakpoints/_base.scss */
   .sponsorWrap {
     width: 100%;
     display: inline-block;
   }
 }
-/* line 3512, ../scss/breakpoints/_base.scss */
+/* line 4542, ../scss/breakpoints/_base.scss */
 .sponsorWrap .mobileClear {
   display: none;
 }
 @media only screen and (max-width: 700px) {
-  /* line 3512, ../scss/breakpoints/_base.scss */
+  /* line 4542, ../scss/breakpoints/_base.scss */
   .sponsorWrap .mobileClear {
     display: block !important;
     clear: both !important;
   }
 }
-/* line 3520, ../scss/breakpoints/_base.scss */
+/* line 4550, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap {
   position: relative;
   display: inline-block;
@@ -5302,7 +6386,7 @@ SIDEBARS & ASIDES
   box-sizing: border-box;
   height: 100%;
 }
-/* line 3528, ../scss/breakpoints/_base.scss */
+/* line 4558, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .sponsorCatTitle {
   color: white;
   text-transform: uppercase;
@@ -5314,7 +6398,7 @@ SIDEBARS & ASIDES
   width: 100%;
   font-weight: 900;
 }
-/* line 3541, ../scss/breakpoints/_base.scss */
+/* line 4571, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .sponsor {
   width: 100%;
   display: inline-block;
@@ -5322,328 +6406,344 @@ SIDEBARS & ASIDES
   text-align: center;
   min-height: 40px;
 }
-/* line 3548, ../scss/breakpoints/_base.scss */
+/* line 4578, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .sponsor a {
   text-decoration: none;
 }
-/* line 3553, ../scss/breakpoints/_base.scss */
+/* line 4583, ../scss/breakpoints/_base.scss */
+.sponsorWrap .sponsorCatWrap .arc {
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/05/arcLogo1.png") no-repeat;
+  background-size: 100px;
+  height: 80px;
+  background-position: 25px top;
+  width: 100%;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 767px) {
+  /* line 4583, ../scss/breakpoints/_base.scss */
+  .sponsorWrap .sponsorCatWrap .arc {
+    background-size: 100px;
+  }
+}
+/* line 4596, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .gore {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_goretex.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_goretex.png") no-repeat;
   background-size: 140px;
   height: 80px;
   background-position: 40px top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3553, ../scss/breakpoints/_base.scss */
+  /* line 4596, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .gore {
     background-size: 100px;
   }
 }
-/* line 3565, ../scss/breakpoints/_base.scss */
+/* line 4608, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .hive {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_hive.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_hive.png") no-repeat;
   background-size: 140px;
   height: 80px;
   background-position: 40px top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3565, ../scss/breakpoints/_base.scss */
+  /* line 4608, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .hive {
     background-size: 100px;
   }
 }
-/* line 3578, ../scss/breakpoints/_base.scss */
+/* line 4621, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .lasportiva {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_sportiva.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_sportiva.png") no-repeat;
   background-size: 100px;
   height: 60px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3578, ../scss/breakpoints/_base.scss */
+  /* line 4621, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .lasportiva {
     background-size: 100px;
   }
 }
-/* line 3590, ../scss/breakpoints/_base.scss */
+/* line 4633, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .canwest {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_canwest.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_canwest.png") no-repeat;
   background-size: 120px;
   height: 60px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3590, ../scss/breakpoints/_base.scss */
+  /* line 4633, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .canwest {
     background-size: 100px;
   }
 }
-/* line 3602, ../scss/breakpoints/_base.scss */
+/* line 4645, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .scarpa {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_scarpa.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_scarpa.png") no-repeat;
   background-size: 100px;
   height: 60px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3602, ../scss/breakpoints/_base.scss */
+  /* line 4645, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .scarpa {
     background-size: 100px;
   }
 }
-/* line 3614, ../scss/breakpoints/_base.scss */
+/* line 4657, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .valhalla {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_valhalla.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_valhalla.png") no-repeat;
   background-size: 100px;
   height: 50px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3614, ../scss/breakpoints/_base.scss */
+  /* line 4657, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .valhalla {
     background-size: 100px;
   }
 }
-/* line 3626, ../scss/breakpoints/_base.scss */
+/* line 4669, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .petzl {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_petzl.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_petzl.png") no-repeat;
   background-size: 90px;
   height: 55px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3626, ../scss/breakpoints/_base.scss */
+  /* line 4669, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .petzl {
     background-size: 100px;
   }
 }
-/* line 3638, ../scss/breakpoints/_base.scss */
+/* line 4681, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .flashed {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsors_flashed.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsors_flashed.png") no-repeat;
   background-size: 100px;
   height: 55px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3638, ../scss/breakpoints/_base.scss */
+  /* line 4681, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .flashed {
     background-size: 100px;
   }
 }
-/* line 3650, ../scss/breakpoints/_base.scss */
+/* line 4693, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .maxim {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_maxim.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_maxim.png") no-repeat;
   background-size: 100px;
   height: 55px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3650, ../scss/breakpoints/_base.scss */
+  /* line 4693, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .maxim {
     background-size: 100px;
   }
 }
-/* line 3662, ../scss/breakpoints/_base.scss */
+/* line 4705, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .whistlerbrewing {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_whistlerbrewing.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_whistlerbrewing.png") no-repeat;
   background-size: 120px;
   height: 75px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3662, ../scss/breakpoints/_base.scss */
+  /* line 4705, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .whistlerbrewing {
     background-size: 100px;
   }
 }
-/* line 3674, ../scss/breakpoints/_base.scss */
+/* line 4717, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .mec {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_mec.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_mec.png") no-repeat;
   background-size: 120px;
   height: 65px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3674, ../scss/breakpoints/_base.scss */
+  /* line 4717, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .mec {
     background-size: 100px;
   }
 }
-/* line 3686, ../scss/breakpoints/_base.scss */
+/* line 4729, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .sandman {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_sandman.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_sandman.png") no-repeat;
   background-size: 120px;
   height: 55px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3686, ../scss/breakpoints/_base.scss */
+  /* line 4729, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .sandman {
     background-size: 100px;
   }
 }
-/* line 3698, ../scss/breakpoints/_base.scss */
+/* line 4741, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .innate {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_innate.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_innate.png") no-repeat;
   background-size: 120px;
   height: 70px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3698, ../scss/breakpoints/_base.scss */
+  /* line 4741, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .innate {
     background-size: 100px;
   }
 }
-/* line 3710, ../scss/breakpoints/_base.scss */
+/* line 4753, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .cliff {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_cliff.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_cliff.png") no-repeat;
   background-size: 140px;
   height: 80px;
   background-position: 52px top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3710, ../scss/breakpoints/_base.scss */
+  /* line 4753, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .cliff {
     background-size: 100px;
   }
 }
-/* line 3722, ../scss/breakpoints/_base.scss */
+/* line 4765, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .straight {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_straight.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_straight.png") no-repeat;
   background-size: 100px;
   height: 50px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3722, ../scss/breakpoints/_base.scss */
+  /* line 4765, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .straight {
     background-size: 100px;
   }
 }
-/* line 3734, ../scss/breakpoints/_base.scss */
+/* line 4777, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .alpinist {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_alpinist.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_alpinist.png") no-repeat;
   background-size: 100px;
   height: 60px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3734, ../scss/breakpoints/_base.scss */
+  /* line 4777, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .alpinist {
     background-size: 100px;
   }
 }
-/* line 3746, ../scss/breakpoints/_base.scss */
+/* line 4789, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .mountainculture {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_mountainculture.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_mountainculture.png") no-repeat;
   background-size: 100px;
   height: 55px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3746, ../scss/breakpoints/_base.scss */
+  /* line 4789, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .mountainculture {
     background-size: 100px;
   }
 }
-/* line 3758, ../scss/breakpoints/_base.scss */
+/* line 4801, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .mountainlife {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_mountainlife.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_mountainlife.png") no-repeat;
   background-size: 100px;
   height: 55px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3758, ../scss/breakpoints/_base.scss */
+  /* line 4801, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .mountainlife {
     background-size: 100px;
   }
 }
-/* line 3770, ../scss/breakpoints/_base.scss */
+/* line 4813, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .gripped {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_gripped.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_gripped.png") no-repeat;
   background-size: 90px;
   height: 55px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3770, ../scss/breakpoints/_base.scss */
+  /* line 4813, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .gripped {
     background-size: 100px;
   }
 }
-/* line 3782, ../scss/breakpoints/_base.scss */
+/* line 4825, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .sas {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_sas.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_sas.png") no-repeat;
   background-size: 140px;
   height: 85px;
   background-position: 50px top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3782, ../scss/breakpoints/_base.scss */
+  /* line 4825, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .sas {
     background-size: 100px;
   }
 }
-/* line 3794, ../scss/breakpoints/_base.scss */
+/* line 4837, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .climbersaccess {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_climbersaccess.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_climbersaccess.png") no-repeat;
   background-size: 100px;
   height: 80px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3794, ../scss/breakpoints/_base.scss */
+  /* line 4837, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .climbersaccess {
     background-size: 100px;
   }
 }
-/* line 3806, ../scss/breakpoints/_base.scss */
+/* line 4849, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .executivesuites {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/04/sponsor_executivesuites.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/04/sponsor_executivesuites.png") no-repeat;
   background-size: 140px;
   height: 80px;
   background-position: center top;
   width: 100%;
+  margin-top: 15px;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3806, ../scss/breakpoints/_base.scss */
+  /* line 4849, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .executivesuites {
     background-size: 100px;
   }
 }
-/* line 3819, ../scss/breakpoints/_base.scss */
+/* line 4863, ../scss/breakpoints/_base.scss */
 .sponsorWrap .sponsorCatWrap .fiveten {
-  background: url("http://squamish.arcteryxacademy.com/wp-content/uploads/2015/05/sponsor_fiveten.png") no-repeat;
+  background: url("http://squamish-dev.arctopia.com/wp-content/uploads/2015/05/sponsor_fiveten.png") no-repeat;
   background-size: 140px;
   height: 80px;
   background-position: center top;
   width: 100%;
 }
 @media only screen and (max-width: 767px) {
-  /* line 3819, ../scss/breakpoints/_base.scss */
+  /* line 4863, ../scss/breakpoints/_base.scss */
   .sponsorWrap .sponsorCatWrap .fiveten {
     background-size: 100px;
   }
@@ -5652,7 +6752,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-/* line 3840, ../scss/breakpoints/_base.scss */
+/* line 4884, ../scss/breakpoints/_base.scss */
 .footer {
   position: relative;
   width: 930px;
@@ -5661,47 +6761,108 @@ FOOTER STYLES
   font-family: 'Avenir LT W01_55 Roman';
 }
 @media only screen and (max-width: 929px) {
-  /* line 3840, ../scss/breakpoints/_base.scss */
+  /* line 4884, ../scss/breakpoints/_base.scss */
   .footer {
     width: 100%;
     height: 100%;
     display: inline-block;
   }
 }
-/* line 3855, ../scss/breakpoints/_base.scss */
-.footer .footerContent {
-  background: #000;
-  opacity: 0.8;
+/* line 4903, ../scss/breakpoints/_base.scss */
+.footer .communityCallout {
+  display: inline-block;
+  border-top: none;
+}
+@media only screen and (max-width: 600px) {
+  /* line 4903, ../scss/breakpoints/_base.scss */
+  .footer .communityCallout {
+    padding-left: 15px;
+    border-top: 1px solid #666;
+    margin-top: 15px;
+  }
+}
+/* line 4915, ../scss/breakpoints/_base.scss */
+.footer .footerTop {
+  width: 100%;
+  position: relative;
   display: inline-block;
   box-sizing: border-box;
-  padding: 20px 30px 0;
-  margin-bottom: -7px;
+  background: #000 !important;
+  margin-bottom: -10px;
+  padding: 0 15px 15px 15px;
+  opacity: 0.9;
 }
-@media only screen and (max-width: 767px) {
-  /* line 3855, ../scss/breakpoints/_base.scss */
-  .footer .footerContent {
+/* line 4927, ../scss/breakpoints/_base.scss */
+.footer .contestCallout {
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+/* line 4930, ../scss/breakpoints/_base.scss */
+.footer .contestCallout h3 {
+  text-transform: uppercase;
+  line-height: 15px;
+  font-size: 14px;
+  font-family: 'Avenir LT W01_85 Heavy';
+  margin-top: 0;
+  color: #ed5b22 !important;
+  font-size: 24px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+/* line 4943, ../scss/breakpoints/_base.scss */
+.footer .contestCallout a {
+  color: #000;
+  background: #ed5b22;
+  padding: 5px 12px 4px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+/* line 4951, ../scss/breakpoints/_base.scss */
+.footer .contestCallout p {
+  width: 80%;
+}
+/* line 4957, ../scss/breakpoints/_base.scss */
+.footer .footerTopCol {
+  width: 100%;
+  box-sizing: border-box;
+  float: left;
+  padding-top: 15px;
+}
+@media only screen and (max-width: 600px) {
+  /* line 4957, ../scss/breakpoints/_base.scss */
+  .footer .footerTopCol {
     width: 100%;
-    height: 100%;
-    display: inline-block;
   }
 }
-/* line 3869, ../scss/breakpoints/_base.scss */
-.footer .footerContent .leftPad {
-  margin-right: 15px !important;
+/* line 4967, ../scss/breakpoints/_base.scss */
+.footer .footerTopCol h3 {
+  color: white;
 }
-/* line 3874, ../scss/breakpoints/_base.scss */
-.footer .footerContent .mobileClear {
-  display: none;
+/* line 4971, ../scss/breakpoints/_base.scss */
+.footer .footerTopCol p {
+  color: white;
+  font-size: 13px;
+  line-height: 15px;
+  margin-top: -5px;
+  width: 30%;
 }
-@media only screen and (max-width: 767px) {
-  /* line 3874, ../scss/breakpoints/_base.scss */
-  .footer .footerContent .mobileClear {
-    clear: both;
-    display: block;
-  }
+/* line 4979, ../scss/breakpoints/_base.scss */
+.footer .footerTopCol .footerTopCommunityLogo {
+  margin-right: 30px;
+  margin-bottom: 10px;
+  display: inline-block;
+  position: relative;
 }
-/* line 3882, ../scss/breakpoints/_base.scss */
-.footer .footerContent .footerColLogo {
+/* line 4985, ../scss/breakpoints/_base.scss */
+.footer .footerTopCol .footerTopCommunityLogo img {
+  height: 50px;
+}
+/* line 4990, ../scss/breakpoints/_base.scss */
+.footer .footerTopCol a {
+  font-family: 'Avenir LT W01_85 Heavy';
+}
+/* line 4995, ../scss/breakpoints/_base.scss */
+.footer .footerColLogo {
   width: 30%;
   height: auto;
   min-height: 200px;
@@ -5711,15 +6872,15 @@ FOOTER STYLES
   min-width: 150px;
 }
 @media only screen and (max-width: 600px) {
-  /* line 3882, ../scss/breakpoints/_base.scss */
-  .footer .footerContent .footerColLogo {
+  /* line 4995, ../scss/breakpoints/_base.scss */
+  .footer .footerColLogo {
     width: 100%;
     height: auto;
     min-height: 0px;
   }
 }
-/* line 3898, ../scss/breakpoints/_base.scss */
-.footer .footerContent .footerColLogo h1 {
+/* line 5011, ../scss/breakpoints/_base.scss */
+.footer .footerColLogo h1 {
   color: #FFF;
   text-transform: uppercase;
   font-size: 24px;
@@ -5728,8 +6889,8 @@ FOOTER STYLES
   line-height: 19px;
   font-weight: 900;
 }
-/* line 3909, ../scss/breakpoints/_base.scss */
-.footer .footerContent .footerColLogo h2 {
+/* line 5022, ../scss/breakpoints/_base.scss */
+.footer .footerColLogo h2 {
   color: #FFF;
   text-transform: uppercase;
   font-size: 16px;
@@ -5738,32 +6899,64 @@ FOOTER STYLES
   line-height: 18px;
   font-weight: 700;
 }
-/* line 3919, ../scss/breakpoints/_base.scss */
-.footer .footerContent .footerColLogo p {
+/* line 5032, ../scss/breakpoints/_base.scss */
+.footer .footerColLogo p {
   color: #fff;
   font-size: 11px;
   text-transform: uppercase;
 }
-/* line 3926, ../scss/breakpoints/_base.scss */
-.footer .footerContent .footerColLogo .seatoskylogo {
+/* line 5039, ../scss/breakpoints/_base.scss */
+.footer .footerColLogo .seatoskylogo {
   width: 200px;
   margin-top: -30px;
 }
-/* line 3933, ../scss/breakpoints/_base.scss */
-.footer .footerContent .footerColLogo .academyLogo {
+/* line 5046, ../scss/breakpoints/_base.scss */
+.footer .footerColLogo .academyLogo {
   position: absolute;
   top: -5px;
   left: 130px;
 }
-/* line 3937, ../scss/breakpoints/_base.scss */
-.footer .footerContent .footerColLogo .academyLogo img {
+/* line 5050, ../scss/breakpoints/_base.scss */
+.footer .footerColLogo .academyLogo img {
   width: 65px;
 }
-/* line 3942, ../scss/breakpoints/_base.scss */
-.footer .footerContent .footerColLogo .topMargin {
+/* line 5055, ../scss/breakpoints/_base.scss */
+.footer .footerColLogo .topMargin {
   margin-top: 15px;
 }
-/* line 3948, ../scss/breakpoints/_base.scss */
+/* line 5061, ../scss/breakpoints/_base.scss */
+.footer .footerContent {
+  background: #000;
+  opacity: 0.8;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px 30px 0;
+  margin-bottom: -7px;
+}
+@media only screen and (max-width: 767px) {
+  /* line 5061, ../scss/breakpoints/_base.scss */
+  .footer .footerContent {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+  }
+}
+/* line 5075, ../scss/breakpoints/_base.scss */
+.footer .footerContent .leftPad {
+  margin-right: 15px !important;
+}
+/* line 5080, ../scss/breakpoints/_base.scss */
+.footer .footerContent .mobileClear {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  /* line 5080, ../scss/breakpoints/_base.scss */
+  .footer .footerContent .mobileClear {
+    clear: both;
+    display: block;
+  }
+}
+/* line 5090, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol {
   width: 65%;
   height: auto;
@@ -5773,7 +6966,7 @@ FOOTER STYLES
   min-width: 150px;
 }
 @media only screen and (max-width: 929px) {
-  /* line 3948, ../scss/breakpoints/_base.scss */
+  /* line 5090, ../scss/breakpoints/_base.scss */
   .footer .footerContent .footerCol {
     margin-left: 60px;
     width: 50%;
@@ -5781,7 +6974,7 @@ FOOTER STYLES
   }
 }
 @media only screen and (max-width: 767px) {
-  /* line 3948, ../scss/breakpoints/_base.scss */
+  /* line 5090, ../scss/breakpoints/_base.scss */
   .footer .footerContent .footerCol {
     margin-left: 45px;
     width: 100%;
@@ -5790,12 +6983,12 @@ FOOTER STYLES
     padding-bottom: 30px;
   }
 }
-/* line 3970, ../scss/breakpoints/_base.scss */
+/* line 5112, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol ul {
   list-style: none;
   margin-left: -30px;
 }
-/* line 3974, ../scss/breakpoints/_base.scss */
+/* line 5116, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol ul li {
   list-style: none;
   color: #fff;
@@ -5807,7 +7000,7 @@ FOOTER STYLES
   display: inline-block;
   width: 190px;
 }
-/* line 3985, ../scss/breakpoints/_base.scss */
+/* line 5127, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol ul li a {
   color: #fff;
   text-decoration: none;
@@ -5815,15 +7008,63 @@ FOOTER STYLES
   font-weight: 900;
 }
 @media only screen and (max-width: 929px) {
-  /* line 3974, ../scss/breakpoints/_base.scss */
+  /* line 5116, ../scss/breakpoints/_base.scss */
   .footer .footerContent .footerCol ul li {
     font-size: 11px;
     line-height: 13px;
   }
 }
-/* line 4001, ../scss/breakpoints/_base.scss */
+/* line 5143, ../scss/breakpoints/_base.scss */
 .footer .footerContent .footerCol .topMargin {
   margin-top: 0px;
+}
+
+/* line 5151, ../scss/breakpoints/_base.scss */
+.alertWrap {
+  width: 100%;
+  max-width: 930px;
+  margin: 0 auto;
+  background: #fff;
+  box-sizing: border-box;
+  padding: 15px;
+  margin-top: 30px;
+  position: relative;
+  display: none;
+}
+/* line 5162, ../scss/breakpoints/_base.scss */
+.alertWrap .alertBand {
+  position: absolute;
+  background: #ed5b22;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 100%;
+}
+/* line 5171, ../scss/breakpoints/_base.scss */
+.alertWrap h3 {
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  margin-left: 5%;
+}
+/* line 5178, ../scss/breakpoints/_base.scss */
+.alertWrap h1 {
+  font-size: 18px;
+  font-family: "Avenir LT W01_85 Heavy";
+  text-transform: uppercase;
+  line-height: 1em;
+  color: #ed5b22;
+  margin-left: 5%;
+}
+/* line 5187, ../scss/breakpoints/_base.scss */
+.alertWrap p {
+  font-size: 15px;
+  line-height: 1.5em;
+  color: black;
+  width: 80%;
+  margin-top: -5px;
+  margin-left: 5%;
 }
 
 /*

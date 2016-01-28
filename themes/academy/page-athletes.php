@@ -15,6 +15,23 @@
 
 <?php get_header(); ?>
 
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: Squamish - Athletes - Climbing Academy
+URL of the webpage where the tag is expected to be placed: http://squamish.arcteryxacademy.com/attending-athletes/
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 05/18/2015
+-->
+<script type="text/javascript">
+ var axel = Math.random() + "";
+ var a = axel * 10000000000000;
+ document.write('<iframe src="http://4390389.fls.doubleclick.net/activityi;src=4390389;type=squamish;cat=squam009;ord=1;num=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+ <iframe src="http://4390389.fls.doubleclick.net/activityi;src=4390389;type=squamish;cat=squam009;ord=1;num=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+
 <div id="content">
 
  <div class="pageContent">
@@ -42,8 +59,8 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Crack Climbing Techniques</h3>
-    <p>Saturday, July 11 | Time TBD</p>
-    <a href="#">Register</a>
+    <p>Saturday, July 11</p>
+    <a href="http://themountainschool.com/product/crack-climbing-techniques-with-will-gadd/" target="_blank">Register</a>
    </div>
 
   </div>
@@ -66,8 +83,11 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Women's Advanced Trad Climbing</h3>
-    <p>Saturday July 11 | Time TBD</p>
-    <a href="#">Register</a>
+    <p>Saturday July 11</p>
+    <a href="http://themountainschool.com/product/womens-advanced-trad-climbing-with-brette-harrington/" target="_blank">Register</a>
+    <h3>Keynote Speaker</h3>
+    <p>Women's Climb Night</p>
+    <a href="/educational-seminars/">View Seminar Details</a>
    </div>
 
   </div>
@@ -86,12 +106,13 @@
     <div style="clear: both;"></div>
 
    </div>
-   <!--
+
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
-    <h3>Advanced Trad Climbing</h3>
-    <a href="#">Register</a>
-   </div> -->
+    <h3>Educational Seminar</h3>
+    <p>Adaptive Climbing</p>
+    <a href="/educational-seminars/">View Seminar Details</a>
+   </div>
 
   </div>
   <!-- End Craig DeMartino -->
@@ -111,8 +132,8 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Advanced Sport Lead Climbing</h3>
-    <p>Saturday July 11 | Time TBD</p>
-    <a href="#">Register</a>
+    <p>Saturday July 11</p>
+    <a href="http://themountainschool.com/product/advanced-sport-lead-climbing-with-jonathan-siegrist/" target="_blank">Register</a>
    </div>
   </div>
   <!-- Jonathan Siegrist -->
@@ -128,13 +149,18 @@
     <a href="http://facebook.com/marcandreclimb" target="_blank">Facebook</a>
     <a href="marcleclerc.blogspot.ca/" target="_blank">Blog</a>
     <div style="clear: both;"></div>
-
    </div>
+
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Alpine Climbing Systems</h3>
-    <p>Saturday, July 11 | Time TBD</p>
-    <a href="#">Register</a>
+    <p>Saturday, July 11</p>
+    <a href="http://themountainschool.com/product/alpine-climbing-systems-with-marc-andre-leclerc/" target="_blank">Register</a>
+
+    <h3>keynote Speaker</h3>
+    <p>Alpine Climb Night</p>
+    <a href="/educational-seminars/">View Seminar Details</a>
+
    </div>
   </div>
   <!-- Jonathan Siegrist -->
@@ -154,11 +180,11 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Aid Climbing</h3>
-    <p>Saturday, July 11 | Time TBD</p>
-    <a href="#">Register</a>
+    <p>Saturday, July 11</p>
+    <a href="http://themountainschool.com/product/aid-climbing-with-paul-mcsorley/" target="_blank">Register</a>
     <h3>Aid Climbing</h3>
-    <p>Sunday, July 12 | Time TBD</p>
-    <a href="#">Register</a>
+    <p>Sunday, July 12</p>
+    <a href="http://themountainschool.com/product/aid-climbing-with-paul-mcsorley/" target="_blank">Register</a>
    </div>
   </div>
   <!-- Paul McSorley -->
@@ -173,12 +199,13 @@
     <a href="https://robpizem.wordpress.com/" target="_blank">Blog</a>
     <div style="clear: both;"></div>
    </div>
-   <!--
+
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
-    <h3>Advanced Trad Climbing</h3>
-    <a href="#">Register</a>
-   </div> -->
+    <h3>Educational Seminar</h3>
+    <p>Strength Training</p>
+    <a href="/educational-seminars/">View Seminar Details</a>
+   </div>
 
   </div>
   <!-- Rob Pizem -->
@@ -198,8 +225,11 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Women's Advanced Sport Climbing</h3>
-    <p>Sunday, July 12 | Time TBD</p>
-    <a href="#">Register</a>
+    <p>Sunday, July 12</p>
+    <a href="http://themountainschool.com/product/womens-advanced-sport-climbing-with-vikkie-weldon/" target="_blank">Register</a>
+    <h3>Keynote Speaker</h3>
+    <p>Women's Climb Night</p>
+    <a href="/educational-seminars/">View Seminar Details</a>
    </div>
   </div>
   <!-- Vikki -->
@@ -219,8 +249,8 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Alpine Climbing Systems</h3>
-    <p>Saturday, July 11 | Time TBD</p>
-    <a href="#">Register</a>
+    <p>Saturday, July 11</p>
+    <a href="http://themountainschool.com/product/alpine-climbing-systems-with-jason-kruk/" target="_blank">Register</a>
    </div>
   </div>
   <!-- Jason Kruk -->
@@ -239,31 +269,11 @@
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
     <h3>Advanced Trad Climbing</h3>
-    <p>Sunday, July 12 | Time TBD </p>
-    <a href="#">Register</a>
+    <p>Sunday, July 12 </p>
+    <a href="http://themountainschool.com/product/advanced-trad-climbing-with-jesse-huey/" target="_blank">Register</a>
    </div>
   </div>
   <!-- Jesse Huey -->
-
-  <!-- Jon Walsh -->
-  <div class="athleteWrap jonWalsh">
-   <a name="jonWalsh"></a>
-   <div class="athleteImgWrap"></div>
-   <div class="athleteBioWrap">
-    <h3>Jon Walsh</h3>
-    <p>Jon has been putting up new climbs in Canada and abroad, for the better part of the last decade.  An insatiable appetite for exploring steep mountains, with either skis, rock shoes or crampons on, has helped him accumulate dozens of first ascents and wild adventures in many corners of the globe.  He always pursues alpine style, light and fast free climbing, the steeper and more technical the better.  Besides "big game" hunting in hills, he enjoys margaritas, fine scotch, living in the moment, living close to the edge, and laughing with his friends who know him as Jonny Red - often abbreviated to JR.  When not in the alpine, Jon finds that training outdoors on skis, mountain-bikes, rock climbs, frozen waterfalls or anything fun is obligatory, as many days a week as possible, and even bad conditions can be surprisingly enjoyable, i.e. "It doesn't have to be fun to be fun."  Attitude is everything.</p>
-    <a href="http://www.alpinestyle.ca/" target="_blank">Blog</a>
-    <div style="clear: both;"></div>
-   </div>
-   <!--
-   <div class="athleteScheduleWrap">
-    <h1>Clinic Schedule</h1>
-    <h3>Advanced Trad Climbing</h3>
-    <a href="#">Register</a>
-   </div> -->
-
-  </div>
-  <!-- Jon Walsh -->
 
   <!-- Katie Bono -->
   <div class="athleteWrap katieBono">
@@ -294,12 +304,13 @@
     <a href="http://raphaelslawinski.blogspot.com/" target="_blank">Blog</a>
     <div style="clear: both;"></div>
    </div>
-   <!--
+
    <div class="athleteScheduleWrap">
     <h1>Clinic Schedule</h1>
-    <h3>Advanced Trad Climbing</h3>
-    <a href="#">Register</a>
-   </div> -->
+    <h3>Keynote Speaker</h3>
+    <p>Alpine Climb Night</p>
+    <a href="/educational-seminars/">View Seminar Details</a>
+   </div>
 
   </div>
   <!-- Raphael Slawinski -->
